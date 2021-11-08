@@ -20,12 +20,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
-<meta name="description" content="#6 PostulateThe time evolution of a quantum system is determined by the Hamiltonian or total [[Hamiltonian operator|energy operator]] $H(t)$ through the Schrödinger equation:$$i \hbar \frac{d}{d t}|\p">
+<meta name="description" content="#6 PostulateThe time evolution of a quantum system is determined by the Hamiltonian or total [[Hamiltonian operator|energy operator]] $H(t)$ through the Schrödinger equation:  i \hbar \frac{d}{d t}|\p">
 <meta property="og:type" content="article">
 <meta property="og:title" content="A drop">
 <meta property="og:url" content="http://example.com/2021/11/07/ISU%20Physics%20480/C3%20Lecture%205.2/index.html">
 <meta property="og:site_name" content="A drop">
-<meta property="og:description" content="#6 PostulateThe time evolution of a quantum system is determined by the Hamiltonian or total [[Hamiltonian operator|energy operator]] $H(t)$ through the Schrödinger equation:$$i \hbar \frac{d}{d t}|\p">
+<meta property="og:description" content="#6 PostulateThe time evolution of a quantum system is determined by the Hamiltonian or total [[Hamiltonian operator|energy operator]] $H(t)$ through the Schrödinger equation:  i \hbar \frac{d}{d t}|\p">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-11-07T22:58:45.074Z">
 <meta property="article:modified_time" content="2021-11-08T15:21:54.677Z">
@@ -62,7 +62,9 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-</head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+<!-- hexo injector head_end end --></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
@@ -249,13 +251,14 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h6 id="6-Postulate"><a href="#6-Postulate" class="headerlink" title="#6 Postulate"></a>#6 Postulate</h6><p>The time evolution of a quantum system is determined by the Hamiltonian or total [[Hamiltonian operator|energy operator]] $H(t)$ through the Schrödinger equation:<br>$$<br>i \hbar \frac{d}{d t}|\psi(t)\rangle=\hat{H}(t)|\psi(t)\rangle<br>$$</p>
-<ul>
+        <h6 id="6-Postulate"><a href="#6-Postulate" class="headerlink" title="#6 Postulate"></a>#6 Postulate</h6><p>The time evolution of a quantum system is determined by the Hamiltonian or total [[Hamiltonian operator|energy operator]] $H(t)$ through the Schrödinger equation:</p>
+<script type="math/tex; mode=display">
+i \hbar \frac{d}{d t}|\psi(t)\rangle=\hat{H}(t)|\psi(t)\rangle</script><ul>
 <li>observable -&gt; Hermitian</li>
 <li>Eigenvalues: allowed energies</li>
 <li>Eigenvectors: complete basis</li>
-<li>Eigenstates: $\hat{H}\left|E_{n}\right\rangle=E_{n}\left|E_{n}\right\rangle$</li>
-<li>General statevectors: $|\psi(t)\rangle=\sum_{n} c_{n}(t)\left|E_{n}\right\rangle$<ul>
+<li>Eigenstates: $\hat{H}\left|E<em>{n}\right\rangle=E</em>{n}\left|E_{n}\right\rangle$</li>
+<li>General statevectors: $|\psi(t)\rangle=\sum<em>{n} c</em>{n}(t)\left|E_{n}\right\rangle$<ul>
 <li>$|\psi(t)\rangle$: time evolved state</li>
 <li>$c_{n}(t)$: time dependence live in coefficient</li>
 <li>$\left|E_{n}\right\rangle$: energy basis</li>
@@ -264,46 +267,45 @@
 </ul>
 <h6 id="Derive-Schrodinger-Time-Evolution"><a href="#Derive-Schrodinger-Time-Evolution" class="headerlink" title="Derive Schrödinger Time Evolution"></a>Derive Schrödinger Time Evolution</h6><ul>
 <li>For $i \hbar \frac{d}{d t}|\psi(t)\rangle=\hat{H}(t)|\psi(t)\rangle$<ul>
-<li>substitute with $|\psi(t)\rangle=\sum_{n} c_{n}(t)\left|E_{n}\right\rangle$</li>
+<li>substitute with $|\psi(t)\rangle=\sum<em>{n} c</em>{n}(t)\left|E_{n}\right\rangle$</li>
 </ul>
 </li>
-<li>$i \hbar \frac{d}{d t}\left(\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\right)=\widehat{H}\left(\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\right)$</li>
-<li>$i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\left|E_{n}\right\rangle=\sum_{n} c_{n}(t) \widehat{H}(t)\left|E_{n}\right\rangle$</li>
+<li>$i \hbar \frac{d}{d t}\left(\sum<em>{n} c</em>{n}(t)\left|E<em>{n}\right\rangle\right)=\widehat{H}\left(\sum</em>{n} c<em>{n}(t)\left|E</em>{n}\right\rangle\right)$</li>
+<li>$i \hbar \sum<em>{n} \frac{d c</em>{n}(t)}{d t}\left|E<em>{n}\right\rangle=\sum</em>{n} c<em>{n}(t) \widehat{H}(t)\left|E</em>{n}\right\rangle$</li>
 <li>take the inner product with a generic energy eigenstate<ul>
-<li>$\left\langle E_{k}\left|i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\right| E_{n}\right\rangle=\left\langle E_{k}\left|\sum_{n} c_{n}(t) \widehat{H}\right| E_{n}\right\rangle$</li>
+<li>$\left\langle E<em>{k}\left|i \hbar \sum</em>{n} \frac{d c<em>{n}(t)}{d t}\right| E</em>{n}\right\rangle=\left\langle E<em>{k}\left|\sum</em>{n} c<em>{n}(t) \widehat{H}\right| E</em>{n}\right\rangle$</li>
 </ul>
 </li>
-<li>$i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\left\langle E_{k} \mid E_{n}\right\rangle=\sum_{n} c_{n}(t)\left\langle E_{k}|\widehat{H}(t)| E_{n}\right\rangle$</li>
-<li>$i \hbar \frac{d c_{k}(t)}{d t}=E_{k} c_{k}(t)$<ul>
-<li>for $\left\langle E_{k} \mid E_{n}\right\rangle=1$ only when $k=n$</li>
-<li>for $\left\langle E_{k}|\widehat{H}(t)| E_{n}\right\rangle=1$ only when $k=n$</li>
+<li>$i \hbar \sum<em>{n} \frac{d c</em>{n}(t)}{d t}\left\langle E<em>{k} \mid E</em>{n}\right\rangle=\sum<em>{n} c</em>{n}(t)\left\langle E<em>{k}|\widehat{H}(t)| E</em>{n}\right\rangle$</li>
+<li>$i \hbar \frac{d c<em>{k}(t)}{d t}=E</em>{k} c_{k}(t)$<ul>
+<li>for $\left\langle E<em>{k} \mid E</em>{n}\right\rangle=1$ only when $k=n$</li>
+<li>for $\left\langle E<em>{k}|\widehat{H}(t)| E</em>{n}\right\rangle=1$ only when $k=n$</li>
 </ul>
 </li>
-<li>$\frac{d c_{k}(t)}{d t}=-\left(i E_{k} / \hbar\right) c_{k}(t)$</li>
-<li>$c_{k}(t)=c_{k}(0) e^{-i E_{k} t / \hbar}$ ^e6d634<ul>
+<li>$\frac{d c<em>{k}(t)}{d t}=-\left(i E</em>{k} / \hbar\right) c_{k}(t)$</li>
+<li>$c<em>{k}(t)=c</em>{k}(0) e^{-i E_{k} t / \hbar}$ ^e6d634<ul>
 <li>solution to a 1st order DE</li>
 </ul>
 </li>
 <li>At $t=0$<ul>
-<li>$|\psi(t=0)\rangle=\sum_{n} c_{n}(0)\left|E_{n}\right\rangle$<ul>
-<li>substitute with $c_{k}(t)=c_{k}(0) e^{-i E_{k} t / \hbar}$ [[#^e6d634]]</li>
+<li>$|\psi(t=0)\rangle=\sum<em>{n} c</em>{n}(0)\left|E_{n}\right\rangle$<ul>
+<li>substitute with $c<em>{k}(t)=c</em>{k}(0) e^{-i E_{k} t / \hbar}$ [[#^e6d634]]</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>$|\psi(t)\rangle=\sum_{n} c_{n}(0) e^{-i E_{n} t / \hbar}\left|E_{n}\right\rangle$</li>
+<li>$|\psi(t)\rangle=\sum<em>{n} c</em>{n}(0) e^{-i E<em>{n} t / \hbar}\left|E</em>{n}\right\rangle$</li>
 </ul>
-<h6 id="Schrodinger-Time-Evolution"><a href="#Schrodinger-Time-Evolution" class="headerlink" title="Schrödinger Time Evolution"></a>Schrödinger Time Evolution</h6><p>$$|\psi(t)\rangle=\sum_{n} c_{n}(0) e^{-i E_{n} t / \hbar}\left|E_{n}\right\rangle$$</p>
-<h6 id="Time-independent-2-state-system-with-no-superposition-by-t-0"><a href="#Time-independent-2-state-system-with-no-superposition-by-t-0" class="headerlink" title="Time-independent 2-state system (with no superposition by t=0)"></a>Time-independent 2-state system (with no superposition by t=0)</h6><ul>
+<h6 id="Schrodinger-Time-Evolution"><a href="#Schrodinger-Time-Evolution" class="headerlink" title="Schrödinger Time Evolution"></a>Schrödinger Time Evolution</h6><script type="math/tex; mode=display">|\psi(t)\rangle=\sum_{n} c_{n}(0) e^{-i E_{n} t / \hbar}\left|E_{n}\right\rangle</script><h6 id="Time-independent-2-state-system-with-no-superposition-by-t-0"><a href="#Time-independent-2-state-system-with-no-superposition-by-t-0" class="headerlink" title="Time-independent 2-state system (with no superposition by t=0)"></a>Time-independent 2-state system (with no superposition by t=0)</h6><ul>
 <li>$|\psi(t=0)\rangle=\left|E_{1}\right\rangle$</li>
-<li>$|\psi(t)\rangle=e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle$</li>
-<li>$\wp=\left|\left\langle a_{1} \mid \psi(t)\right\rangle\right|^{2}=\left|\left\langle a_{1}\left|e^{-i E_{1} t / \hbar}\right| E_{1}\right\rangle\right|^{2}=\left|\left\langle a_{1} \mid E_{1}\right\rangle\right|^{2}$</li>
+<li>$|\psi(t)\rangle=e^{-i E<em>{1} t / \hbar}\left|E</em>{1}\right\rangle$</li>
+<li>$\wp=\left|\left\langle a<em>{1} \mid \psi(t)\right\rangle\right|^{2}=\left|\left\langle a</em>{1}\left|e^{-i E<em>{1} t / \hbar}\right| E</em>{1}\right\rangle\right|^{2}=\left|\left\langle a<em>{1} \mid E</em>{1}\right\rangle\right|^{2}$</li>
 </ul>
 <h6 id="Time-independent-2-state-system-with-superposition-by-t-0"><a href="#Time-independent-2-state-system-with-superposition-by-t-0" class="headerlink" title="Time-independent 2-state system (with superposition by t=0)"></a>Time-independent 2-state system (with superposition by t=0)</h6><ul>
-<li>$|\psi(t=0)\rangle=c_{1}\left|E_{1}\right\rangle+c_{2}\left|E_{2}\right\rangle$</li>
-<li>$|\psi(t)\rangle=c_{1} e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle+c_{2} e^{-i E_{2} t / \hbar}\left|E_{2}\right\rangle$</li>
-<li>$\wp=\left|\left\langle E_{1} \mid \psi(t)\right\rangle\right|^{2}=\mid\left\langle E_{1}\left|\left(c_{1} e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle+c_{2} e^{-i E_{2} t /\hbar}\left|E_{2}\right\rangle\right)\right|^{2}\right.=\left|c_{1}\right|^{2}$</li>
-<li>For any other observable $A\left|a_{1}\right\rangle=a_{1}\left|a_{1}\right\rangle$<ul>
+<li>$|\psi(t=0)\rangle=c<em>{1}\left|E</em>{1}\right\rangle+c<em>{2}\left|E</em>{2}\right\rangle$</li>
+<li>$|\psi(t)\rangle=c<em>{1} e^{-i E</em>{1} t / \hbar}\left|E<em>{1}\right\rangle+c</em>{2} e^{-i E<em>{2} t / \hbar}\left|E</em>{2}\right\rangle$</li>
+<li>$\wp=\left|\left\langle E<em>{1} \mid \psi(t)\right\rangle\right|^{2}=\mid\left\langle E</em>{1}\left|\left(c<em>{1} e^{-i E</em>{1} t / \hbar}\left|E<em>{1}\right\rangle+c</em>{2} e^{-i E<em>{2} t /\hbar}\left|E</em>{2}\right\rangle\right)\right|^{2}\right.=\left|c_{1}\right|^{2}$</li>
+<li>For any other observable $A\left|a<em>{1}\right\rangle=a</em>{1}\left|a_{1}\right\rangle$<ul>
 <li>$[A,H]=0$</li>
 <li>$A$ and $H$ must share an eigen-basis</li>
 <li>$\left|a_{1}\right\rangle$ is an energy eigenstate</li>
@@ -314,8 +316,6 @@
 <h6 id="Problems-of-looking-for-probabilities-of-eigenvalues"><a href="#Problems-of-looking-for-probabilities-of-eigenvalues" class="headerlink" title="Problems of looking for probabilities of eigenvalues"></a>Problems of looking for probabilities of eigenvalues</h6><p>![[Pasted image 20211108091659.png]]</p>
 <h6 id="Spectroscopy-experiment"><a href="#Spectroscopy-experiment" class="headerlink" title="Spectroscopy experiment"></a>Spectroscopy experiment</h6><blockquote>
 <p>Spectroscopy experiment is a measurement of the <strong>energy of the quantum state</strong>.  </p>
-</blockquote>
-<blockquote>
 <p>[[C5 Lecture 7.2|In chapter 5]], we will learn how to predict the allowed energy eigenstates of a particular system given the Hamiltonian of the system. [[C5 Lecture 7.2]][[C5 Lecture 8.2]][[C5 Lecture 9.1]]</p>
 </blockquote>
 <h6 id="Spin-Precession"><a href="#Spin-Precession" class="headerlink" title="Spin Precession"></a>Spin Precession</h6>
@@ -332,6 +332,23 @@
         </span>
       </div>
     </div>
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>Zizheng Yang
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="http://example.com/2021/11/07/ISU%20Physics%20480/C3%20Lecture%205.2/" title="">http://example.com/2021/11/07/ISU Physics 480/C3 Lecture 5.2/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
 
         
 
