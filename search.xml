@@ -4,64 +4,204 @@
   
     
     <entry>
-      <title>ghi</title>
-      <link href="/2021/11/08/ghi/"/>
-      <url>/2021/11/08/ghi/</url>
+      <title>Hexo-theme-next 如何处理 err YAMLException can not read a block mapping entry;</title>
+      <link href="/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/"/>
+      <url>/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>def</title>
-      <link href="/2021/11/08/def/"/>
-      <url>/2021/11/08/def/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>abc</title>
-      <link href="/2021/11/08/abc/"/>
-      <url>/2021/11/08/abc/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>C3 Lecture 5.2</title>
-      <link href="/2021/02/08/ISU%20Physics%20480/C3%20Lecture%205.2/"/>
-      <url>/2021/02/08/ISU%20Physics%20480/C3%20Lecture%205.2/</url>
-      
-        <content type="html"><![CDATA[<h6 id="postulate">#6 Postulate</h6><p>The time evolution of a quantum system is determined by the Hamiltonian or total [[Hamiltonian operator|energy operator]] <span class="math inline">\(H(t)\)</span> through the Schrödinger equation: <span class="math display">\[i \hbar \frac{d}{d t}|\psi(t)\rangle=\hat{H}(t)|\psi(t)\rangle\]</span> - observable -&gt; Hermitian - Eigenvalues: allowed energies - Eigenvectors: complete basis - Eigenstates: <span class="math inline">\(\hat{H}\left|E_{n}\right\rangle=E_{n}\left|E_{n}\right\rangle\)</span> - General statevectors: <span class="math inline">\(|\psi(t)\rangle=\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\)</span> - <span class="math inline">\(|\psi(t)\rangle\)</span>: time evolved state - <span class="math inline">\(c_{n}(t)\)</span>: time dependence live in coefficient - <span class="math inline">\(\left|E_{n}\right\rangle\)</span>: energy basis</p><h6 id="derive-schrödinger-time-evolution">Derive Schrödinger Time Evolution</h6><ul><li>For <span class="math inline">\(i \hbar \frac{d}{d t}|\psi(t)\rangle=\hat{H}(t)|\psi(t)\rangle\)</span><ul><li>substitute with <span class="math inline">\(|\psi(t)\rangle=\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\)</span></li></ul></li><li><span class="math inline">\(i \hbar \frac{d}{d t}\left(\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\right)=\widehat{H}\left(\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\right)\)</span></li><li><span class="math inline">\(i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\left|E_{n}\right\rangle=\sum_{n} c_{n}(t) \widehat{H}(t)\left|E_{n}\right\rangle\)</span></li><li>take the inner product with a generic energy eigenstate<ul><li><span class="math inline">\(\left\langle E_{k}\left|i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\right| E_{n}\right\rangle=\left\langle E_{k}\left|\sum_{n} c_{n}(t) \widehat{H}\right| E_{n}\right\rangle\)</span></li></ul></li><li><span class="math inline">\(i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\left\langle E_{k} \mid E_{n}\right\rangle=\sum_{n} c_{n}(t)\left\langle E_{k}|\widehat{H}(t)| E_{n}\right\rangle\)</span></li><li><span class="math inline">\(i \hbar \frac{d c_{k}(t)}{d t}=E_{k} c_{k}(t)\)</span><ul><li>for <span class="math inline">\(\left\langle E_{k} \mid E_{n}\right\rangle=1\)</span> only when <span class="math inline">\(k=n\)</span></li><li>for <span class="math inline">\(\left\langle E_{k}|\widehat{H}(t)| E_{n}\right\rangle=1\)</span> only when <span class="math inline">\(k=n\)</span></li></ul></li><li><span class="math inline">\(\frac{d c_{k}(t)}{d t}=-\left(i E_{k} / \hbar\right) c_{k}(t)\)</span></li><li><span class="math inline">\(c_{k}(t)=c_{k}(0) e^{-i E_{k} t / \hbar}\)</span> ^e6d634<ul><li>solution to a 1st order DE</li></ul></li><li>At <span class="math inline">\(t=0\)</span><ul><li><span class="math inline">\(|\psi(t=0)\rangle=\sum_{n} c_{n}(0)\left|E_{n}\right\rangle\)</span><ul><li>substitute with <span class="math inline">\(c_{k}(t)=c_{k}(0) e^{-i E_{k} t / \hbar}\)</span> [[#^e6d634]]</li></ul></li></ul></li><li><span class="math inline">\(|\psi(t)\rangle=\sum_{n} c_{n}(0) e^{-i E_{n} t / \hbar}\left|E_{n}\right\rangle\)</span></li></ul><h6 id="schrödinger-time-evolution">Schrödinger Time Evolution</h6><p><span class="math display">\[|\psi(t)\rangle=\sum_{n} c_{n}(0) e^{-i E_{n} t / \hbar}\left|E_{n}\right\rangle\]</span></p><h6 id="time-independent-2-state-system-with-no-superposition-by-t0">Time-independent 2-state system (with no superposition by t=0)</h6><ul><li><span class="math inline">\(|\psi(t=0)\rangle=\left|E_{1}\right\rangle\)</span></li><li><span class="math inline">\(|\psi(t)\rangle=e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle\)</span></li><li><span class="math inline">\(\wp=\left|\left\langle a_{1} \mid \psi(t)\right\rangle\right|^{2}=\left|\left\langle a_{1}\left|e^{-i E_{1} t / \hbar}\right| E_{1}\right\rangle\right|^{2}=\left|\left\langle a_{1} \mid E_{1}\right\rangle\right|^{2}\)</span></li></ul><h6 id="time-independent-2-state-system-with-superposition-by-t0">Time-independent 2-state system (with superposition by t=0)</h6><ul><li><span class="math inline">\(|\psi(t=0)\rangle=c_{1}\left|E_{1}\right\rangle+c_{2}\left|E_{2}\right\rangle\)</span></li><li><span class="math inline">\(|\psi(t)\rangle=c_{1} e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle+c_{2} e^{-i E_{2} t / \hbar}\left|E_{2}\right\rangle\)</span></li><li><span class="math inline">\(\wp=\left|\left\langle E_{1} \mid \psi(t)\right\rangle\right|^{2}=\mid\left\langle E_{1}\left|\left(c_{1} e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle+c_{2} e^{-i E_{2} t /\hbar}\left|E_{2}\right\rangle\right)\right|^{2}\right.=\left|c_{1}\right|^{2}\)</span></li><li>For any other observable <span class="math inline">\(A\left|a_{1}\right\rangle=a_{1}\left|a_{1}\right\rangle\)</span><ul><li><span class="math inline">\([A,H]=0\)</span></li><li><span class="math inline">\(A\)</span> and <span class="math inline">\(H\)</span> must share an eigen-basis</li><li><span class="math inline">\(\left|a_{1}\right\rangle\)</span> is an energy eigenstate</li><li>probability of measuring eigenvalue <span class="math inline">\(a_{1}\)</span> depends on time</li></ul></li></ul><h6 id="problems-of-looking-for-probabilities-of-eigenvalues">Problems of looking for probabilities of eigenvalues</h6><p>[[Pasted image 20211108091659.png]]</p><h6 id="spectroscopy-experiment">Spectroscopy experiment</h6><blockquote><p>Spectroscopy experiment is a measurement of the <strong>energy of the quantum state</strong>.</p></blockquote><blockquote><p>[[C5 Lecture 7.2|In chapter 5]], we will learn how to predict the allowed energy eigenstates of a particular system given the Hamiltonian of the system. [[C5 Lecture 7.2]][[C5 Lecture 8.2]][[C5 Lecture 9.1]]</p></blockquote><h6 id="spin-precession">Spin Precession</h6>]]></content>
+        <content type="html"><![CDATA[<p>报错信息是：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">err: YAMLException: can not <span class="built_in">read</span> a block mapping entry; a multiline key may not be an implicit key at line 2, column 5:</span><br><span class="line">      date:</span><br></pre></td></tr></table></figure><p>我找到了 <code>date</code> 所在的位置，是 <code>markdown</code> 文件的开头，定义基本信息 <code>Front-matter</code> 的地方</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: [Note of Phys 480] Lecture 5.2 corresponding to McIntyre Chapter 3</span><br><span class="line">date:</span><br><span class="line">update:</span><br><span class="line">permalink:</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> 课程（Lecture）</span><br><span class="line"><span class="bullet">-</span> 爱荷华州立（ISU）</span><br><span class="line"><span class="bullet">-</span> 物理（Physics）</span><br><span class="line">tags: [Physics, Quantum Physics, Schrödinger Equation, Differential Equation, Spin]</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">comments:</span><br><span class="line">layout:</span><br><span class="line">type:</span><br><span class="line">photos:</span><br><span class="line">link:</span><br><span class="line"><span class="section">mathjax: true</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure><p>原来是 <code>hexo</code> 不支持 <code>[]</code> 括号在文件头，<code>Front-matter</code> 修改成：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: <span class="xml"><span class="tag">&lt;<span class="name">Note</span> <span class="attr">of</span> <span class="attr">Phys</span> <span class="attr">480</span>&gt;</span></span> Lecture 5.2 corresponding to McIntyre Chapter 3</span><br><span class="line">date:</span><br><span class="line">update:</span><br><span class="line">permalink:</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> 课程（Lecture）</span><br><span class="line"><span class="bullet">-</span> 爱荷华州立（ISU）</span><br><span class="line"><span class="bullet">-</span> 物理（Physics）</span><br><span class="line">tags: [Physics, Quantum Physics, Schrödinger Equation, Differential Equation, Spin]</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">comments:</span><br><span class="line">layout:</span><br><span class="line">type:</span><br><span class="line">photos:</span><br><span class="line">link:</span><br><span class="line"><span class="section">mathjax: true</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure><p>之后就问题解决✌️</p>]]></content>
       
       
       <categories>
           
-          <category> physics </category>
+          <category> 工具（Utils） </category>
           
-          <category> quantum physics </category>
+          <category> 修Bug（Bug） </category>
+          
+          <category> 网站（Website） </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> quantum </tag>
+            <tag> Markdown </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Hexo-next </tag>
+            
+            <tag> YAMLException </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>&lt;Note of Phys 480&gt; Lecture 5.2 corresponding to McIntyre Chapter 3</title>
+      <link href="/2021/11/08/C3%20Lecture%205.2/"/>
+      <url>/2021/11/08/C3%20Lecture%205.2/</url>
+      
+        <content type="html"><![CDATA[<h6 id="postulate">#6 Postulate</h6><p>The time evolution of a quantum system is determined by the Hamiltonian or total [[Hamiltonian operator|energy operator]] <span class="math inline">\(H(t)\)</span> through the Schrödinger equation: <span class="math display">\[i \hbar \frac{d}{d t}|\psi(t)\rangle=\hat{H}(t)|\psi(t)\rangle\]</span></p><ul><li>observable -&gt; Hermitian</li><li>Eigenvalues: allowed energies</li><li>Eigenvectors: complete basis</li><li>Eigenstates: <span class="math inline">\(\hat{H}\left|E_{n}\right\rangle=E_{n}\left|E_{n}\right\rangle\)</span></li><li>General statevectors: <span class="math inline">\(|\psi(t)\rangle=\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\)</span><ul><li><span class="math inline">\(|\psi(t)\rangle\)</span>: time evolved state</li><li><span class="math inline">\(c_{n}(t)\)</span>: time dependence live in coefficient</li><li><span class="math inline">\(\left|E_{n}\right\rangle\)</span>: energy basis</li></ul></li></ul><h6 id="derive-schrödinger-time-evolution">Derive Schrödinger Time Evolution</h6><ul><li>For <span class="math inline">\(i \hbar \frac{d}{d t}|\psi(t)\rangle=\hat{H}(t)|\psi(t)\rangle\)</span><ul><li>substitute with <span class="math inline">\(|\psi(t)\rangle=\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\)</span></li></ul></li><li><span class="math inline">\(i \hbar \frac{d}{d t}\left(\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\right)=\widehat{H}\left(\sum_{n} c_{n}(t)\left|E_{n}\right\rangle\right)\)</span></li><li><span class="math inline">\(i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\left|E_{n}\right\rangle=\sum_{n} c_{n}(t) \widehat{H}(t)\left|E_{n}\right\rangle\)</span></li><li>take the inner product with a generic energy eigenstate<ul><li><span class="math inline">\(\left\langle E_{k}\left|i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\right| E_{n}\right\rangle=\left\langle E_{k}\left|\sum_{n} c_{n}(t) \widehat{H}\right| E_{n}\right\rangle\)</span></li></ul></li><li><span class="math inline">\(i \hbar \sum_{n} \frac{d c_{n}(t)}{d t}\left\langle E_{k} \mid E_{n}\right\rangle=\sum_{n} c_{n}(t)\left\langle E_{k}|\widehat{H}(t)| E_{n}\right\rangle\)</span><ul><li>for <span class="math inline">\(\left\langle E_{k} \mid E_{n}\right\rangle=1\)</span> only when <span class="math inline">\(k=n\)</span></li><li>for <span class="math inline">\(\left\langle E_{k}|\widehat{H}(t)| E_{n}\right\rangle=1\)</span> only when <span class="math inline">\(k=n\)</span></li></ul></li><li><span class="math inline">\(i \hbar \frac{d c_{k}(t)}{d t}=E_{k} c_{k}(t)\)</span></li><li><span class="math inline">\(\frac{d c_{k}(t)}{d t}=-\left(i E_{k} / \hbar\right) c_{k}(t)\)</span></li><li><span class="math inline">\(c_{k}(t)=c_{k}(0) e^{-i E_{k} t / \hbar}\)</span> ^e6d634<ul><li>solution to a 1st order DE</li></ul></li><li>At <span class="math inline">\(t=0\)</span><ul><li><span class="math inline">\(|\psi(t=0)\rangle=\sum_{n} c_{n}(0)\left|E_{n}\right\rangle\)</span><ul><li>substitute with <span class="math inline">\(c_{k}(t)=c_{k}(0) e^{-i E_{k} t / \hbar}\)</span> [[#^e6d634]]</li></ul></li></ul></li><li><span class="math inline">\(|\psi(t)\rangle=\sum_{n} c_{n}(0) e^{-i E_{n} t / \hbar}\left|E_{n}\right\rangle\)</span></li></ul><h6 id="schrödinger-time-evolution">Schrödinger Time Evolution</h6><p><span class="math display">\[|\psi(t)\rangle=\sum_{n} c_{n}(0) e^{-i E_{n} t / \hbar}\left|E_{n}\right\rangle\]</span></p><h6 id="time-independent-2-state-system-with-no-superposition-by-t0">Time-independent 2-state system (with no superposition by t=0)</h6><ul><li><span class="math inline">\(|\psi(t=0)\rangle=\left|E_{1}\right\rangle\)</span></li><li><span class="math inline">\(|\psi(t)\rangle=e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle\)</span></li><li><span class="math inline">\(\wp=\left|\left\langle a_{1} \mid \psi(t)\right\rangle\right|^{2}=\left|\left\langle a_{1}\left|e^{-i E_{1} t / \hbar}\right| E_{1}\right\rangle\right|^{2}=\left|\left\langle a_{1} \mid E_{1}\right\rangle\right|^{2}\)</span></li></ul><h6 id="time-independent-2-state-system-with-superposition-by-t0">Time-independent 2-state system (with superposition by t=0)</h6><ul><li><span class="math inline">\(|\psi(t=0)\rangle=c_{1}\left|E_{1}\right\rangle+c_{2}\left|E_{2}\right\rangle\)</span></li><li><span class="math inline">\(|\psi(t)\rangle=c_{1} e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle+c_{2} e^{-i E_{2} t / \hbar}\left|E_{2}\right\rangle\)</span></li><li><span class="math inline">\(\wp=\left|\left\langle E_{1} \mid \psi(t)\right\rangle\right|^{2}=\mid\left\langle E_{1}\left|\left(c_{1} e^{-i E_{1} t / \hbar}\left|E_{1}\right\rangle+c_{2} e^{-i E_{2} t /\hbar}\left|E_{2}\right\rangle\right)\right|^{2}\right.=\left|c_{1}\right|^{2}\)</span></li><li>For any other observable <span class="math inline">\(A\left|a_{1}\right\rangle=a_{1}\left|a_{1}\right\rangle\)</span><ul><li><span class="math inline">\([A,H]=0\)</span></li><li><span class="math inline">\(A\)</span> and <span class="math inline">\(H\)</span> must share an eigen-basis</li><li><span class="math inline">\(\left|a_{1}\right\rangle\)</span> is an energy eigenstate</li><li>probability of measuring eigenvalue <span class="math inline">\(a_{1}\)</span> depends on time</li></ul></li></ul><h6 id="problems-of-looking-for-probabilities-of-eigenvalues">Problems of looking for probabilities of eigenvalues</h6><p>[[Pasted image 20211108091659.png]]</p><h6 id="spectroscopy-experiment">Spectroscopy experiment</h6><blockquote><p>Spectroscopy experiment is a measurement of the <strong>energy of the quantum state</strong>.</p></blockquote><blockquote><p>[[C5 Lecture 7.2|In chapter 5]], we will learn how to predict the allowed energy eigenstates of a particular system given the Hamiltonian of the system. [[C5 Lecture 7.2]][[C5 Lecture 8.2]][[C5 Lecture 9.1]]</p></blockquote><h6 id="spin-precession">Spin Precession</h6><ul><li>Spin-1/2 system</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课程（Lecture） </category>
+          
+          <category> 爱荷华州立（ISU） </category>
+          
+          <category> 物理（Physics） </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Physics </tag>
+            
+            <tag> Quantum Physics </tag>
+            
+            <tag> Schrödinger Equation </tag>
+            
+            <tag> Differential Equation </tag>
+            
+            <tag> Spin </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>&lt;Math 165 Review&gt; 04 Squeeze Theorem; one-side limits</title>
+      <link href="/2021/10/16/04%20Squeeze%20Theorem;%20one-sided%20limits/"/>
+      <url>/2021/10/16/04%20Squeeze%20Theorem;%20one-sided%20limits/</url>
+      
+        <content type="html"><![CDATA[<ul><li><strong>[[Squeeze Theorem]] ([[Squeeze Theorem|Sandwich Theorem]]):</strong><ul><li>If near <span class="math inline">\(\mathrm{c}\)</span> we have <span class="math inline">\({g}({x}) \leqslant {f}({x}) \leqslant {h}({x})\)</span></li><li>and we have <span class="math inline">\(\lim _{x \rightarrow c} g(x)=\lim _{x \rightarrow c} h(x)=L\)</span></li><li>then we also have <span class="math inline">\(\lim _{x \rightarrow c} f(x)=L\)</span></li></ul></li><li><strong>[[Limit|One-sided limits]]</strong><ul><li><strong>Left limit:</strong> <span class="math inline">\(\lim _{x \rightarrow c^{-}} f(x)\)</span></li><li><strong>Right limit:</strong> <span class="math inline">\(\lim _{x \rightarrow c^{+}} f(x)\)</span></li><li>Why we need sided limits?<ul><li>Function only defined on one side</li><li>Piece-wise functions</li></ul></li><li><strong>[[Limit|One-sided Limits Lemma]]:</strong><ul><li><span class="math inline">\(\lim _{x \rightarrow c} f(x)=L\)</span></li><li><em>if and only if</em> <span class="math inline">\(\lim _{x \rightarrow c^{-}} f(x)=\lim _{x \rightarrow c^{+}} f(x)=L\)</span></li></ul></li></ul></li><li><strong>Special [[Limit]] <span class="math inline">\(\sin (\theta) / \theta\)</span></strong><ul><li><span class="math inline">\(\cos \theta \leqslant \frac{\sin (\theta)}{\theta}&lt;1\)</span></li><li>prove <span class="math inline">\(\frac{\sin \theta}{\theta}\)</span> is even</li><li>near <span class="math inline">\(0\)</span>? <span class="math inline">\(\cos \theta&lt;\frac{\sin \theta}{\theta}&lt;1\)</span></li><li><span class="math inline">\(\lim _{\theta \rightarrow 0} \frac{\sin \theta}{\theta}=1\)</span></li><li><img src="https://cdn.mathpix.com/snip/images/wUXEruDTpKb7vMdx2Cx9Cd-9JJHVFQm4UzwZrsy2x8k.original.fullsize.png" title="fig:" alt="How to prove cos theta&lt;sin theta divide theta&lt;1|400" /></li></ul></li><li><strong>Odd function</strong> and <strong>Even function</strong><ul><li>Odd: <span class="math inline">\(\sin x, \tan x, x, x^{3}, e^{x}-e^{-x}, \ldots\)</span></li><li>Even: <span class="math inline">\(\cos x, \sec x, x^{2}, x^{4}, e^{x}+e^{-x}, \ldots\)</span></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课程（Lecture） </category>
+          
+          <category> 爱荷华州立（ISU） </category>
+          
+          <category> 数学（Math） </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Limit </tag>
+            
+            <tag> Squeeze Theorem </tag>
+            
+            <tag> One-side limit </tag>
+            
+            <tag> Right limit </tag>
+            
+            <tag> Left limit </tag>
+            
+            <tag> sin/theta </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>&lt;Math 165 Review&gt; 03 Technical definition of limits</title>
+      <link href="/2021/10/15/03%20Technical%20definition%20of%20limits/"/>
+      <url>/2021/10/15/03%20Technical%20definition%20of%20limits/</url>
+      
+        <content type="html"><![CDATA[<ul><li><strong>Meaning of [[Limit]]:</strong> What <em>should</em> happen to a function</li><li><strong>Distance:</strong> <span class="math inline">\(|x-y|\)</span></li><li><strong>Formal Definition of [[Limit]]:</strong><ul><li>We say <span class="math inline">\(\lim _{x \rightarrow a} f(x)=L\)</span> if<ul><li>for any <span class="math inline">\(\varepsilon&gt;0\)</span></li><li>there is a <span class="math inline">\(\delta&gt;0\)</span></li><li>so that<ul><li>if <span class="math inline">\(0&lt;|x-a|&lt;\delta\)</span>: <em>we can always make <span class="math inline">\(|x-a|\)</span> smaller</em></li><li>then <span class="math inline">\(|f(x)-L|&lt;\varepsilon\)</span>.</li></ul></li></ul></li></ul></li><li><strong>Triangle Inequality:</strong> <span class="math inline">\(|x+y| \leqslant|x|+|y|\)</span>: <em>break into parts both smaller</em></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课程（Lecture） </category>
+          
+          <category> 爱荷华州立（ISU） </category>
+          
+          <category> 数学（Math） </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Limit </tag>
+            
+            <tag> Trig inequality </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>&lt;Math 165 Review&gt; 02 Introduction to limits</title>
+      <link href="/2021/10/14/02%20Introduction%20to%20limits/"/>
+      <url>/2021/10/14/02%20Introduction%20to%20limits/</url>
+      
+        <content type="html"><![CDATA[<ul><li><strong>[[Slope]]</strong> <span class="math display">\[\frac{f(b)-f(a)}{b-a}\]</span></li><li><strong>[[Limit]]</strong> <span class="math display">\[\lim _{x \rightarrow a} f(x)=L\]</span></li><li><strong>[[Limit|Basic properties of limits]]</strong> <span class="math inline">\(\lim _{x \rightarrow a} f(x)=L\)</span> and <span class="math inline">\(\lim _{x \rightarrow a} g(x)=M\)</span><ul><li><span class="math inline">\(\lim _{x \rightarrow a}(c f(x)+d g(x))=c L+d M\)</span></li><li><span class="math inline">\(\lim _{x \rightarrow a}(f(x) g(x))=L M\)</span></li><li><span class="math inline">\(M \neq 0, \lim _{x \rightarrow a} \frac{f(x)}{g(x)}=\frac{L}{M}\)</span></li><li><span class="math inline">\(L&gt;0\)</span>, <span class="math inline">\(\lim _{x \rightarrow a}(f(x))^{q}=L^{q}\)</span></li><li>Polynomial of limit <span class="math display">\[\begin{aligned} \lim _{x \rightarrow a} f(x) &amp;=\lim _{x \rightarrow a}\left(c_{n} x^{n}+\cdots+c_{1} x+c_{0}\right) \\ &amp;=c_{n}\left(\lim _{x \rightarrow a} x^{n}\right)+\cdots+c_{1}\left(\lim _{x \rightarrow a} x\right)+c_{0}\left(\lim _{x \rightarrow a} 1\right) \\ &amp;=c_{n}\left(\lim _{x \rightarrow a} x\right)^{n}+\cdots+c_{1}\left(\lim _{x \rightarrow a} x\right)+c_{0}\left(\lim _{x \rightarrow a} 1\right) \\ &amp;=c_{n} a^{n}+\cdots+c_{1} a+c_{0}=f(a) \end{aligned}\]</span></li></ul></li><li><strong>Rational Function</strong> <span class="math display">\[\frac{f(x)}{g(x)}\]</span></li><li><strong><span class="math inline">\(\frac{0}{0}\)</span>? What to do?</strong><ul><li>Expanding and factoring polynomial</li><li>Multiplying by the conjugate<ul><li><span class="math inline">\((a+b)(a-b)=a^{2}-b^{2} \to \sqrt{some thing}\)</span></li></ul></li><li>Use [[Triangle Identity|trig identity]]<ul><li><span class="math inline">\(\sin ^{2} \theta+\cos ^{2} \theta=1\)</span></li></ul></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课程（Lecture） </category>
+          
+          <category> 爱荷华州立（ISU） </category>
+          
+          <category> 数学（Math） </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Slope </tag>
+            
+            <tag> Limit </tag>
+            
+            <tag> Rational function </tag>
+            
+            <tag> Trig identity </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>&lt;Math 165 Review&gt; 01 Average rate of change</title>
+      <link href="/2021/10/13/01%20Average%20rate%20of%20change/"/>
+      <url>/2021/10/13/01%20Average%20rate%20of%20change/</url>
+      
+        <content type="html"><![CDATA[<ul><li>[[Slope]] for <span class="math inline">\(y=m x+b\)</span><ul><li><span class="math inline">\(slope=\frac{y_{2}-y_{1}}{x_{2}-x_{1}}=\frac{\Delta y}{\Delta x}\)</span></li></ul></li><li>[[Slope|Average rate of change]]</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 课程（Lecture） </category>
+          
+          <category> 爱荷华州立（ISU） </category>
+          
+          <category> 数学（Math） </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Slope </tag>
             
         </tags>
       
