@@ -235,7 +235,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-11-22 00:25:10" itemprop="dateModified" datetime="2021-11-22T00:25:10-06:00">2021-11-22</time>
+        <time title="Modified: 2021-11-22 01:05:50" itemprop="dateModified" datetime="2021-11-22T01:05:50-06:00">2021-11-22</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -275,7 +275,9 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>&gt;<br>creation date: 星期二 9日 十一月-2021-12:10:56<br>modification date: 星期日 21日 十一月-2021-23:00:45<br>article version: 1.0.0<br>tags: #Coding #Debugging<br>system: #MacOS_Monterey<br>program: #hexo<br>bug type: #sdk_exception<br>template version: #coding_debug 1.0.0</p>
+          <blockquote>
+<p>creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Coding #Debugging system: #MacOS_Monterey program: #hexo bug type: #sdk_exception template version: #coding_debug 1.0.0</p>
+</blockquote>
 <p>我的报错信息是：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">err: YAMLException: can not <span class="built_in">read</span> a block mapping entry; a multiline key may not be an implicit key at line 2, column 5:</span><br><span class="line">      date:</span><br></pre></td></tr></table></figure>
 <p>我找到了 <code>date</code> 所在的位置，是 <code>markdown</code> 文件的开头，定义基本信息 <code>Front-matter</code> 的地方</p>
@@ -284,7 +286,7 @@
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: <span class="xml"><span class="tag">&lt;<span class="name">Note</span> <span class="attr">of</span> <span class="attr">Phys</span> <span class="attr">480</span>&gt;</span></span> Lecture 5.2 corresponding to McIntyre Chapter 3</span><br><span class="line">date:</span><br><span class="line">update:</span><br><span class="line">permalink:</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> 课程（Lecture）</span><br><span class="line"><span class="bullet">-</span> 爱荷华州立（ISU）</span><br><span class="line"><span class="bullet">-</span> 物理（Physics）</span><br><span class="line">tags: [Physics, Quantum Physics, Schrödinger Equation, Differential Equation, Spin]</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">comments:</span><br><span class="line">layout:</span><br><span class="line">type:</span><br><span class="line">photos:</span><br><span class="line">link:</span><br><span class="line"><span class="section">mathjax: true</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 <p>之后就问题解决了✌️</p>
 <blockquote>
-<p>From now on we live in a world where man has walked on the Moon. It’s not a miracle; we just decided to go.<br>&mdash; <cite>Tom Hanks</cite></p>
+<p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p>
 </blockquote>
 
       

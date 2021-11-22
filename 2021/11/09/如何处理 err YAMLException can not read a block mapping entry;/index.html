@@ -20,16 +20,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
-<meta name="description" content="&gt;creation date: 星期二 9日 十一月-2021-12:10:56modification date: 星期日 21日 十一月-2021-23:00:45article version: 1.0.0tags: #Coding #Debuggingsystem: #MacOS_Montereyprogram: #hexobug type: #sdk_exceptiontempla">
+<meta name="description" content="creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Coding #Debugging system: #MacOS_Monterey program: #hexo bug type: #sdk_exception te">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何处理 err YAMLException can not read a block mapping entry;">
 <meta property="og:url" content="http://example.com/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/index.html">
 <meta property="og:site_name" content="A drop">
-<meta property="og:description" content="&gt;creation date: 星期二 9日 十一月-2021-12:10:56modification date: 星期日 21日 十一月-2021-23:00:45article version: 1.0.0tags: #Coding #Debuggingsystem: #MacOS_Montereyprogram: #hexobug type: #sdk_exceptiontempla">
+<meta property="og:description" content="creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Coding #Debugging system: #MacOS_Monterey program: #hexo bug type: #sdk_exception te">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/1.png">
 <meta property="article:published_time" content="2021-11-09T18:10:56.332Z">
-<meta property="article:modified_time" content="2021-11-22T06:25:10.694Z">
+<meta property="article:modified_time" content="2021-11-22T07:05:50.449Z">
 <meta property="article:author" content="Zizheng Yang">
 <meta property="article:tag" content="Coding">
 <meta property="article:tag" content="Debugging">
@@ -248,7 +248,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-11-22 00:25:10" itemprop="dateModified" datetime="2021-11-22T00:25:10-06:00">2021-11-22</time>
+        <time title="Modified: 2021-11-22 01:05:50" itemprop="dateModified" datetime="2021-11-22T01:05:50-06:00">2021-11-22</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -288,7 +288,9 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>&gt;<br>creation date: 星期二 9日 十一月-2021-12:10:56<br>modification date: 星期日 21日 十一月-2021-23:00:45<br>article version: 1.0.0<br>tags: #Coding #Debugging<br>system: #MacOS_Monterey<br>program: #hexo<br>bug type: #sdk_exception<br>template version: #coding_debug 1.0.0</p>
+        <blockquote>
+<p>creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Coding #Debugging system: #MacOS_Monterey program: #hexo bug type: #sdk_exception template version: #coding_debug 1.0.0</p>
+</blockquote>
 <p>我的报错信息是：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">err: YAMLException: can not <span class="built_in">read</span> a block mapping entry; a multiline key may not be an implicit key at line 2, column 5:</span><br><span class="line">      date:</span><br></pre></td></tr></table></figure>
 <p>我找到了 <code>date</code> 所在的位置，是 <code>markdown</code> 文件的开头，定义基本信息 <code>Front-matter</code> 的地方</p>
@@ -297,7 +299,7 @@
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: <span class="xml"><span class="tag">&lt;<span class="name">Note</span> <span class="attr">of</span> <span class="attr">Phys</span> <span class="attr">480</span>&gt;</span></span> Lecture 5.2 corresponding to McIntyre Chapter 3</span><br><span class="line">date:</span><br><span class="line">update:</span><br><span class="line">permalink:</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> 课程（Lecture）</span><br><span class="line"><span class="bullet">-</span> 爱荷华州立（ISU）</span><br><span class="line"><span class="bullet">-</span> 物理（Physics）</span><br><span class="line">tags: [Physics, Quantum Physics, Schrödinger Equation, Differential Equation, Spin]</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">comments:</span><br><span class="line">layout:</span><br><span class="line">type:</span><br><span class="line">photos:</span><br><span class="line">link:</span><br><span class="line"><span class="section">mathjax: true</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 <p>之后就问题解决了✌️</p>
 <blockquote>
-<p>From now on we live in a world where man has walked on the Moon. It’s not a miracle; we just decided to go.<br>&mdash; <cite>Tom Hanks</cite></p>
+<p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p>
 </blockquote>
 
     </div>
