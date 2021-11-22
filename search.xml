@@ -5,6 +5,47 @@
     
     <entry>
       <title>如何处理 err YAMLException can not read a block mapping entry;</title>
+      <link href="/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+      <url>/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>creation date: 星期一 15日 十一月-2021-13:23:03</p><p>modification date: 星期一 22日 十一月-2021-13:06:35</p><p>article version: 1.0.0</p><p>tags: #Coding #Debugging</p><p>system: #GNU/Linux_Debian_Ubuntu #GNU/Linux_Fedora_CentOS #MacOS_Monterey</p><p>program: #apt-get</p><p>bug type: #sdk_exception #system</p><p>template version: #coding_debug 1.0.0</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get upgrade</span><br></pre></td></tr></table></figure><p>运行 apt-get 时报如下错</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)</span><br><span class="line">E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?</span><br></pre></td></tr></table></figure><p>解决方案:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo rm /var/lib/dpkg/lock-frontend</span><br><span class="line">sudo rm /var/lib/dpkg/lock</span><br><span class="line">sudo rm /var/cache/apt/archives/lock</span><br></pre></td></tr></table></figure><blockquote><p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Web </category>
+          
+          <category> Unix </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Coding </tag>
+            
+            <tag> Debugging </tag>
+            
+            <tag> GNU/Linux_Debian_Ubuntu </tag>
+            
+            <tag> GNU/Linux_Fedora_CentOS </tag>
+            
+            <tag> MacOS_Monterey </tag>
+            
+            <tag> apt-get </tag>
+            
+            <tag> sdk_exception </tag>
+            
+            <tag> coding_debug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何处理 err YAMLException can not read a block mapping entry;</title>
       <link href="/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/"/>
       <url>/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</url>
       
@@ -28,11 +69,11 @@
             
             <tag> MacOS_Monterey </tag>
             
-            <tag> hexo </tag>
-            
             <tag> sdk_exception </tag>
             
             <tag> coding_debug </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
