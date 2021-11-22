@@ -27,18 +27,18 @@
 <meta property="og:site_name" content="A drop">
 <meta property="og:description" content="creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Coding #Debugging system: #MacOS_Monterey program: #hexo bug type: #sdk_exception te">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/1.png">
+<meta property="og:image" content="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/">
 <meta property="article:published_time" content="2021-11-09T18:10:56.332Z">
-<meta property="article:modified_time" content="2021-11-22T19:04:08.779Z">
+<meta property="article:modified_time" content="2021-11-22T19:20:24.535Z">
 <meta property="article:author" content="Zizheng Yang">
 <meta property="article:tag" content="Coding">
 <meta property="article:tag" content="Debugging">
 <meta property="article:tag" content="MacOS_Monterey">
+<meta property="article:tag" content="hexo">
 <meta property="article:tag" content="sdk_exception">
 <meta property="article:tag" content="coding_debug">
-<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/1.png">
+<meta name="twitter:image" content="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/">
 
 
 <link rel="canonical" href="http://example.com/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/">
@@ -135,7 +135,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -148,6 +148,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#readme"><span class="nav-number">1.</span> <span class="nav-text">README</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#body"><span class="nav-number">2.</span> <span class="nav-text">Body</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#daily-quotes"><span class="nav-number">3.</span> <span class="nav-text">Daily Quotes</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -162,18 +163,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">11</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -212,7 +213,7 @@
   <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
     
     <div class="post-gallery-image">
-      <img src="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/1.png" itemprop="contentUrl">
+      <img src="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/" itemprop="contentUrl">
     </div>
     </div>
 
@@ -248,7 +249,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-11-22 13:04:08" itemprop="dateModified" datetime="2021-11-22T13:04:08-06:00">2021-11-22</time>
+        <time title="Modified: 2021-11-22 13:20:24" itemprop="dateModified" datetime="2021-11-22T13:20:24-06:00">2021-11-22</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -298,13 +299,20 @@
 <p>bug type: #sdk_exception</p>
 <p>template version: #coding_debug 1.0.0</p>
 </blockquote>
-<p>我的报错信息是：</p>
+<h2 id="readme">README</h2>
+<blockquote>
+<p>Cover image comes from: https://www.linuxuprising.com/2018/07/how-to-fix-could-not-get-lock.html</p>
+</blockquote>
+<h2 id="body">Body</h2>
+<p>看到别人挖了一个<a target="_blank" rel="noopener" href="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/">坑</a>，没填，我正好遇到了这个问题，于是填掉哈哈哈。</p>
+<p>我的报错信息是这样的：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">err: YAMLException: can not <span class="built_in">read</span> a block mapping entry; a multiline key may not be an implicit key at line 2, column 5:</span><br><span class="line">      date:</span><br></pre></td></tr></table></figure>
 <p>我找到了 <code>date</code> 所在的位置，是 <code>markdown</code> 文件的开头，定义基本信息 <code>Front-matter</code> 的地方</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: [Note of Phys 480] Lecture 5.2 corresponding to McIntyre Chapter 3</span><br><span class="line">date:</span><br><span class="line">update:</span><br><span class="line">permalink:</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> 课程（Lecture）</span><br><span class="line"><span class="bullet">-</span> 爱荷华州立（ISU）</span><br><span class="line"><span class="bullet">-</span> 物理（Physics）</span><br><span class="line">tags: [Physics, Quantum Physics, Schrödinger Equation, Differential Equation, Spin]</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">comments:</span><br><span class="line">layout:</span><br><span class="line">type:</span><br><span class="line">photos:</span><br><span class="line">link:</span><br><span class="line"><span class="section">mathjax: true</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 <p>原来是 <code>hexo</code> 不支持 <code>[]</code> 括号在文件头，<code>Front-matter</code> 修改成：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: <span class="xml"><span class="tag">&lt;<span class="name">Note</span> <span class="attr">of</span> <span class="attr">Phys</span> <span class="attr">480</span>&gt;</span></span> Lecture 5.2 corresponding to McIntyre Chapter 3</span><br><span class="line">date:</span><br><span class="line">update:</span><br><span class="line">permalink:</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">-</span> 课程（Lecture）</span><br><span class="line"><span class="bullet">-</span> 爱荷华州立（ISU）</span><br><span class="line"><span class="bullet">-</span> 物理（Physics）</span><br><span class="line">tags: [Physics, Quantum Physics, Schrödinger Equation, Differential Equation, Spin]</span><br><span class="line">description:</span><br><span class="line">keywords:</span><br><span class="line">comments:</span><br><span class="line">layout:</span><br><span class="line">type:</span><br><span class="line">photos:</span><br><span class="line">link:</span><br><span class="line"><span class="section">mathjax: true</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure>
 <p>之后就问题解决了✌️</p>
+<h2 id="daily-quotes">Daily Quotes</h2>
 <blockquote>
 <p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p>
 </blockquote>
@@ -343,9 +351,9 @@
               <a href="/tags/Coding/" rel="tag"># Coding</a>
               <a href="/tags/Debugging/" rel="tag"># Debugging</a>
               <a href="/tags/MacOS-Monterey/" rel="tag"># MacOS_Monterey</a>
+              <a href="/tags/hexo/" rel="tag"># hexo</a>
               <a href="/tags/sdk-exception/" rel="tag"># sdk_exception</a>
               <a href="/tags/coding-debug/" rel="tag"># coding_debug</a>
-              <a href="/tags/hexo/" rel="tag"># hexo</a>
           </div>
 
         
@@ -354,8 +362,8 @@
             <div class="post-nav-item">
             </div>
             <div class="post-nav-item">
-                <a href="/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/" rel="next" title="如何处理 err YAMLException can not read a block mapping entry;">
-                  如何处理 err YAMLException can not read a block mapping entry; <i class="fa fa-chevron-right"></i>
+                <a href="/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/" rel="next" title="-bash nginx (command not found) 解决办法">
+                  -bash nginx (command not found) 解决办法 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
