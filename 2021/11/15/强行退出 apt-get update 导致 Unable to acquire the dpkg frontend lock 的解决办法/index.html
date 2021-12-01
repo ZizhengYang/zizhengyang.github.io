@@ -35,8 +35,7 @@ creation date: 星期一 15日 十一月-2021-13:23:03 modification date: 星期
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="stylesheet" href="/css/prism.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"></head>
 
 
 
@@ -509,6 +508,9 @@ creation date: 星期一 15日 十一月-2021-13:23:03 modification date: 星期
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
@@ -522,15 +524,15 @@ creation date: 星期一 15日 十一月-2021-13:23:03 modification date: 星期
 <p>Cover image comes from: https://www.linuxuprising.com/2018/07/how-to-fix-could-not-get-lock.html</p>
 </blockquote>
 <h2 id="body">Body</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt-get update</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt-get upgrade</span></code></pre></div>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> update
+<span class="token function">sudo</span> <span class="token function">apt-get</span> upgrade<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>运行 apt-get 时报如下错</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">E:</span> Could not get lock /var/lib/dpkg/lock-frontend <span class="at">-</span> open <span class="er">(</span><span class="ex">11:</span> Resource temporarily unavailable<span class="kw">)</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">E:</span> Unable to acquire the dpkg frontend lock <span class="er">(</span><span class="ex">/var/lib/dpkg/lock-frontend</span><span class="kw">)</span><span class="ex">,</span> is another process using it<span class="pp">?</span></span></code></pre></div>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">E: Could not get lock /var/lib/dpkg/lock-frontend - <span class="token function">open</span> <span class="token punctuation">(</span><span class="token number">11</span>: Resource temporarily unavailable<span class="token punctuation">)</span>
+E: Unable to acquire the dpkg frontend lock <span class="token punctuation">(</span>/var/lib/dpkg/lock-frontend<span class="token punctuation">)</span>, is another process using it?<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <p>解决方案:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> rm /var/lib/dpkg/lock-frontend</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> rm /var/lib/dpkg/lock</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> rm /var/cache/apt/archives/lock</span></code></pre></div>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">rm</span> /var/lib/dpkg/lock-frontend
+<span class="token function">sudo</span> <span class="token function">rm</span> /var/lib/dpkg/lock
+<span class="token function">sudo</span> <span class="token function">rm</span> /var/cache/apt/archives/lock<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 <h2 id="daily-quotes">Daily Quotes</h2>
 <blockquote>
 <p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p>
