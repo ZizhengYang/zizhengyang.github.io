@@ -40,6 +40,10 @@ The entire field can be traced back to the earliest when the Hall effect was d">
 
 
 
+{% if theme.canvas_nest %}
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+{% endif %}
+
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
@@ -1367,7 +1371,7 @@ $(function () {
     <!-- 鼠标星星特效 -->
     
 
-     
+    
         <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
         <script src="/libs/others/TencentCaptcha.js"></script>
         <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
