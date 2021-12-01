@@ -28,8 +28,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;from-hall-effect-to-topological-materials&quot;&gt;From Hall Effect to topological materials&lt;/h2&gt;
-&lt;p&gt;The entire field can be traced back to</summary>
+    <summary type="html">&lt;h2 id=&quot;From-Hall-Effect-to-topological-materials&quot;&gt;&lt;a href=&quot;#From-Hall-Effect-to-topological-materials&quot; class=&quot;headerlink&quot; title=&quot;From Hall</summary>
         
       
     
@@ -69,7 +68,7 @@
     <link href="https://zizhengyang.github.io/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/"/>
     <id>https://zizhengyang.github.io/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/</id>
     <published>2021-12-01T00:28:41.000Z</published>
-    <updated>2021-12-01T03:40:07.762Z</updated>
+    <updated>2021-12-01T03:58:38.953Z</updated>
     
     
       
@@ -103,7 +102,7 @@
     <link href="https://zizhengyang.github.io/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
     <id>https://zizhengyang.github.io/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
     <published>2021-11-15T19:23:03.765Z</published>
-    <updated>2021-12-01T03:40:16.883Z</updated>
+    <updated>2021-12-01T03:58:44.331Z</updated>
     
     
       
@@ -111,7 +110,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03 modification date: 星期一 22日 十一月-2021-13:06:35 article version: 1.0.0 tags: #Coding</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;article version: 1.0.0&lt;br&gt;tags:</summary>
         
       
     
@@ -132,11 +131,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
-    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
@@ -153,7 +152,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt; modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;&lt;br&gt;modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;&lt;br&gt;article version:</summary>
         
       
     
@@ -183,7 +182,7 @@
     <link href="https://zizhengyang.github.io/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/"/>
     <id>https://zizhengyang.github.io/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</id>
     <published>2021-11-09T18:10:56.332Z</published>
-    <updated>2021-12-01T03:40:12.495Z</updated>
+    <updated>2021-12-01T03:58:41.709Z</updated>
     
     
       
@@ -191,7 +190,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Coding</summary>
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;article version: 1.0.0&lt;br&gt;tags:</summary>
         
       
     
@@ -208,11 +207,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
+    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
-    
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
   </entry>
   
