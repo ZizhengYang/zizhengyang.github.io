@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-01T05:56:58.883Z</updated>
+  <updated>2021-12-01T06:00:38.005Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -21,15 +21,16 @@
     <link href="https://zizhengyang.github.io/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/"/>
     <id>https://zizhengyang.github.io/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/</id>
     <published>2021-12-01T05:10:50.000Z</published>
-    <updated>2021-12-01T05:56:58.883Z</updated>
+    <updated>2021-12-01T06:00:38.005Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h6 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h6&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt;</summary>
+    <summary type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/1605.05207&quot;&gt;Quantum computing with</summary>
         
       
     
@@ -64,7 +65,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;From-Hall-Effect-to-topological-materials&quot;&gt;&lt;a href=&quot;#From-Hall-Effect-to-topological-materials&quot; class=&quot;headerlink&quot; title=&quot;From Hall</summary>
+    <summary type="html">&lt;h2 id=&quot;from-hall-effect-to-topological-materials&quot;&gt;From Hall Effect to topological materials&lt;/h2&gt;
+&lt;p&gt;The entire field can be traced back to</summary>
         
       
     
@@ -148,7 +150,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;article version: 1.0.0&lt;br&gt;tags:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03 modification date: 星期一 22日 十一月-2021-13:06:35 article version: 1.0.0 tags: #Coding</summary>
         
       
     
@@ -190,7 +192,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;article version: 1.0.0&lt;br&gt;tags:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41 modification date: 星期一 15日 十一月-2021-13:27:47 article version: 1.0.0 tags: #Coding</summary>
         
       
     
@@ -228,7 +230,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;article version: 1.0.0&lt;br&gt;tags:</summary>
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Coding</summary>
         
       
     
