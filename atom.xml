@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-01T06:02:51.890Z</updated>
+  <updated>2021-12-01T23:02:42.753Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A Short Guide⚜: Construct wave equation🚀</title>
+    <link href="https://zizhengyang.github.io/2021/12/01/A-Short-guide%E2%9A%9C-Construct-wave-equation%F0%9F%9A%80/"/>
+    <id>https://zizhengyang.github.io/2021/12/01/A-Short-guide%E2%9A%9C-Construct-wave-equation%F0%9F%9A%80/</id>
+    <published>2021-12-01T22:55:48.000Z</published>
+    <updated>2021-12-01T23:02:42.753Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;wave-equation&quot;&gt;Wave equation&lt;/h2&gt;
+&lt;h3 id=&quot;construct-wave-equation&quot;&gt;Construct wave equation&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vertical</summary>
+        
+      
+    
+    
+    
+    <category term="Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/"/>
+    
+    <category term="Short Guide" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Guide/"/>
+    
+    
+    <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
+    
+    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
+    
+  </entry>
   
   <entry>
     <title>Paper Note; (Review) Quantum computing with atomic qubits and Rydberg interactions Progress and challenges</title>
@@ -54,11 +86,11 @@
   </entry>
   
   <entry>
-    <title>A short review on the topological materials and the topological order</title>
+    <title>A Short Review: The topological materials and the topological order</title>
     <link href="https://zizhengyang.github.io/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/"/>
     <id>https://zizhengyang.github.io/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/</id>
     <published>2021-12-01T00:29:53.000Z</published>
-    <updated>2021-12-01T22:49:38.091Z</updated>
+    <updated>2021-12-01T22:56:25.647Z</updated>
     
     
       
@@ -171,11 +203,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
-    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
@@ -247,11 +279,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
+    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
-    
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
   </entry>
   
