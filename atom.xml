@@ -126,15 +126,15 @@
     
     <category term="Debugging" scheme="http://example.com/tags/Debugging/"/>
     
-    <category term="GNU/Linux_Debian_Ubuntu" scheme="http://example.com/tags/GNU-Linux-Debian-Ubuntu/"/>
-    
-    <category term="GNU/Linux_Fedora_CentOS" scheme="http://example.com/tags/GNU-Linux-Fedora-CentOS/"/>
-    
     <category term="MacOS_Monterey" scheme="http://example.com/tags/MacOS-Monterey/"/>
     
     <category term="sdk_exception" scheme="http://example.com/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="http://example.com/tags/coding-debug/"/>
+    
+    <category term="GNU/Linux_Debian_Ubuntu" scheme="http://example.com/tags/GNU-Linux-Debian-Ubuntu/"/>
+    
+    <category term="GNU/Linux_Fedora_CentOS" scheme="http://example.com/tags/GNU-Linux-Fedora-CentOS/"/>
     
     <category term="apt-get" scheme="http://example.com/tags/apt-get/"/>
     
