@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-01T05:17:54.481Z</updated>
+  <updated>2021-12-01T05:56:58.883Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zizhengyang.github.io/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/"/>
     <id>https://zizhengyang.github.io/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/</id>
     <published>2021-12-01T05:10:50.000Z</published>
-    <updated>2021-12-01T05:17:54.481Z</updated>
+    <updated>2021-12-01T05:56:58.883Z</updated>
     
     
       
@@ -169,11 +169,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
+    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
-    
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
@@ -245,11 +245,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
-    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
   </entry>
   
