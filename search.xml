@@ -112,11 +112,11 @@
             
             <tag> MacOS_Monterey </tag>
             
-            <tag> apt-get </tag>
-            
             <tag> sdk_exception </tag>
             
             <tag> coding_debug </tag>
+            
+            <tag> apt-get </tag>
             
         </tags>
       
@@ -186,11 +186,11 @@
             
             <tag> MacOS_Monterey </tag>
             
+            <tag> hexo </tag>
+            
             <tag> sdk_exception </tag>
             
             <tag> coding_debug </tag>
-            
-            <tag> hexo </tag>
             
         </tags>
       
