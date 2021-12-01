@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="-bash nginx (command not found) 解决办法, A drop">
+    <meta name="keywords" content="强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法, A drop">
     <meta name="description" content="
-creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期一 15日 十一月-2021-13:27:47article version: 1.0.0tags: #Coding">
+creation date: 星期一 15日 十一月-2021-13:23:03 modification date: 星期一 22日 十一月-2021-13:06:35 article version: 1.0.0 tags: #Cod">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,7 +18,7 @@ creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期�
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>-bash nginx (command not found) 解决办法 | A drop</title>
+    <title>强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法 | A drop</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -314,12 +314,12 @@ creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期�
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">-bash nginx (command not found) 解决办法</h1>
+                    <h1 class="description center-align post-title">强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法</h1>
                 </div>
             </div>
         </div>
@@ -443,6 +443,18 @@ creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期�
                                 <span class="chip bg-color">Debugging</span>
                             </a>
                         
+                            <a href="/tags/MacOS-Monterey/">
+                                <span class="chip bg-color">MacOS_Monterey</span>
+                            </a>
+                        
+                            <a href="/tags/sdk-exception/">
+                                <span class="chip bg-color">sdk_exception</span>
+                            </a>
+                        
+                            <a href="/tags/coding-debug/">
+                                <span class="chip bg-color">coding_debug</span>
+                            </a>
+                        
                             <a href="/tags/GNU-Linux-Debian-Ubuntu/">
                                 <span class="chip bg-color">GNU/Linux_Debian_Ubuntu</span>
                             </a>
@@ -451,12 +463,8 @@ creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期�
                                 <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
                             </a>
                         
-                            <a href="/tags/nginx/">
-                                <span class="chip bg-color">nginx</span>
-                            </a>
-                        
-                            <a href="/tags/command-not-found/">
-                                <span class="chip bg-color">command_not_found</span>
+                            <a href="/tags/apt-get/">
+                                <span class="chip bg-color">apt-get</span>
                             </a>
                         
                     </div>
@@ -471,8 +479,8 @@ creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期�
                                 Web
                             </a>
                         
-                            <a href="/categories/Web/Nginx/" class="post-category">
-                                Nginx
+                            <a href="/categories/Web/Unix/" class="post-category">
+                                Unix
                             </a>
                         
                     </div>
@@ -509,35 +517,25 @@ creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期�
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p>creation date: 星期一 15日 十一月-2021-13:16:41<br><br>modification date: 星期一 15日 十一月-2021-13:27:47<br><br>article version: 1.0.0<br><br>tags: #Coding #Debugging<br><br>system: #GNU/Linux_Debian_Ubuntu #GNU/Linux_Fedora_CentOS<br><br>program: #nginx<br><br>bug type: #command_not_found<br><br>template version: #coding_debug 1.0.0</p>
+<p>creation date: 星期一 15日 十一月-2021-13:23:03<br> modification date: 星期一 22日 十一月-2021-13:06:35<br> article version: 1.0.0<br> tags: #Coding #Debugging<br> system: #GNU/Linux_Debian_Ubuntu #GNU/Linux_Fedora_CentOS #MacOS_Monterey<br> program: #apt-get<br> bug type: #sdk_exception #system<br> template version: #coding_debug 1.0.0</p>
 </blockquote>
-<h2 id="README"><a href="#README" class="headerlink" title="README"></a>README</h2><blockquote>
-<ul>
-<li>Cover image comes from: <a target="_blank" rel="noopener" href="https://linuxize.com/post/nginx-commands-you-should-know/">https://linuxize.com/post/nginx-commands-you-should-know/</a></li>
-</ul>
+<h2 id="readme">README</h2>
+<blockquote>
+<p>Cover image comes from: https://www.linuxuprising.com/2018/07/how-to-fix-could-not-get-lock.html</p>
 </blockquote>
-<h2 id="Body"><a href="#Body" class="headerlink" title="Body"></a>Body</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Linux version <span class="token number">4.19</span>.0-18-cloud-amd64
-Debian <span class="token number">8.3</span>.0-6
-gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="第一种办法"><a href="#第一种办法" class="headerlink" title="第一种办法"></a>第一种办法</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 寻找 nginx 位置</span>
-<span class="token function">whereis</span> nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> /etc/profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 这样似乎是有问题的，所以不要加到 nginx 目录</span>
-<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin/nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 最后成功的方法</span>
-<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">source</span> /etc/profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="第二种办法"><a href="#第二种办法" class="headerlink" title="第二种办法"></a>第二种办法</h2><p>不采用修改PATH的方式，而是为nginx做一个软连接。</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /usr/sbin/nginx /usr/local/sbin/nginx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="如果重启计算机-服务器-nginx-命令又失效了"><a href="#如果重启计算机-服务器-nginx-命令又失效了" class="headerlink" title="如果重启计算机/服务器 nginx 命令又失效了"></a>如果重启计算机/服务器 nginx 命令又失效了</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> ~/.bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 添加</span>
-<span class="token builtin class-name">source</span> /etc/profile
-<span class="token comment"># 或者</span>
-<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin/nginx
-<span class="token comment"># 或者</span>
-<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="Daily-Quotes"><a href="#Daily-Quotes" class="headerlink" title="Daily Quotes"></a>Daily Quotes</h2><blockquote>
-<p>From now on we live in a world where man has walked on the Moon. It’s not a miracle; we just decided to go.<br>&mdash; <cite>Tom Hanks</cite></p>
+<h2 id="body">Body</h2>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">apt-get</span> update
+<span class="token function">sudo</span> <span class="token function">apt-get</span> upgrade<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>运行 apt-get 时报如下错</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">E: Could not get lock /var/lib/dpkg/lock-frontend - <span class="token function">open</span> <span class="token punctuation">(</span><span class="token number">11</span>: Resource temporarily unavailable<span class="token punctuation">)</span>
+E: Unable to acquire the dpkg frontend lock <span class="token punctuation">(</span>/var/lib/dpkg/lock-frontend<span class="token punctuation">)</span>, is another process using it?<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>解决方案:</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">rm</span> /var/lib/dpkg/lock-frontend
+<span class="token function">sudo</span> <span class="token function">rm</span> /var/lib/dpkg/lock
+<span class="token function">sudo</span> <span class="token function">rm</span> /var/cache/apt/archives/lock<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="daily-quotes">Daily Quotes</h2>
+<blockquote>
+<p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p>
 </blockquote>
 
                 
@@ -565,7 +563,7 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/11/15/bash-nginx-command-not-found-jie-jue-ban-fa/">http://example.com/2021/11/15/bash-nginx-command-not-found-jie-jue-ban-fa/</a>
+                    <a href="http://example.com/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">http://example.com/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -611,6 +609,18 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
                                     <span class="chip bg-color">Debugging</span>
                                 </a>
                             
+                                <a href="/tags/MacOS-Monterey/">
+                                    <span class="chip bg-color">MacOS_Monterey</span>
+                                </a>
+                            
+                                <a href="/tags/sdk-exception/">
+                                    <span class="chip bg-color">sdk_exception</span>
+                                </a>
+                            
+                                <a href="/tags/coding-debug/">
+                                    <span class="chip bg-color">coding_debug</span>
+                                </a>
+                            
                                 <a href="/tags/GNU-Linux-Debian-Ubuntu/">
                                     <span class="chip bg-color">GNU/Linux_Debian_Ubuntu</span>
                                 </a>
@@ -619,12 +629,8 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
                                     <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
                                 </a>
                             
-                                <a href="/tags/nginx/">
-                                    <span class="chip bg-color">nginx</span>
-                                </a>
-                            
-                                <a href="/tags/command-not-found/">
-                                    <span class="chip bg-color">command_not_found</span>
+                                <a href="/tags/apt-get/">
+                                    <span class="chip bg-color">apt-get</span>
                                 </a>
                             
                         </div>
@@ -800,13 +806,13 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/11/15/qiang-xing-tui-chu-apt-get-update-dao-zhi-unable-to-acquire-the-dpkg-frontend-lock-de-jie-jue-ban-fa/">
+                <a href="/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Minecraft水龙头服设置指南🧭">
                         
-                        <span class="card-title">强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法</span>
+                        <span class="card-title">Minecraft水龙头服设置指南🧭</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -817,8 +823,73 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-15
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-30
                         </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Gaming/" class="post-category">
+                                    Gaming
+                                </a>
+                            
+                            <a href="/categories/Gaming/Minecraft/" class="post-category">
+                                    Minecraft
+                                </a>
+                            
+                            <a href="/categories/Gaming/Minecraft/Server/" class="post-category">
+                                    Server
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Minecraft/">
+                        <span class="chip bg-color">Minecraft</span>
+                    </a>
+                    
+                    <a href="/tags/Spigot/">
+                        <span class="chip bg-color">Spigot</span>
+                    </a>
+                    
+                    <a href="/tags/Coding/">
+                        <span class="chip bg-color">Coding</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="-bash nginx (command not found) 解决办法">
+                        
+                        <span class="card-title">-bash nginx (command not found) 解决办法</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-15
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -827,8 +898,8 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
                                     Web
                                 </a>
                             
-                            <a href="/categories/Web/Unix/" class="post-category">
-                                    Unix
+                            <a href="/categories/Web/Nginx/" class="post-category">
+                                    Nginx
                                 </a>
                             
                             
@@ -854,93 +925,12 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
                         <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
                     </a>
                     
-                    <a href="/tags/MacOS-Monterey/">
-                        <span class="chip bg-color">MacOS_Monterey</span>
+                    <a href="/tags/nginx/">
+                        <span class="chip bg-color">nginx</span>
                     </a>
                     
-                    <a href="/tags/apt-get/">
-                        <span class="chip bg-color">apt-get</span>
-                    </a>
-                    
-                    <a href="/tags/sdk-exception/">
-                        <span class="chip bg-color">sdk_exception</span>
-                    </a>
-                    
-                    <a href="/tags/coding-debug/">
-                        <span class="chip bg-color">coding_debug</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/11/09/ru-he-chu-li-err-yamlexception-can-not-read-a-block-mapping-entry/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="如何处理 err YAMLException can not read a block mapping entry;">
-                        
-                        <span class="card-title">如何处理 err YAMLException can not read a block mapping entry;</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-09
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Web/" class="post-category">
-                                    Web
-                                </a>
-                            
-                            <a href="/categories/Web/Hexo/" class="post-category">
-                                    Hexo
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Coding/">
-                        <span class="chip bg-color">Coding</span>
-                    </a>
-                    
-                    <a href="/tags/Debugging/">
-                        <span class="chip bg-color">Debugging</span>
-                    </a>
-                    
-                    <a href="/tags/MacOS-Monterey/">
-                        <span class="chip bg-color">MacOS_Monterey</span>
-                    </a>
-                    
-                    <a href="/tags/sdk-exception/">
-                        <span class="chip bg-color">sdk_exception</span>
-                    </a>
-                    
-                    <a href="/tags/coding-debug/">
-                        <span class="chip bg-color">coding_debug</span>
-                    </a>
-                    
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
+                    <a href="/tags/command-not-found/">
+                        <span class="chip bg-color">command_not_found</span>
                     </a>
                     
                 </div>

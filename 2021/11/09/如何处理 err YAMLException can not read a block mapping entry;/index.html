@@ -4,9 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Minecraft水龙头服设置指南🧭, A drop">
-    <meta name="description" content="水龙头服 Spigot 是继 CraftBukkit 之后的延续版本，在 CraftBukkit 一些卡服的问题上做出了优化，支持 CraftBukkit 的插件，性能比 CraftBukkit 相对好一些，自带反作弊功能。
-#Minecr">
+    <meta name="keywords" content="如何处理 err YAMLException can not read a block mapping entry;, A drop">
+    <meta name="description" content="
+creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Codi">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Minecraft水龙头服设置指南🧭 | A drop</title>
+    <title>如何处理 err YAMLException can not read a block mapping entry; | A drop</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -314,12 +314,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Minecraft水龙头服设置指南🧭</h1>
+                    <h1 class="description center-align post-title">如何处理 err YAMLException can not read a block mapping entry;</h1>
                 </div>
             </div>
         </div>
@@ -435,16 +435,28 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Minecraft/">
-                                <span class="chip bg-color">Minecraft</span>
-                            </a>
-                        
-                            <a href="/tags/Spigot/">
-                                <span class="chip bg-color">Spigot</span>
-                            </a>
-                        
                             <a href="/tags/Coding/">
                                 <span class="chip bg-color">Coding</span>
+                            </a>
+                        
+                            <a href="/tags/Debugging/">
+                                <span class="chip bg-color">Debugging</span>
+                            </a>
+                        
+                            <a href="/tags/MacOS-Monterey/">
+                                <span class="chip bg-color">MacOS_Monterey</span>
+                            </a>
+                        
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
+                            </a>
+                        
+                            <a href="/tags/sdk-exception/">
+                                <span class="chip bg-color">sdk_exception</span>
+                            </a>
+                        
+                            <a href="/tags/coding-debug/">
+                                <span class="chip bg-color">coding_debug</span>
                             </a>
                         
                     </div>
@@ -455,16 +467,12 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Gaming/" class="post-category">
-                                Gaming
+                            <a href="/categories/Web/" class="post-category">
+                                Web
                             </a>
                         
-                            <a href="/categories/Gaming/Minecraft/" class="post-category">
-                                Minecraft
-                            </a>
-                        
-                            <a href="/categories/Gaming/Minecraft/Server/" class="post-category">
-                                Server
+                            <a href="/categories/Web/Hexo/" class="post-category">
+                                Hexo
                             </a>
                         
                     </div>
@@ -476,7 +484,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-11-30
+                    2021-11-09
                 </div>
                 
 
@@ -500,57 +508,63 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>水龙头服 Spigot 是继 CraftBukkit 之后的延续版本，在 CraftBukkit 一些卡服的问题上做出了优化，支持 CraftBukkit 的插件，性能比 CraftBukkit 相对好一些，自带反作弊功能。</p>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment">#Minecraft server properties</span>
-<span class="token comment">#（文件修改时间戳）</span>
-enable-jmx-monitoring<span class="token operator">=</span>false         <span class="token comment">#</span>
-rcon.port<span class="token operator">=</span><span class="token number">25575</span>                     <span class="token comment">#</span>
-<span class="token assign-left variable">gamemode</span><span class="token operator">=</span>survival                   <span class="token comment">#</span>
-enable-command-block<span class="token operator">=</span>false          <span class="token comment">#</span>
-enable-query<span class="token operator">=</span>false
-level-name<span class="token operator">=</span>world
-<span class="token assign-left variable">motd</span><span class="token operator">=</span>A Minecraft Server
-query.port<span class="token operator">=</span><span class="token number">25565</span>
-<span class="token assign-left variable">pvp</span><span class="token operator">=</span>true
-<span class="token assign-left variable">difficulty</span><span class="token operator">=</span>easy
-network-compression-threshold<span class="token operator">=</span><span class="token number">256</span>
-require-resource-pack<span class="token operator">=</span>false
-max-tick-time<span class="token operator">=</span><span class="token number">60000</span>
-use-native-transport<span class="token operator">=</span>true
-max-players<span class="token operator">=</span><span class="token number">20</span>
-online-mode<span class="token operator">=</span>true
-enable-status<span class="token operator">=</span>true
-allow-flight<span class="token operator">=</span>false
-broadcast-rcon-to-ops<span class="token operator">=</span>true
-view-distance<span class="token operator">=</span><span class="token number">10</span>
-server-ip<span class="token operator">=</span>
-resource-pack-prompt<span class="token operator">=</span>
-allow-nether<span class="token operator">=</span>true
-server-port<span class="token operator">=</span><span class="token number">25565</span>
-enable-rcon<span class="token operator">=</span>false
-sync-chunk-writes<span class="token operator">=</span>true
-op-permission-level<span class="token operator">=</span><span class="token number">4</span>
-prevent-proxy-connections<span class="token operator">=</span>false
-hide-online-players<span class="token operator">=</span>false
-resource-pack<span class="token operator">=</span>
-entity-broadcast-range-percentage<span class="token operator">=</span><span class="token number">100</span>
-simulation-distance<span class="token operator">=</span><span class="token number">10</span>
-rcon.password<span class="token operator">=</span>
-player-idle-timeout<span class="token operator">=</span><span class="token number">0</span>
-force-gamemode<span class="token operator">=</span>false
-rate-limit<span class="token operator">=</span><span class="token number">0</span>
-<span class="token assign-left variable">hardcore</span><span class="token operator">=</span>false
-white-list<span class="token operator">=</span>false
-broadcast-console-to-ops<span class="token operator">=</span>true
-spawn-npcs<span class="token operator">=</span>true
-spawn-animals<span class="token operator">=</span>true
-function-permission-level<span class="token operator">=</span><span class="token number">2</span>
-text-filtering-config<span class="token operator">=</span>
-spawn-monsters<span class="token operator">=</span>true
-enforce-whitelist<span class="token operator">=</span>false
-resource-pack-sha1<span class="token operator">=</span>
-spawn-protection<span class="token operator">=</span><span class="token number">16</span>
-max-world-size<span class="token operator">=</span><span class="token number">29999984</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <blockquote>
+<p>creation date: 星期二 9日 十一月-2021-12:10:56<br> modification date: 星期日 21日 十一月-2021-23:00:45<br> article version: 1.0.0<br> tags: #Coding #Debugging<br> system: #MacOS_Monterey<br> program: #hexo<br> bug type: #sdk_exception<br> template version: #coding_debug 1.0.0</p>
+</blockquote>
+<h2 id="readme">README</h2>
+<blockquote>
+<p>Cover image comes from: https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/</p>
+</blockquote>
+<h2 id="body">Body</h2>
+<p>看到别人挖了一个<a target="_blank" rel="noopener" href="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/">坑</a>，没填，我正好遇到了这个问题，于是填掉哈哈哈。</p>
+<p>我的报错信息是这样的：</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">err: YAMLException: can not <span class="token builtin class-name">read</span> a block mapping entry<span class="token punctuation">;</span> a multiline key may not be an implicit key at line <span class="token number">2</span>, <span class="token function">column</span> <span class="token number">5</span>:
+      date:<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>我找到了 <code>date</code> 所在的位置，是 <code>markdown</code> 文件的开头，定义基本信息 <code>Front-matter</code> 的地方</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token font-matter yaml language-yaml">title: [Note of Phys 480] Lecture 5.2 corresponding to McIntyre Chapter 3
+date:
+update:
+permalink:
+categories:
+- 课程（Lecture）
+- 爱荷华州立（ISU）
+- 物理（Physics）
+tags: [Physics, Quantum Physics, Schrödinger Equation, Differential Equation, Spin]
+description:
+keywords:
+comments:
+layout:
+type:
+photos:
+link:
+mathjax: true</span>
+<span class="token punctuation">---</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>原来是 <code>hexo</code> 不支持 <code>[]</code> 括号在文件头，<code>Front-matter</code> 修改成：</p>
+<pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span>
+<span class="token font-matter yaml language-yaml">title: &lt;Note of Phys 480> Lecture 5.2 corresponding to McIntyre Chapter 3
+date:
+update:
+permalink:
+categories:
+- 课程（Lecture）
+- 爱荷华州立（ISU）
+- 物理（Physics）
+tags: [Physics, Quantum Physics, Schrödinger Equation, Differential Equation, Spin]
+description:
+keywords:
+comments:
+layout:
+type:
+photos:
+link:
+mathjax: true</span>
+<span class="token punctuation">---</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>之后就问题解决了✌️</p>
+<h2 id="daily-quotes">Daily Quotes</h2>
+<blockquote>
+<p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p>
+</blockquote>
 
                 
             </div>
@@ -577,7 +591,7 @@ max-world-size<span class="token operator">=</span><span class="token number">29
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://example.com/2021/11/30/minecraft-shui-long-tou-fu-she-zhi-zhi-nan/">http://example.com/2021/11/30/minecraft-shui-long-tou-fu-she-zhi-zhi-nan/</a>
+                    <a href="http://example.com/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/">http://example.com/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -615,16 +629,28 @@ max-world-size<span class="token operator">=</span><span class="token number">29
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Minecraft/">
-                                    <span class="chip bg-color">Minecraft</span>
-                                </a>
-                            
-                                <a href="/tags/Spigot/">
-                                    <span class="chip bg-color">Spigot</span>
-                                </a>
-                            
                                 <a href="/tags/Coding/">
                                     <span class="chip bg-color">Coding</span>
+                                </a>
+                            
+                                <a href="/tags/Debugging/">
+                                    <span class="chip bg-color">Debugging</span>
+                                </a>
+                            
+                                <a href="/tags/MacOS-Monterey/">
+                                    <span class="chip bg-color">MacOS_Monterey</span>
+                                </a>
+                            
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
+                                </a>
+                            
+                                <a href="/tags/sdk-exception/">
+                                    <span class="chip bg-color">sdk_exception</span>
+                                </a>
+                            
+                                <a href="/tags/coding-debug/">
+                                    <span class="chip bg-color">coding_debug</span>
                                 </a>
                             
                         </div>
@@ -800,13 +826,13 @@ max-world-size<span class="token operator">=</span><span class="token number">29
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
             <div class="card">
-                <a href="/2021/11/30/a-short-review-on-the-topological-materials-and-the-topological-order/">
+                <a href="/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="A short review on the topological materials and the topological order">
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="-bash nginx (command not found) 解决办法">
                         
-                        <span class="card-title">A short review on the topological materials and the topological order</span>
+                        <span class="card-title">-bash nginx (command not found) 解决办法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -817,101 +843,8 @@ max-world-size<span class="token operator">=</span><span class="token number">29
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-30
+                            <i class="far fa-clock fa-fw icon-date"></i>2021-11-15
                         </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Reviews/" class="post-category">
-                                    Reviews
-                                </a>
-                            
-                            <a href="/categories/Reviews/Short-Reviews/" class="post-category">
-                                    Short Reviews
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Topological-Material/">
-                        <span class="chip bg-color">Topological Material</span>
-                    </a>
-                    
-                    <a href="/tags/Topological-Order/">
-                        <span class="chip bg-color">Topological Order</span>
-                    </a>
-                    
-                    <a href="/tags/Quantum-Spin-Liquid/">
-                        <span class="chip bg-color">Quantum Spin Liquid</span>
-                    </a>
-                    
-                    <a href="/tags/Hall-Effect/">
-                        <span class="chip bg-color">Hall Effect</span>
-                    </a>
-                    
-                    <a href="/tags/Quantum-Hall-Effect/">
-                        <span class="chip bg-color">Quantum Hall Effect</span>
-                    </a>
-                    
-                    <a href="/tags/Integer-Quantum-Hall-Effect/">
-                        <span class="chip bg-color">Integer Quantum Hall Effect</span>
-                    </a>
-                    
-                    <a href="/tags/Fractional-Quantum-Hall-Effect/">
-                        <span class="chip bg-color">Fractional Quantum Hall Effect</span>
-                    </a>
-                    
-                    <a href="/tags/Quantum-Spin-Hall-Effect/">
-                        <span class="chip bg-color">Quantum Spin Hall Effect</span>
-                    </a>
-                    
-                    <a href="/tags/Returning-Thouless-Pump/">
-                        <span class="chip bg-color">Returning Thouless Pump</span>
-                    </a>
-                    
-                    <a href="/tags/Landau-s-Symmetry-Breaking-Theory/">
-                        <span class="chip bg-color">Landau&#39;s Symmetry Breaking Theory</span>
-                    </a>
-                    
-                    <a href="/tags/Phd/">
-                        <span class="chip bg-color">Phd</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Next&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/11/15/qiang-xing-tui-chu-apt-get-update-dao-zhi-unable-to-acquire-the-dpkg-frontend-lock-de-jie-jue-ban-fa/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法">
-                        
-                        <span class="card-title">强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-15
-                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -920,8 +853,8 @@ max-world-size<span class="token operator">=</span><span class="token number">29
                                     Web
                                 </a>
                             
-                            <a href="/categories/Web/Unix/" class="post-category">
-                                    Unix
+                            <a href="/categories/Web/Nginx/" class="post-category">
+                                    Nginx
                                 </a>
                             
                             
@@ -947,12 +880,78 @@ max-world-size<span class="token operator">=</span><span class="token number">29
                         <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
                     </a>
                     
+                    <a href="/tags/nginx/">
+                        <span class="chip bg-color">nginx</span>
+                    </a>
+                    
+                    <a href="/tags/command-not-found/">
+                        <span class="chip bg-color">command_not_found</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Current&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="如何处理 err YAMLException can not read a block mapping entry;">
+                        
+                        <span class="card-title">如何处理 err YAMLException can not read a block mapping entry;</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-11-09
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Web/" class="post-category">
+                                    Web
+                                </a>
+                            
+                            <a href="/categories/Web/Hexo/" class="post-category">
+                                    Hexo
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Coding/">
+                        <span class="chip bg-color">Coding</span>
+                    </a>
+                    
+                    <a href="/tags/Debugging/">
+                        <span class="chip bg-color">Debugging</span>
+                    </a>
+                    
                     <a href="/tags/MacOS-Monterey/">
                         <span class="chip bg-color">MacOS_Monterey</span>
                     </a>
                     
-                    <a href="/tags/apt-get/">
-                        <span class="chip bg-color">apt-get</span>
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
                     <a href="/tags/sdk-exception/">
