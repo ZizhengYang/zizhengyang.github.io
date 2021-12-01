@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>A drop</title>
+  
+  <subtitle>一点小记</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-12-01T03:04:42.278Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Zizheng Yang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>A short review on the topological materials and the topological order</title>
+    <link href="http://example.com/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/"/>
+    <id>http://example.com/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/</id>
+    <published>2021-12-01T00:29:53.000Z</published>
+    <updated>2021-12-01T03:04:42.278Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;from-hall-effect-to-topological-materials&quot;&gt;From Hall Effect to topological materials&lt;/h2&gt;
+&lt;p&gt;The entire field can be traced back to</summary>
+        
+      
+    
+    
+    
+    <category term="Reviews" scheme="http://example.com/categories/Reviews/"/>
+    
+    <category term="Short Reviews" scheme="http://example.com/categories/Reviews/Short-Reviews/"/>
+    
+    
+    <category term="Topological Material" scheme="http://example.com/tags/Topological-Material/"/>
+    
+    <category term="Topological Order" scheme="http://example.com/tags/Topological-Order/"/>
+    
+    <category term="Quantum Spin Liquid" scheme="http://example.com/tags/Quantum-Spin-Liquid/"/>
+    
+    <category term="Hall Effect" scheme="http://example.com/tags/Hall-Effect/"/>
+    
+    <category term="Quantum Hall Effect" scheme="http://example.com/tags/Quantum-Hall-Effect/"/>
+    
+    <category term="Integer Quantum Hall Effect" scheme="http://example.com/tags/Integer-Quantum-Hall-Effect/"/>
+    
+    <category term="Fractional Quantum Hall Effect" scheme="http://example.com/tags/Fractional-Quantum-Hall-Effect/"/>
+    
+    <category term="Quantum Spin Hall Effect" scheme="http://example.com/tags/Quantum-Spin-Hall-Effect/"/>
+    
+    <category term="Returning Thouless Pump" scheme="http://example.com/tags/Returning-Thouless-Pump/"/>
+    
+    <category term="Landau&#39;s Symmetry Breaking Theory" scheme="http://example.com/tags/Landau-s-Symmetry-Breaking-Theory/"/>
+    
+    <category term="Phd" scheme="http://example.com/tags/Phd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Minecraft水龙头服设置指南🧭</title>
+    <link href="http://example.com/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/"/>
+    <id>http://example.com/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/</id>
+    <published>2021-12-01T00:28:41.000Z</published>
+    <updated>2021-12-01T00:38:13.905Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;水龙头服 Spigot 是继 CraftBukkit 之后的延续版本，在 CraftBukkit 一些卡服的问题上做出了优化，支持 CraftBukkit 的插件，性能比 CraftBukkit 相对好一些，自带反作弊功能。&lt;/p&gt;
+&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="Gaming" scheme="http://example.com/categories/Gaming/"/>
+    
+    <category term="Minecraft" scheme="http://example.com/categories/Gaming/Minecraft/"/>
+    
+    <category term="Server" scheme="http://example.com/categories/Gaming/Minecraft/Server/"/>
+    
+    
+    <category term="Coding" scheme="http://example.com/tags/Coding/"/>
+    
+    <category term="Minecraft" scheme="http://example.com/tags/Minecraft/"/>
+    
+    <category term="Spigot" scheme="http://example.com/tags/Spigot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法</title>
+    <link href="http://example.com/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://example.com/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <published>2021-11-15T19:23:03.765Z</published>
+    <updated>2021-12-01T03:04:45.010Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03 modification date: 星期一 22日 十一月-2021-13:06:35 article version: 1.0.0 tags: #Coding</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="http://example.com/categories/Web/"/>
+    
+    <category term="Unix" scheme="http://example.com/categories/Web/Unix/"/>
+    
+    
+    <category term="Coding" scheme="http://example.com/tags/Coding/"/>
+    
+    <category term="Debugging" scheme="http://example.com/tags/Debugging/"/>
+    
+    <category term="GNU/Linux_Debian_Ubuntu" scheme="http://example.com/tags/GNU-Linux-Debian-Ubuntu/"/>
+    
+    <category term="GNU/Linux_Fedora_CentOS" scheme="http://example.com/tags/GNU-Linux-Fedora-CentOS/"/>
+    
+    <category term="MacOS_Monterey" scheme="http://example.com/tags/MacOS-Monterey/"/>
+    
+    <category term="sdk_exception" scheme="http://example.com/tags/sdk-exception/"/>
+    
+    <category term="coding_debug" scheme="http://example.com/tags/coding-debug/"/>
+    
+    <category term="apt-get" scheme="http://example.com/tags/apt-get/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>-bash nginx (command not found) 解决办法</title>
+    <link href="http://example.com/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://example.com/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <published>2021-11-15T19:16:41.259Z</published>
+    <updated>2021-12-01T03:04:40.750Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41 modification date: 星期一 15日 十一月-2021-13:27:47 article version: 1.0.0 tags: #Coding</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="http://example.com/categories/Web/"/>
+    
+    <category term="Nginx" scheme="http://example.com/categories/Web/Nginx/"/>
+    
+    
+    <category term="Coding" scheme="http://example.com/tags/Coding/"/>
+    
+    <category term="Debugging" scheme="http://example.com/tags/Debugging/"/>
+    
+    <category term="GNU/Linux_Debian_Ubuntu" scheme="http://example.com/tags/GNU-Linux-Debian-Ubuntu/"/>
+    
+    <category term="GNU/Linux_Fedora_CentOS" scheme="http://example.com/tags/GNU-Linux-Fedora-CentOS/"/>
+    
+    <category term="nginx" scheme="http://example.com/tags/nginx/"/>
+    
+    <category term="command_not_found" scheme="http://example.com/tags/command-not-found/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何处理 err YAMLException can not read a block mapping entry;</title>
+    <link href="http://example.com/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/"/>
+    <id>http://example.com/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</id>
+    <published>2021-11-09T18:10:56.332Z</published>
+    <updated>2021-12-01T03:04:43.844Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Coding</summary>
+        
+      
+    
+    
+    
+    <category term="Web" scheme="http://example.com/categories/Web/"/>
+    
+    <category term="Hexo" scheme="http://example.com/categories/Web/Hexo/"/>
+    
+    
+    <category term="Coding" scheme="http://example.com/tags/Coding/"/>
+    
+    <category term="Debugging" scheme="http://example.com/tags/Debugging/"/>
+    
+    <category term="MacOS_Monterey" scheme="http://example.com/tags/MacOS-Monterey/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="sdk_exception" scheme="http://example.com/tags/sdk-exception/"/>
+    
+    <category term="coding_debug" scheme="http://example.com/tags/coding-debug/"/>
+    
+  </entry>
+  
+</feed>
