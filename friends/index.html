@@ -39,10 +39,6 @@
 
 
 
-{% if theme.canvas_nest %}
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-{% endif %}
-
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
@@ -563,13 +559,6 @@
         </div>
 
         
-            <div class="card">
-                <div class="card-content">
-                    
-
-                </div>
-            </div>
-        
 
         <div class="card">
 
@@ -839,6 +828,10 @@ $(function () {
     </a>
 </div>
 
+
+    {% if theme.canvas_nest %}
+        <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+    {% endif %}
 
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>

@@ -39,10 +39,6 @@
 
 
 
-{% if theme.canvas_nest %}
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-{% endif %}
-
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
@@ -607,7 +603,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Web","value":3},{"name":"Reviews","value":1},{"name":"Gaming","value":1},{"name":"Hexo","value":1},{"name":"Nginx","value":1},{"name":"Unix","value":1},{"name":"Short Reviews","value":1},{"name":"Minecraft","value":1},{"name":"Server","value":1}],
+                data: [{"name":"Web","value":3},{"name":"Hexo","value":1},{"name":"Unix","value":1},{"name":"Gaming","value":1},{"name":"Reviews","value":1},{"name":"Nginx","value":1},{"name":"Minecraft","value":1},{"name":"Short Reviews","value":1},{"name":"Server","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -631,7 +627,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Coding","Debugging","GNU/Linux_Debian_Ubuntu","GNU/Linux_Fedora_CentOS","MacOS_Monterey","sdk_exception","coding_debug","nginx","command_not_found","Topological Material"]
+                data: ["Coding","Debugging","MacOS_Monterey","sdk_exception","coding_debug","GNU/Linux_Debian_Ubuntu","GNU/Linux_Fedora_CentOS","hexo","apt-get","Minecraft"]
             }
         ],
         yAxis: [
@@ -826,6 +822,30 @@
             
             
             
+            <a href="/tags/MacOS-Monterey/">
+                <span class="chip center-align waves-effect waves-light chip-default">MacOS_Monterey</span>
+            </a>
+            
+            
+            
+            <a href="/tags/hexo/">
+                <span class="chip center-align waves-effect waves-light chip-default">hexo</span>
+            </a>
+            
+            
+            
+            <a href="/tags/sdk-exception/">
+                <span class="chip center-align waves-effect waves-light chip-default">sdk_exception</span>
+            </a>
+            
+            
+            
+            <a href="/tags/coding-debug/">
+                <span class="chip center-align waves-effect waves-light chip-default">coding_debug</span>
+            </a>
+            
+            
+            
             <a href="/tags/GNU-Linux-Debian-Ubuntu/">
                 <span class="chip center-align waves-effect waves-light chip-default">GNU/Linux_Debian_Ubuntu</span>
             </a>
@@ -838,14 +858,20 @@
             
             
             
-            <a href="/tags/nginx/">
-                <span class="chip center-align waves-effect waves-light chip-default">nginx</span>
+            <a href="/tags/apt-get/">
+                <span class="chip center-align waves-effect waves-light chip-default">apt-get</span>
             </a>
             
             
             
-            <a href="/tags/command-not-found/">
-                <span class="chip center-align waves-effect waves-light chip-default">command_not_found</span>
+            <a href="/tags/Minecraft/">
+                <span class="chip center-align waves-effect waves-light chip-default">Minecraft</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Spigot/">
+                <span class="chip center-align waves-effect waves-light chip-default">Spigot</span>
             </a>
             
             
@@ -916,44 +942,14 @@
             
             
             
-            <a href="/tags/Minecraft/">
-                <span class="chip center-align waves-effect waves-light chip-default">Minecraft</span>
+            <a href="/tags/nginx/">
+                <span class="chip center-align waves-effect waves-light chip-default">nginx</span>
             </a>
             
             
             
-            <a href="/tags/Spigot/">
-                <span class="chip center-align waves-effect waves-light chip-default">Spigot</span>
-            </a>
-            
-            
-            
-            <a href="/tags/MacOS-Monterey/">
-                <span class="chip center-align waves-effect waves-light chip-default">MacOS_Monterey</span>
-            </a>
-            
-            
-            
-            <a href="/tags/hexo/">
-                <span class="chip center-align waves-effect waves-light chip-default">hexo</span>
-            </a>
-            
-            
-            
-            <a href="/tags/sdk-exception/">
-                <span class="chip center-align waves-effect waves-light chip-default">sdk_exception</span>
-            </a>
-            
-            
-            
-            <a href="/tags/coding-debug/">
-                <span class="chip center-align waves-effect waves-light chip-default">coding_debug</span>
-            </a>
-            
-            
-            
-            <a href="/tags/apt-get/">
-                <span class="chip center-align waves-effect waves-light chip-default">apt-get</span>
+            <a href="/tags/command-not-found/">
+                <span class="chip center-align waves-effect waves-light chip-default">command_not_found</span>
             </a>
             
             
@@ -1258,6 +1254,10 @@ $(function () {
     </a>
 </div>
 
+
+    {% if theme.canvas_nest %}
+        <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+    {% endif %}
 
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>

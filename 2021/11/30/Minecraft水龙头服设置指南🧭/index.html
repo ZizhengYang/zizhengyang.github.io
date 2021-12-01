@@ -40,10 +40,6 @@
 
 
 
-{% if theme.canvas_nest %}
-    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
-{% endif %}
-
 <body>
     <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
@@ -943,14 +939,6 @@ max-world-size<span class="token operator">=</span><span class="token number">29
                         <span class="chip bg-color">Debugging</span>
                     </a>
                     
-                    <a href="/tags/GNU-Linux-Debian-Ubuntu/">
-                        <span class="chip bg-color">GNU/Linux_Debian_Ubuntu</span>
-                    </a>
-                    
-                    <a href="/tags/GNU-Linux-Fedora-CentOS/">
-                        <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
-                    </a>
-                    
                     <a href="/tags/MacOS-Monterey/">
                         <span class="chip bg-color">MacOS_Monterey</span>
                     </a>
@@ -961,6 +949,14 @@ max-world-size<span class="token operator">=</span><span class="token number">29
                     
                     <a href="/tags/coding-debug/">
                         <span class="chip bg-color">coding_debug</span>
+                    </a>
+                    
+                    <a href="/tags/GNU-Linux-Debian-Ubuntu/">
+                        <span class="chip bg-color">GNU/Linux_Debian_Ubuntu</span>
+                    </a>
+                    
+                    <a href="/tags/GNU-Linux-Fedora-CentOS/">
+                        <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
                     </a>
                     
                     <a href="/tags/apt-get/">
@@ -1339,6 +1335,10 @@ $(function () {
     </a>
 </div>
 
+
+    {% if theme.canvas_nest %}
+        <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+    {% endif %}
 
     <script src="/libs/materialize/materialize.min.js"></script>
     <script src="/libs/masonry/masonry.pkgd.min.js"></script>
