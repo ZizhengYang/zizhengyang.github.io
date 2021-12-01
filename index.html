@@ -150,18 +150,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-count">13</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -190,6 +190,103 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Zizheng Yang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="A drop">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/" class="post-title-link" itemprop="url">Minecraft水龙头服设置指南🧭</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2021-11-30 18:28:41 / Modified: 18:28:52" itemprop="dateCreated datePublished" datetime="2021-11-30T18:28:41-06:00">2021-11-30</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Gaming/" itemprop="url" rel="index"><span itemprop="name">Gaming</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Gaming/Minecraft/" itemprop="url" rel="index"><span itemprop="name">Minecraft</span></a>
+        </span>
+          , 
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Gaming/Minecraft/Server/" itemprop="url" rel="index"><span itemprop="name">Server</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/11/30/Minecraft水龙头服设置指南🧭/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>水龙头服 Spigot 是继 CraftBukkit 之后的延续版本，在 CraftBukkit 一些卡服的问题上做出了优化，支持 CraftBukkit 的插件，性能比 CraftBukkit 相对好一些，自带反作弊功能。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#Minecraft server properties</span></span><br><span class="line"><span class="comment">#（文件修改时间戳）</span></span><br><span class="line">enable-jmx-monitoring=<span class="literal">false</span>         <span class="comment">#</span></span><br><span class="line">rcon.port=25575                     <span class="comment">#</span></span><br><span class="line">gamemode=survival                   <span class="comment">#</span></span><br><span class="line">enable-command-block=<span class="literal">false</span>          <span class="comment">#</span></span><br><span class="line">enable-query=<span class="literal">false</span></span><br><span class="line">level-name=world</span><br><span class="line">motd=A Minecraft Server</span><br><span class="line">query.port=25565</span><br><span class="line">pvp=<span class="literal">true</span></span><br><span class="line">difficulty=easy</span><br><span class="line">network-compression-threshold=256</span><br><span class="line">require-resource-pack=<span class="literal">false</span></span><br><span class="line">max-tick-time=60000</span><br><span class="line">use-native-transport=<span class="literal">true</span></span><br><span class="line">max-players=20</span><br><span class="line">online-mode=<span class="literal">true</span></span><br><span class="line">enable-status=<span class="literal">true</span></span><br><span class="line">allow-flight=<span class="literal">false</span></span><br><span class="line">broadcast-rcon-to-ops=<span class="literal">true</span></span><br><span class="line">view-distance=10</span><br><span class="line">server-ip=</span><br><span class="line">resource-pack-prompt=</span><br><span class="line">allow-nether=<span class="literal">true</span></span><br><span class="line">server-port=25565</span><br><span class="line">enable-rcon=<span class="literal">false</span></span><br><span class="line">sync-chunk-writes=<span class="literal">true</span></span><br><span class="line">op-permission-level=4</span><br><span class="line">prevent-proxy-connections=<span class="literal">false</span></span><br><span class="line">hide-online-players=<span class="literal">false</span></span><br><span class="line">resource-pack=</span><br><span class="line">entity-broadcast-range-percentage=100</span><br><span class="line">simulation-distance=10</span><br><span class="line">rcon.password=</span><br><span class="line">player-idle-timeout=0</span><br><span class="line">force-gamemode=<span class="literal">false</span></span><br><span class="line">rate-limit=0</span><br><span class="line">hardcore=<span class="literal">false</span></span><br><span class="line">white-list=<span class="literal">false</span></span><br><span class="line">broadcast-console-to-ops=<span class="literal">true</span></span><br><span class="line">spawn-npcs=<span class="literal">true</span></span><br><span class="line">spawn-animals=<span class="literal">true</span></span><br><span class="line">function-permission-level=2</span><br><span class="line">text-filtering-config=</span><br><span class="line">spawn-monsters=<span class="literal">true</span></span><br><span class="line">enforce-whitelist=<span class="literal">false</span></span><br><span class="line">resource-pack-sha1=</span><br><span class="line">spawn-protection=16</span><br><span class="line">max-world-size=29999984</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
