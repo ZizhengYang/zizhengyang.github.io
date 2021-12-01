@@ -132,11 +132,11 @@
     
     <category term="MacOS_Monterey" scheme="http://example.com/tags/MacOS-Monterey/"/>
     
+    <category term="apt-get" scheme="http://example.com/tags/apt-get/"/>
+    
     <category term="sdk_exception" scheme="http://example.com/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="http://example.com/tags/coding-debug/"/>
-    
-    <category term="apt-get" scheme="http://example.com/tags/apt-get/"/>
     
   </entry>
   
@@ -208,11 +208,11 @@
     
     <category term="MacOS_Monterey" scheme="http://example.com/tags/MacOS-Monterey/"/>
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
-    
     <category term="sdk_exception" scheme="http://example.com/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="http://example.com/tags/coding-debug/"/>
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
     
   </entry>
   
