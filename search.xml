@@ -71,11 +71,11 @@
       
         <tags>
             
+            <tag> Coding </tag>
+            
             <tag> Minecraft </tag>
             
             <tag> Spigot </tag>
-            
-            <tag> Coding </tag>
             
         </tags>
       
@@ -106,17 +106,17 @@
             
             <tag> Debugging </tag>
             
-            <tag> MacOS_Monterey </tag>
-            
-            <tag> sdk_exception </tag>
-            
-            <tag> coding_debug </tag>
-            
             <tag> GNU/Linux_Debian_Ubuntu </tag>
             
             <tag> GNU/Linux_Fedora_CentOS </tag>
             
+            <tag> MacOS_Monterey </tag>
+            
             <tag> apt-get </tag>
+            
+            <tag> sdk_exception </tag>
+            
+            <tag> coding_debug </tag>
             
         </tags>
       
@@ -129,7 +129,7 @@
       <link href="/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
       <url>/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>creation date: 星期一 15日 十一月-2021-13:16:41 modification date: 星期一 15日 十一月-2021-13:27:47 article version: 1.0.0 tags: #Coding #Debugging system: #GNU/Linux_Debian_Ubuntu #GNU/Linux_Fedora_CentOS program: #nginx bug type: #command_not_found template version: #coding_debug 1.0.0</p></blockquote><h2 id="readme">README</h2><blockquote><ul><li>Cover image comes from: https://linuxize.com/post/nginx-commands-you-should-know/</li></ul></blockquote><h2 id="body">Body</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Linux version <span class="token number">4.19</span>.0-18-cloud-amd64Debian <span class="token number">8.3</span>.0-6gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="第一种办法">第一种办法</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 寻找 nginx 位置</span><span class="token function">whereis</span> nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> /etc/profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 这样似乎是有问题的，所以不要加到 nginx 目录</span><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin/nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 最后成功的方法</span><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">source</span> /etc/profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="第二种办法">第二种办法</h2><p>不采用修改PATH的方式，而是为nginx做一个软连接。</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /usr/sbin/nginx /usr/local/sbin/nginx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="如果重启计算机服务器-nginx-命令又失效了">如果重启计算机/服务器 nginx 命令又失效了</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> ~/.bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 添加</span><span class="token builtin class-name">source</span> /etc/profile<span class="token comment"># 或者</span><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin/nginx<span class="token comment"># 或者</span><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="daily-quotes">Daily Quotes</h2><blockquote><p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p></blockquote>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>creation date: 星期一 15日 十一月-2021-13:16:41<br> modification date: 星期一 15日 十一月-2021-13:27:47<br> article version: 1.0.0<br> tags: #Coding #Debugging<br> system: #GNU/Linux_Debian_Ubuntu #GNU/Linux_Fedora_CentOS<br> program: #nginx<br> bug type: #command_not_found<br> template version: #coding_debug 1.0.0<br></p></blockquote><h2 id="readme">README</h2><blockquote><ul><li>Cover image comes from: https://linuxize.com/post/nginx-commands-you-should-know/</li></ul></blockquote><h2 id="body">Body</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Linux version <span class="token number">4.19</span>.0-18-cloud-amd64Debian <span class="token number">8.3</span>.0-6gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="第一种办法">第一种办法</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 寻找 nginx 位置</span><span class="token function">whereis</span> nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> /etc/profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 这样似乎是有问题的，所以不要加到 nginx 目录</span><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin/nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 最后成功的方法</span><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">source</span> /etc/profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="第二种办法">第二种办法</h2><p>不采用修改PATH的方式，而是为nginx做一个软连接。</p><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /usr/sbin/nginx /usr/local/sbin/nginx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h2 id="如果重启计算机服务器-nginx-命令又失效了">如果重启计算机/服务器 nginx 命令又失效了</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> ~/.bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 添加</span><span class="token builtin class-name">source</span> /etc/profile<span class="token comment"># 或者</span><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin/nginx<span class="token comment"># 或者</span><span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="daily-quotes">Daily Quotes</h2><blockquote><p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p></blockquote>]]></content>
       
       
       <categories>
@@ -186,11 +186,11 @@
             
             <tag> MacOS_Monterey </tag>
             
-            <tag> hexo </tag>
-            
             <tag> sdk_exception </tag>
             
             <tag> coding_debug </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
