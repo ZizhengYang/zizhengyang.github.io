@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="default">
 
 
 <head>
@@ -131,7 +131,7 @@
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
       
-      <span>Links</span>
+      <span>友情链接</span>
     </a>
     
   </li>
@@ -232,7 +232,7 @@
 			
 			    <i class="fa-fw fas fa-address-book"></i>
 			
-			Links
+			友情链接
 		</a>
           
         </li>
@@ -374,10 +374,19 @@
                 
                 
                 
+                <a href="/categories/Reviews/" title="Reviews: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F9EBEA;">Reviews
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/categories/Web/" title="Web: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">Web
+                            style="background-color: #F5EEF8;">Web
                         <span class="tag-length">3</span>
                     </span>
                 </a>
@@ -386,16 +395,16 @@
                 <a href="/categories/Gaming/" title="Gaming: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F5EEF8;">Gaming
+                            style="background-color: #D5F5E3;">Gaming
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/Web/Unix/" title="Unix: 1">
+                <a href="/categories/Reviews/Short-Reviews/" title="Short Reviews: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">Unix
+                            style="background-color: #E8F8F5;">Short Reviews
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -404,16 +413,7 @@
                 <a href="/categories/Web/Nginx/" title="Nginx: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #E8F8F5;">Nginx
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/Reviews/" title="Reviews: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #FEF9E7;">Reviews
+                            style="background-color: #FEF9E7;">Nginx
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -437,10 +437,10 @@
                 </a>
                 
                 
-                <a href="/categories/Reviews/Short-Reviews/" title="Short Reviews: 1">
+                <a href="/categories/Web/Unix/" title="Unix: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D7BDE2;">Short Reviews
+                            style="background-color: #D7BDE2;">Unix
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -497,7 +497,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"Web","max":4},{"name":"Gaming","max":4},{"name":"Unix","max":4},{"name":"Nginx","max":4},{"name":"Reviews","max":4},{"name":"Minecraft","max":4},{"name":"Hexo","max":4},{"name":"Short Reviews","max":4},{"name":"Server","max":4}],
+            indicator: [{"name":"Reviews","max":4},{"name":"Web","max":4},{"name":"Gaming","max":4},{"name":"Short Reviews","max":4},{"name":"Nginx","max":4},{"name":"Minecraft","max":4},{"name":"Hexo","max":4},{"name":"Unix","max":4},{"name":"Server","max":4}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -508,7 +508,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [3,1,1,1,1,1,1,1,1],
+                    value : [1,3,1,1,1,1,1,1,1],
                     name : 'Number of Categories'
                 }
             ]
@@ -589,7 +589,7 @@
                         var diffDays = Math.floor((diff / days) - diffYears * 365);
 
                         // 区分是否有年份.
-                        var language = 'en';
+                        var language = 'default';
                         if (startYear === String(todayYear)) {
                             document.getElementById("year").innerHTML = todayYear;
                             var daysTip = 'This site has been running for ' + diffDays + ' days';
