@@ -116,3 +116,12 @@ header .brand-logo .logo-span {
 .chip-container .chip {
   font-family: 'Press Start 2P', cursive;
 }
+
+.nav-menu .nav-item {
+  -webkit-text-fill-color: white;
+  -webkit-background-clip: text;
+  -webkit-background-size: 200% 100%;
+  -webkit-animation: masked-animation 3.5s linear infinite;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
