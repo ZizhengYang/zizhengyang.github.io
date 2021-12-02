@@ -538,6 +538,18 @@
 
 
 
+
+<style>
+    #index-video { z-index: -1; position: absolute; top: 0; left: 0; height: 100vh; width: 100%; object-fit: cover;}
+    @media only screen and (max-width: 760px) { #index-video { display: none;}}
+    @media only screen and (min-width: 760px) { .bg-cover { background-image: none!important;}}
+</style>
+<video id="index-video" autoplay loop muted>
+
+    <source src="https://www.bilibili.com/video/BV1WL411p7xN?share_source=copy_web">
+
+</video>
+
 <main class="content">
 
     
@@ -548,41 +560,6 @@
                     
 
                     
-
-                    
-                        <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
-<div class="video-player">
-    
-    <div class="title center-align">
-        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;Videos
-    </div>
-    
-    <div class="row">
-		
-			<iframe src='/%3Ciframe%20src=%22/player.bilibili.com/player.html?aid=461880464&bvid=BV1WL411p7xN&cid=378591603&page=1%22%20scrolling=%22no%22%20border=%220%22%20frameborder=%22no%22%20framespacing=%220%22%20allowfullscreen=%22true%22%3E%20%3C/iframe%3E' scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" align="middle"  width="100%"> </iframe>
-		
-    </div>
-</div>
-
-<script src="/libs/dplayer/DPlayer.min.js"></script>
-<script>
-    $(function () {
-        new DPlayer({
-            container: document.getElementById('dplayer'),
-            autoplay: 'false' === 'true',
-            theme: '#42b983',
-            loop: 'false' === 'true',
-            lang: 'en' === 'zh-CN' ? 'zh-cn' : 'en',
-            preload: 'auto',
-            volume: Number('0.7'),
-            video: {
-                url: '',
-                pic: '',
-                thumbnails: ''
-            }
-        });
-    });
-</script>
 
                     
 
@@ -598,36 +575,6 @@
 
 <div class="row">
 
-    
-    
-    <div class="col s12 m6" >
-        
-             <div class="post-card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFPQFG9VQjhA-0VhHLlFHvkMVZgOTyJ2dR7Q&usqp=CAU')">
-        
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                        
-                            <a href="/categories/Reviews/" class="category">Reviews</a>
-                        
-                            <a href="/categories/Reviews/Short-Reviews/" class="category">Short Reviews</a>
-                        
-                    
-                </div>
-                <a href="/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/">
-                    <h3 class="post-title">A Short Review: The topological materials and the topological order</h3>
-                </a>
-                <p class="post-description">
-                    
-                        From Hall Effect to topological materialsThe entire field can be trace
-                    
-                </p>
-                <a href="/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
-                    <i class="icon far fa-eye fa-fw"></i>Read more
-                </a>
-            </div>
-        </div>
-    </div>
     
     
     <div class="col s12 m6" >
@@ -652,10 +599,42 @@
                 <p class="post-description">
                     
                         Introduction
-  Paper: Quantum computing with atomic qubits and Rydberg
+
+Paper: Quantum computing with atomic qubits and Rydberg 
                     
                 </p>
-                <a href="/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
+                <a href="/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>Read more
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" >
+        
+             <div class="post-card" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFPQFG9VQjhA-0VhHLlFHvkMVZgOTyJ2dR7Q&usqp=CAU')">
+        
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                        
+                            <a href="/categories/Reviews/" class="category">Reviews</a>
+                        
+                            <a href="/categories/Reviews/Short-Reviews/" class="category">Short Reviews</a>
+                        
+                    
+                </div>
+                <a href="/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/">
+                    <h3 class="post-title">A Short Review: The topological materials and the topological order</h3>
+                </a>
+                <p class="post-description">
+                    
+                        From Hall Effect to topological materials
+The entire field can be trac
+                    
+                </p>
+                <a href="/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>Read more
                 </a>
             </div>
@@ -695,14 +674,13 @@
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                Wave equationConstruct wave equation
-Vertical displacement function: $u(x,t)$
+                                Wave equation
+Construct wave equation
+
+Vertical displacement function: \(u(x,t)\)
 
 
-Mass density function: $\rho_{0}(x)$
-
-
-T
+Mass density function: \(\rho_{0}(x)
                             
                         </div>
                         <div class="publish-info">
@@ -759,8 +737,9 @@ T
                         <div class="summary block-with-text">
                             
                                 Introduction
-  Paper: Quantum computing with atomic qubits and Rydberg interactions: Progress and challenges
-  Authors: 
+
+Paper: Quantum computing with atomic qubits and Rydberg interactions: Progress and challenges
+Authors: M. 
                             
                         </div>
                         <div class="publish-info">
@@ -828,7 +807,8 @@ T
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                From Hall Effect to topological materialsThe entire field can be traced back to the earliest when the Hall effect was di
+                                From Hall Effect to topological materials
+The entire field can be traced back to the earliest when the Hall effect was d
                             
                         </div>
                         <div class="publish-info">
@@ -990,10 +970,7 @@ T
                         <div class="summary block-with-text">
                             
                                 
-creation date: 星期一 15日 十一月-2021-13:23:03
-modification date: 星期一 22日 十一月-2021-13:06:35
-article version: 1.0.0
-tags: #Cod
+creation date: 星期一 15日 十一月-2021-13:23:03 modification date: 星期一 22日 十一月-2021-13:06:35 article version: 1.0.0 tags: #Cod
                             
                         </div>
                         <div class="publish-info">
@@ -1028,14 +1005,6 @@ tags: #Cod
                             <span class="chip bg-color">Debugging</span>
                         </a>
                         
-                        <a href="/tags/GNU-Linux-Debian-Ubuntu/">
-                            <span class="chip bg-color">GNU/Linux_Debian_Ubuntu</span>
-                        </a>
-                        
-                        <a href="/tags/GNU-Linux-Fedora-CentOS/">
-                            <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
-                        </a>
-                        
                         <a href="/tags/MacOS-Monterey/">
                             <span class="chip bg-color">MacOS_Monterey</span>
                         </a>
@@ -1046,6 +1015,14 @@ tags: #Cod
                         
                         <a href="/tags/coding-debug/">
                             <span class="chip bg-color">coding_debug</span>
+                        </a>
+                        
+                        <a href="/tags/GNU-Linux-Debian-Ubuntu/">
+                            <span class="chip bg-color">GNU/Linux_Debian_Ubuntu</span>
+                        </a>
+                        
+                        <a href="/tags/GNU-Linux-Fedora-CentOS/">
+                            <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
                         </a>
                         
                         <a href="/tags/apt-get/">
@@ -1074,10 +1051,7 @@ tags: #Cod
                         <div class="summary block-with-text">
                             
                                 
-creation date: 星期一 15日 十一月-2021-13:16:41
-modification date: 星期一 15日 十一月-2021-13:27:47
-article version: 1.0.0
-tags: #Cod
+creation date: 星期一 15日 十一月-2021-13:16:41 modification date: 星期一 15日 十一月-2021-13:27:47 article version: 1.0.0 tags: #Cod
                             
                         </div>
                         <div class="publish-info">
@@ -1150,10 +1124,7 @@ tags: #Cod
                         <div class="summary block-with-text">
                             
                                 
-creation date: 星期二 9日 十一月-2021-12:10:56
-modification date: 星期日 21日 十一月-2021-23:00:45
-article version: 1.0.0
-tags: #Codi
+creation date: 星期二 9日 十一月-2021-12:10:56 modification date: 星期日 21日 十一月-2021-23:00:45 article version: 1.0.0 tags: #Codi
                             
                         </div>
                         <div class="publish-info">
@@ -1225,8 +1196,8 @@ tags: #Codi
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                Question!!! info “Example Question:”
-  Use the Diagonalization Method to determine whether each of the following matrice
+                                Question
+!!! info "Example Question:" Use the Diagonalization Method to determine whether each of the following matrices
                             
                         </div>
                         <div class="publish-info">
