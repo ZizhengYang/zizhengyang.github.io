@@ -251,14 +251,21 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/physics/</loc>
+    <loc>https://zizhengyang.github.io/tags/Minecraft/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/wave/</loc>
+    <loc>https://zizhengyang.github.io/tags/Spigot/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/physics/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -342,20 +349,6 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/Minecraft/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/Spigot/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zizhengyang.github.io/tags/quantum-mechanics/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -405,6 +398,13 @@
   </url>
   
   <url>
+    <loc>https://zizhengyang.github.io/tags/wave/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/tags/apt-get/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -428,6 +428,13 @@
   </url>
   
   <url>
+    <loc>https://zizhengyang.github.io/categories/Gaming/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/categories/Reviews/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -442,21 +449,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Gaming/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zizhengyang.github.io/categories/Physics/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Mathematics/Linear-Algebra/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -470,21 +463,14 @@
   </url>
   
   <url>
+    <loc>https://zizhengyang.github.io/categories/Mathematics/Linear-Algebra/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/categories/Web/Unix/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Guide/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Reviews/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -498,7 +484,21 @@
   </url>
   
   <url>
+    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Reviews/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/categories/Physics/Quantum-Computing/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Guide/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
