@@ -5,8 +5,8 @@
     
     <entry>
       <title>A Short Guide: Construct wave equation🚀</title>
-      <link href="/2021/12/01/A-short-guide-construct-wave-equation%F0%9F%9A%80/"/>
-      <url>/2021/12/01/A-short-guide-construct-wave-equation%F0%9F%9A%80/</url>
+      <link href="/2021/12/01/A-Short-guide-Construct-wave-equation%F0%9F%9A%80/"/>
+      <url>/2021/12/01/A-Short-guide-Construct-wave-equation%F0%9F%9A%80/</url>
       
         <content type="html"><![CDATA[<h2 id="wave-equation">Wave equation</h2><h3 id="construct-wave-equation">Construct wave equation</h3><blockquote><p>Vertical displacement function: <span class="math inline">\(u(x,t)\)</span></p></blockquote><blockquote><p>Mass density function: <span class="math inline">\(\rho_{0}(x)\)</span></p></blockquote><blockquote><p>Tension function: <span class="math inline">\(T(x,t)\)</span></p></blockquote><blockquote><p>Angle function: <span class="math inline">\(\theta(x,t)\)</span></p></blockquote><div class="admonition note"><p class="admonition-title">Definition: Perfectly elastic string</p><p>Perfectly elastic string has the tension <span class="math inline">\(T(x,t)\)</span> is a constant <span class="math inline">\(T_{0}\)</span>.</p></div><div class="admonition note"><p class="admonition-title">Definition: Perfectly flexible string</p><p>The force exert on every segment of perfectly flexible string is tangential, such tangential force is call <strong>tension</strong>.</p></div><p>Let's try to derive the <em>one-dimensional wave equation</em> with the functions above.</p><p><img src="https://cdn.mathpix.com/snip/images/D_3v2nlIH3Ic8OAWcQlujbvX02lNvEGIc0tTG-oWOig.original.fullsize.png"></p><p><span class="math display">\[\text{slope of the segment} = \dfrac{\partial u}{\partial x} = \tan \theta(x, t) = \dfrac{\sin \theta(x, t)}{\cos \theta(x, t)} \approx \sin \theta(x, t) \approx \theta(x, t).\]</span></p>]]></content>
       
@@ -178,11 +178,11 @@
             
             <tag> MacOS_Monterey </tag>
             
+            <tag> apt-get </tag>
+            
             <tag> sdk_exception </tag>
             
             <tag> coding_debug </tag>
-            
-            <tag> apt-get </tag>
             
         </tags>
       
@@ -252,11 +252,11 @@
             
             <tag> MacOS_Monterey </tag>
             
-            <tag> hexo </tag>
-            
             <tag> sdk_exception </tag>
             
             <tag> coding_debug </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
