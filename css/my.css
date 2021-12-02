@@ -106,7 +106,7 @@ header .brand-logo .logo-span { background-image: linear-gradient(to right,red,o
   font-family: 'Yellowtail', cursive;
 }
 
-.description, .subtitle {
+.bg-cover .container {
   font-family: 'Gwendolyn', cursive;
 }
 
@@ -117,6 +117,6 @@ header .brand-logo .logo-span {
   font-family: 'Righteous', cursive;
 }
 
-.tag-chips .chip {
+.chip-container .chip {
   font-family: 'Press Start 2P', cursive;
 }
