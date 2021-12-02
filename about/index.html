@@ -72,34 +72,44 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/tags" class="waves-effect waves-light">
+    <a href="" class="waves-effect waves-light">
+
       
-      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      <i class="fas fa-map-marked-alt" style="zoom: 0.6;"></i>
       
-      <span>Tags</span>
+      <span>Sitemap</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/categories" class="waves-effect waves-light">
+    <ul class="sub-nav menus_item_child ">
       
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Archives</span>
+        </a>
+      </li>
       
-      <span>Categories</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/archives" class="waves-effect waves-light">
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Categories</span>
+        </a>
+      </li>
       
-      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Tags</span>
+        </a>
+      </li>
       
-      <span>Archives</span>
-    </a>
+    </ul>
     
   </li>
   
@@ -173,34 +183,46 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/tags" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-tags"></i>
+				<i class="fa-fw fas fa-map-marked-alt"></i>
 			
-			Tags
+			Sitemap
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			Categories
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-archive"></i>
-			
-			Archives
-		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/archives " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Archives</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/categories " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Categories</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Tags</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -569,7 +591,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Mathematics","value":1},{"name":"Reviews","value":2},{"name":"Gaming","value":1},{"name":"Linear Algebra","value":1},{"name":"Web","value":3},{"name":"Physics","value":1},{"name":"Short Reviews","value":1},{"name":"Minecraft","value":1},{"name":"Short Guide","value":1},{"name":"Hexo","value":1},{"name":"Quantum Computing","value":1},{"name":"Unix","value":1},{"name":"Nginx","value":1},{"name":"Server","value":1},{"name":"Cold Rydberg Atom Quantum Computing","value":1}],
+                data: [{"name":"Web","value":3},{"name":"Reviews","value":2},{"name":"Physics","value":1},{"name":"Mathematics","value":1},{"name":"Nginx","value":1},{"name":"Gaming","value":1},{"name":"Short Reviews","value":1},{"name":"Quantum Computing","value":1},{"name":"Linear Algebra","value":1},{"name":"Minecraft","value":1},{"name":"Cold Rydberg Atom Quantum Computing","value":1},{"name":"Server","value":1},{"name":"Unix","value":1},{"name":"Hexo","value":1},{"name":"Short Guide","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -593,7 +615,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Coding","physics","Debugging","MacOS_Monterey","sdk_exception","coding_debug","GNU/Linux_Debian_Ubuntu","GNU/Linux_Fedora_CentOS","mathematics","diagonalizable"]
+                data: ["Coding","Debugging","physics","GNU/Linux_Debian_Ubuntu","GNU/Linux_Fedora_CentOS","MacOS_Monterey","sdk_exception","coding_debug","nginx","command_not_found"]
             }
         ],
         yAxis: [
@@ -776,56 +798,38 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/mathematics/">
-                <span class="chip center-align waves-effect waves-light chip-default">mathematics</span>
+            <a href="/tags/Coding/">
+                <span class="chip center-align waves-effect waves-light chip-default">Coding</span>
             </a>
             
             
             
-            <a href="/tags/diagonalizable/">
-                <span class="chip center-align waves-effect waves-light chip-default">diagonalizable</span>
+            <a href="/tags/Debugging/">
+                <span class="chip center-align waves-effect waves-light chip-default">Debugging</span>
             </a>
             
             
             
-            <a href="/tags/matrix/">
-                <span class="chip center-align waves-effect waves-light chip-default">matrix</span>
+            <a href="/tags/GNU-Linux-Debian-Ubuntu/">
+                <span class="chip center-align waves-effect waves-light chip-default">GNU/Linux_Debian_Ubuntu</span>
             </a>
             
             
             
-            <a href="/tags/vector-field/">
-                <span class="chip center-align waves-effect waves-light chip-default">vector field</span>
+            <a href="/tags/GNU-Linux-Fedora-CentOS/">
+                <span class="chip center-align waves-effect waves-light chip-default">GNU/Linux_Fedora_CentOS</span>
             </a>
             
             
             
-            <a href="/tags/algebra/">
-                <span class="chip center-align waves-effect waves-light chip-default">algebra</span>
+            <a href="/tags/nginx/">
+                <span class="chip center-align waves-effect waves-light chip-default">nginx</span>
             </a>
             
             
             
-            <a href="/tags/linear-transformation/">
-                <span class="chip center-align waves-effect waves-light chip-default">linear transformation</span>
-            </a>
-            
-            
-            
-            <a href="/tags/non-defective/">
-                <span class="chip center-align waves-effect waves-light chip-default">non-defective</span>
-            </a>
-            
-            
-            
-            <a href="/tags/example/">
-                <span class="chip center-align waves-effect waves-light chip-default">example</span>
-            </a>
-            
-            
-            
-            <a href="/tags/problem-set/">
-                <span class="chip center-align waves-effect waves-light chip-default">problem set</span>
+            <a href="/tags/command-not-found/">
+                <span class="chip center-align waves-effect waves-light chip-default">command_not_found</span>
             </a>
             
             
@@ -902,60 +906,6 @@
             
             
             
-            <a href="/tags/Minecraft/">
-                <span class="chip center-align waves-effect waves-light chip-default">Minecraft</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Spigot/">
-                <span class="chip center-align waves-effect waves-light chip-default">Spigot</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Coding/">
-                <span class="chip center-align waves-effect waves-light chip-default">Coding</span>
-            </a>
-            
-            
-            
-            <a href="/tags/wave/">
-                <span class="chip center-align waves-effect waves-light chip-default">wave</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Debugging/">
-                <span class="chip center-align waves-effect waves-light chip-default">Debugging</span>
-            </a>
-            
-            
-            
-            <a href="/tags/MacOS-Monterey/">
-                <span class="chip center-align waves-effect waves-light chip-default">MacOS_Monterey</span>
-            </a>
-            
-            
-            
-            <a href="/tags/hexo/">
-                <span class="chip center-align waves-effect waves-light chip-default">hexo</span>
-            </a>
-            
-            
-            
-            <a href="/tags/sdk-exception/">
-                <span class="chip center-align waves-effect waves-light chip-default">sdk_exception</span>
-            </a>
-            
-            
-            
-            <a href="/tags/coding-debug/">
-                <span class="chip center-align waves-effect waves-light chip-default">coding_debug</span>
-            </a>
-            
-            
-            
             <a href="/tags/quantum-mechanics/">
                 <span class="chip center-align waves-effect waves-light chip-default">quantum mechanics</span>
             </a>
@@ -974,14 +924,74 @@
             
             
             
-            <a href="/tags/GNU-Linux-Debian-Ubuntu/">
-                <span class="chip center-align waves-effect waves-light chip-default">GNU/Linux_Debian_Ubuntu</span>
+            <a href="/tags/mathematics/">
+                <span class="chip center-align waves-effect waves-light chip-default">mathematics</span>
             </a>
             
             
             
-            <a href="/tags/GNU-Linux-Fedora-CentOS/">
-                <span class="chip center-align waves-effect waves-light chip-default">GNU/Linux_Fedora_CentOS</span>
+            <a href="/tags/diagonalizable/">
+                <span class="chip center-align waves-effect waves-light chip-default">diagonalizable</span>
+            </a>
+            
+            
+            
+            <a href="/tags/matrix/">
+                <span class="chip center-align waves-effect waves-light chip-default">matrix</span>
+            </a>
+            
+            
+            
+            <a href="/tags/vector-field/">
+                <span class="chip center-align waves-effect waves-light chip-default">vector field</span>
+            </a>
+            
+            
+            
+            <a href="/tags/algebra/">
+                <span class="chip center-align waves-effect waves-light chip-default">algebra</span>
+            </a>
+            
+            
+            
+            <a href="/tags/linear-transformation/">
+                <span class="chip center-align waves-effect waves-light chip-default">linear transformation</span>
+            </a>
+            
+            
+            
+            <a href="/tags/non-defective/">
+                <span class="chip center-align waves-effect waves-light chip-default">non-defective</span>
+            </a>
+            
+            
+            
+            <a href="/tags/example/">
+                <span class="chip center-align waves-effect waves-light chip-default">example</span>
+            </a>
+            
+            
+            
+            <a href="/tags/problem-set/">
+                <span class="chip center-align waves-effect waves-light chip-default">problem set</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Minecraft/">
+                <span class="chip center-align waves-effect waves-light chip-default">Minecraft</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Spigot/">
+                <span class="chip center-align waves-effect waves-light chip-default">Spigot</span>
+            </a>
+            
+            
+            
+            <a href="/tags/MacOS-Monterey/">
+                <span class="chip center-align waves-effect waves-light chip-default">MacOS_Monterey</span>
             </a>
             
             
@@ -992,14 +1002,26 @@
             
             
             
-            <a href="/tags/nginx/">
-                <span class="chip center-align waves-effect waves-light chip-default">nginx</span>
+            <a href="/tags/sdk-exception/">
+                <span class="chip center-align waves-effect waves-light chip-default">sdk_exception</span>
             </a>
             
             
             
-            <a href="/tags/command-not-found/">
-                <span class="chip center-align waves-effect waves-light chip-default">command_not_found</span>
+            <a href="/tags/coding-debug/">
+                <span class="chip center-align waves-effect waves-light chip-default">coding_debug</span>
+            </a>
+            
+            
+            
+            <a href="/tags/hexo/">
+                <span class="chip center-align waves-effect waves-light chip-default">hexo</span>
+            </a>
+            
+            
+            
+            <a href="/tags/wave/">
+                <span class="chip center-align waves-effect waves-light chip-default">wave</span>
             </a>
             
             
