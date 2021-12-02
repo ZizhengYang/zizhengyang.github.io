@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="-bash nginx (command not found) 解决办法, Mathematics,Physics,Computer Science,History,Others">
     <meta name="description" content="
-creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期一 15日 十一月-2021-13:27:47article version: 1.0.0tags: #Coding">
+creation date: 星期一 15日 十一月-2021-13:16:41 modification date: 星期一 15日 十一月-2021-13:27:47 article version: 1.0.0 tags: #Cod">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -520,7 +520,7 @@ creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期�
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    235
+                    243
                 </div>
                 
 
@@ -551,17 +551,20 @@ creation date: 星期一 15日 十一月-2021-13:16:41modification date: 星期�
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p>creation date: 星期一 15日 十一月-2021-13:16:41<br><br>modification date: 星期一 15日 十一月-2021-13:27:47<br><br>article version: 1.0.0<br><br>tags: #Coding #Debugging<br><br>system: #GNU/Linux_Debian_Ubuntu #GNU/Linux_Fedora_CentOS<br><br>program: #nginx<br><br>bug type: #command_not_found<br><br>template version: #coding_debug 1.0.0<br></p>
+<p>creation date: 星期一 15日 十一月-2021-13:16:41<br> modification date: 星期一 15日 十一月-2021-13:27:47<br> article version: 1.0.0<br> tags: #Coding #Debugging<br> system: #GNU/Linux_Debian_Ubuntu #GNU/Linux_Fedora_CentOS<br> program: #nginx<br> bug type: #command_not_found<br> template version: #coding_debug 1.0.0<br></p>
 </blockquote>
-<h2 id="README"><a href="#README" class="headerlink" title="README"></a>README</h2><blockquote>
+<h2 id="readme">README</h2>
+<blockquote>
 <ul>
-<li>Cover image comes from: <a target="_blank" rel="noopener" href="https://linuxize.com/post/nginx-commands-you-should-know/">https://linuxize.com/post/nginx-commands-you-should-know/</a></li>
+<li>Cover image comes from: https://linuxize.com/post/nginx-commands-you-should-know/</li>
 </ul>
 </blockquote>
-<h2 id="Body"><a href="#Body" class="headerlink" title="Body"></a>Body</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Linux version <span class="token number">4.19</span>.0-18-cloud-amd64
+<h2 id="body">Body</h2>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">Linux version <span class="token number">4.19</span>.0-18-cloud-amd64
 Debian <span class="token number">8.3</span>.0-6
 gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<h2 id="第一种办法"><a href="#第一种办法" class="headerlink" title="第一种办法"></a>第一种办法</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 寻找 nginx 位置</span>
+<h2 id="第一种办法">第一种办法</h2>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 寻找 nginx 位置</span>
 <span class="token function">whereis</span> nginx<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> /etc/profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 这样似乎是有问题的，所以不要加到 nginx 目录</span>
@@ -569,17 +572,20 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 最后成功的方法</span>
 <span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">source</span> /etc/profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="第二种办法"><a href="#第二种办法" class="headerlink" title="第二种办法"></a>第二种办法</h2><p>不采用修改PATH的方式，而是为nginx做一个软连接。</p>
+<h2 id="第二种办法">第二种办法</h2>
+<p>不采用修改PATH的方式，而是为nginx做一个软连接。</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ <span class="token function">sudo</span> <span class="token function">ln</span> -s /usr/sbin/nginx /usr/local/sbin/nginx<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<h2 id="如果重启计算机-服务器-nginx-命令又失效了"><a href="#如果重启计算机-服务器-nginx-命令又失效了" class="headerlink" title="如果重启计算机/服务器 nginx 命令又失效了"></a>如果重启计算机/服务器 nginx 命令又失效了</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> ~/.bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="如果重启计算机服务器-nginx-命令又失效了">如果重启计算机/服务器 nginx 命令又失效了</h2>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">sudo</span> <span class="token function">vim</span> ~/.bash_profile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token comment"># 添加</span>
 <span class="token builtin class-name">source</span> /etc/profile
 <span class="token comment"># 或者</span>
 <span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin/nginx
 <span class="token comment"># 或者</span>
 <span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token environment constant">$PATH</span>:/usr/sbin<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="Daily-Quotes"><a href="#Daily-Quotes" class="headerlink" title="Daily Quotes"></a>Daily Quotes</h2><blockquote>
-<p>From now on we live in a world where man has walked on the Moon. It’s not a miracle; we just decided to go.<br>— <cite>Tom Hanks</cite></p>
+<h2 id="daily-quotes">Daily Quotes</h2>
+<blockquote>
+<p>From now on we live in a world where man has walked on the Moon. It's not a miracle; we just decided to go. — <cite>Tom Hanks</cite></p>
 </blockquote>
 
                 
@@ -887,14 +893,6 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
                         <span class="chip bg-color">Debugging</span>
                     </a>
                     
-                    <a href="/tags/GNU-Linux-Debian-Ubuntu/">
-                        <span class="chip bg-color">GNU/Linux_Debian_Ubuntu</span>
-                    </a>
-                    
-                    <a href="/tags/GNU-Linux-Fedora-CentOS/">
-                        <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
-                    </a>
-                    
                     <a href="/tags/MacOS-Monterey/">
                         <span class="chip bg-color">MacOS_Monterey</span>
                     </a>
@@ -905,6 +903,14 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
                     
                     <a href="/tags/coding-debug/">
                         <span class="chip bg-color">coding_debug</span>
+                    </a>
+                    
+                    <a href="/tags/GNU-Linux-Debian-Ubuntu/">
+                        <span class="chip bg-color">GNU/Linux_Debian_Ubuntu</span>
+                    </a>
+                    
+                    <a href="/tags/GNU-Linux-Fedora-CentOS/">
+                        <span class="chip bg-color">GNU/Linux_Fedora_CentOS</span>
                     </a>
                     
                     <a href="/tags/apt-get/">
@@ -1167,7 +1173,7 @@ gcc version <span class="token number">8.3</span>.0<span aria-hidden="true" clas
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">4.3k</span>
+                        class="white-color">4.4k</span>
             
             
             
