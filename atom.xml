@@ -28,10 +28,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;wave-equation&quot;&gt;Wave equation&lt;/h2&gt;
-&lt;h3 id=&quot;construct-wave-equation&quot;&gt;Construct wave equation&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Vertical</summary>
+    <summary type="html">&lt;h2 id=&quot;Wave-equation&quot;&gt;&lt;a href=&quot;#Wave-equation&quot; class=&quot;headerlink&quot; title=&quot;Wave equation&quot;&gt;&lt;/a&gt;Wave equation&lt;/h2&gt;&lt;h3</summary>
         
       
     
@@ -60,9 +57,8 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/1605.05207&quot;&gt;Quantum computing with</summary>
+    <summary type="html">&lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt; </summary>
         
       
     
@@ -97,8 +93,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;from-hall-effect-to-topological-materials&quot;&gt;From Hall Effect to topological materials&lt;/h2&gt;
-&lt;p&gt;The entire field can be traced back to</summary>
+    <summary type="html">&lt;h2 id=&quot;From-Hall-Effect-to-topological-materials&quot;&gt;&lt;a href=&quot;#From-Hall-Effect-to-topological-materials&quot; class=&quot;headerlink&quot; title=&quot;From Hall</summary>
         
       
     
@@ -161,11 +156,11 @@
     <category term="Server" scheme="https://zizhengyang.github.io/categories/Gaming/Minecraft/Server/"/>
     
     
-    <category term="Coding" scheme="https://zizhengyang.github.io/tags/Coding/"/>
-    
     <category term="Minecraft" scheme="https://zizhengyang.github.io/tags/Minecraft/"/>
     
     <category term="Spigot" scheme="https://zizhengyang.github.io/tags/Spigot/"/>
+    
+    <category term="Coding" scheme="https://zizhengyang.github.io/tags/Coding/"/>
     
   </entry>
   
@@ -182,7 +177,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt; modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;
+modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;
+article version:</summary>
         
       
     
@@ -197,17 +194,17 @@
     
     <category term="Debugging" scheme="https://zizhengyang.github.io/tags/Debugging/"/>
     
-    <category term="GNU/Linux_Debian_Ubuntu" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Debian-Ubuntu/"/>
-    
-    <category term="GNU/Linux_Fedora_CentOS" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Fedora-CentOS/"/>
-    
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
-    
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="GNU/Linux_Debian_Ubuntu" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Debian-Ubuntu/"/>
+    
+    <category term="GNU/Linux_Fedora_CentOS" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Fedora-CentOS/"/>
+    
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
@@ -224,7 +221,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt; modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;
+modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;
+article version:</summary>
         
       
     
@@ -262,7 +261,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt; modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;
+modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;
+article version:</summary>
         
       
     
@@ -279,11 +280,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
+    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
-    
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -299,8 +300,8 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;question&quot;&gt;Question&lt;/h3&gt;
-&lt;p&gt;!!! info &quot;Example Question:&quot; Use the Diagonalization Method to determine whether each of the following</summary>
+    <summary type="html">&lt;h3 id=&quot;Question&quot;&gt;&lt;a href=&quot;#Question&quot; class=&quot;headerlink&quot; title=&quot;Question&quot;&gt;&lt;/a&gt;Question&lt;/h3&gt;&lt;p&gt;!!! info “Example Question:”
+  Use the</summary>
         
       
     
