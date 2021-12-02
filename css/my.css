@@ -113,6 +113,6 @@ header .brand-logo .logo-span { background-image: linear-gradient(to right,red,o
 header .brand-logo .logo-span {
   font-family: 'Righteous', cursive;
 }
-.nav-menu .nav-item span {
+.nav-menu .nav-item a span {
   font-family: 'Righteous', cursive;
 }
