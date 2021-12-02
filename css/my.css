@@ -116,3 +116,7 @@ header .brand-logo .logo-span {
 .nav-menu .nav-item a span {
   font-family: 'Righteous', cursive;
 }
+
+.tag-chips .chip {
+  font-family: 'Press Start 2P', cursive;
+}
