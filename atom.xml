@@ -203,11 +203,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
+    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
-    
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
@@ -279,11 +279,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
-    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
   </entry>
   
