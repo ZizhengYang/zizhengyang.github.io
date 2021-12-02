@@ -107,3 +107,7 @@ header .brand-logo .logo-span{ background-image: linear-gradient(to right,red,or
 .subtitle {
   font-family: 'Gwendolyn', cursive;
 }
+
+.logo-span {
+  font-family: 'Righteous', cursive;
+}
