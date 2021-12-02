@@ -85,7 +85,7 @@
       <li>
         <a href="/archives">
           
-          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>Archives</span>
         </a>
@@ -115,12 +115,35 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/about" class="waves-effect waves-light">
+    <a href="" class="waves-effect waves-light">
+
       
-      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      <i class="fas fa-drafting-compass" style="zoom: 0.6;"></i>
       
-      <span>About</span>
+      <span>Academic</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/publications">
+          
+          <i class="fas fa-graduation-cap" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Publications</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about">
+          
+          <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -196,7 +219,7 @@
 
                   <a href="/archives " style="margin-left:75px">
 				  
-				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+				   <i class="fa fas fa-archive" style="position: absolute;left:50px" ></i>
 			      
 		          <span>Archives</span>
                   </a>
@@ -228,12 +251,36 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/about" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-user-circle"></i>
+				<i class="fa-fw fas fa-drafting-compass"></i>
 			
-			About
+			Academic
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/publications " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-graduation-cap" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Publications</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/about " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>About</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -334,10 +381,28 @@
             <div class="tag-chips">
                 
                 
+                <a href="/tags/physics/" title="physics: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="physics" style="background-color: #F9EBEA;">physics
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/wave/" title="wave: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="wave" style="background-color: #F5EEF8;">wave
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/Coding/" title="Coding: 4">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Coding" style="background-color: #F9EBEA;">Coding
+                            data-tagname="Coding" style="background-color: #D5F5E3;">Coding
                         <span class="tag-length">4</span>
                     </span>
                 </a>
@@ -346,7 +411,7 @@
                 <a href="/tags/Debugging/" title="Debugging: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="Debugging" style="background-color: #F5EEF8;">Debugging
+                            data-tagname="Debugging" style="background-color: #E8F8F5;">Debugging
                         <span class="tag-length">3</span>
                     </span>
                 </a>
@@ -355,7 +420,7 @@
                 <a href="/tags/GNU-Linux-Debian-Ubuntu/" title="GNU/Linux_Debian_Ubuntu: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="GNU/Linux_Debian_Ubuntu" style="background-color: #D5F5E3;">GNU/Linux_Debian_Ubuntu
+                            data-tagname="GNU/Linux_Debian_Ubuntu" style="background-color: #FEF9E7;">GNU/Linux_Debian_Ubuntu
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -364,7 +429,7 @@
                 <a href="/tags/GNU-Linux-Fedora-CentOS/" title="GNU/Linux_Fedora_CentOS: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="GNU/Linux_Fedora_CentOS" style="background-color: #E8F8F5;">GNU/Linux_Fedora_CentOS
+                            data-tagname="GNU/Linux_Fedora_CentOS" style="background-color: #F8F9F9;">GNU/Linux_Fedora_CentOS
                         <span class="tag-length">2</span>
                     </span>
                 </a>
@@ -373,7 +438,7 @@
                 <a href="/tags/nginx/" title="nginx: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="nginx" style="background-color: #FEF9E7;">nginx
+                            data-tagname="nginx" style="background-color: #82E0AA;">nginx
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -382,142 +447,7 @@
                 <a href="/tags/command-not-found/" title="command_not_found: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="command_not_found" style="background-color: #F8F9F9;">command_not_found
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/physics/" title="physics: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="physics" style="background-color: #82E0AA;">physics
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/topological-material/" title="topological material: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="topological material" style="background-color: #D7BDE2;">topological material
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/topological-order/" title="topological order: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="topological order" style="background-color: #A3E4D7;">topological order
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/quantum-spin-liquid/" title="quantum spin liquid: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="quantum spin liquid" style="background-color: #85C1E9;">quantum spin liquid
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/hall-effect/" title="hall effect: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="hall effect" style="background-color: #F8C471;">hall effect
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/quantum-hall-effect/" title="quantum hall effect: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="quantum hall effect" style="background-color: #F9E79F;">quantum hall effect
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/integer-quantum-hall-effect/" title="integer quantum hall effect: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="integer quantum hall effect" style="background-color: #D7BDE2;">integer quantum hall effect
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/fractional-quantum-hall-effect/" title="fractional quantum hall effect: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="fractional quantum hall effect" style="background-color: #82E0AA;">fractional quantum hall effect
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/quantum-spin-hall-effect/" title="quantum spin hall effect: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="quantum spin hall effect" style="background-color: #82E0AA;">quantum spin hall effect
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/returning-thouless-pump/" title="returning thouless pump: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="returning thouless pump" style="background-color: #D7BDE2;">returning thouless pump
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Landau-s-symmetry-breaking-theory/" title="Landau's symmetry breaking theory: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Landau's symmetry breaking theory" style="background-color: #E8F8F5;">Landau's symmetry breaking theory
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Phd/" title="Phd: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Phd" style="background-color: #D7BDE2;">Phd
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/quantum-mechanics/" title="quantum mechanics: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="quantum mechanics" style="background-color: #F9E79F;">quantum mechanics
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/quantum-computing/" title="quantum computing: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="quantum computing" style="background-color: #F8F9F9;">quantum computing
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/Rydberg-interaction/" title="Rydberg interaction: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="Rydberg interaction" style="background-color: #D5F5E3;">Rydberg interaction
+                            data-tagname="command_not_found" style="background-color: #D7BDE2;">command_not_found
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -526,7 +456,7 @@
                 <a href="/tags/mathematics/" title="mathematics: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="mathematics" style="background-color: #F5EEF8;">mathematics
+                            data-tagname="mathematics" style="background-color: #A3E4D7;">mathematics
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -535,7 +465,7 @@
                 <a href="/tags/diagonalizable/" title="diagonalizable: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="diagonalizable" style="background-color: #F8F9F9;">diagonalizable
+                            data-tagname="diagonalizable" style="background-color: #85C1E9;">diagonalizable
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -544,7 +474,7 @@
                 <a href="/tags/matrix/" title="matrix: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="matrix" style="background-color: #F5EEF8;">matrix
+                            data-tagname="matrix" style="background-color: #F8C471;">matrix
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -553,7 +483,7 @@
                 <a href="/tags/vector-field/" title="vector field: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="vector field" style="background-color: #A3E4D7;">vector field
+                            data-tagname="vector field" style="background-color: #F9E79F;">vector field
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -622,6 +552,33 @@
                 </a>
                 
                 
+                <a href="/tags/quantum-mechanics/" title="quantum mechanics: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="quantum mechanics" style="background-color: #F9E79F;">quantum mechanics
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/quantum-computing/" title="quantum computing: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="quantum computing" style="background-color: #F8F9F9;">quantum computing
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Rydberg-interaction/" title="Rydberg interaction: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Rydberg interaction" style="background-color: #D5F5E3;">Rydberg interaction
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
                 <a href="/tags/MacOS-Monterey/" title="MacOS_Monterey: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
@@ -631,10 +588,10 @@
                 </a>
                 
                 
-                <a href="/tags/apt-get/" title="apt-get: 1">
+                <a href="/tags/hexo/" title="hexo: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="apt-get" style="background-color: #82E0AA;">apt-get
+                            data-tagname="hexo" style="background-color: #FFF;">hexo
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -658,19 +615,109 @@
                 </a>
                 
                 
-                <a href="/tags/hexo/" title="hexo: 1">
+                <a href="/tags/topological-material/" title="topological material: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="hexo" style="background-color: #FFF;">hexo
+                            data-tagname="topological material" style="background-color: #D5F5E3;">topological material
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/wave/" title="wave: 1">
+                <a href="/tags/topological-order/" title="topological order: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="wave" style="background-color: #FFF;">wave
+                            data-tagname="topological order" style="background-color: #82E0AA;">topological order
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/quantum-spin-liquid/" title="quantum spin liquid: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="quantum spin liquid" style="background-color: #FFF;">quantum spin liquid
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/hall-effect/" title="hall effect: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="hall effect" style="background-color: #F8F9F9;">hall effect
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/quantum-hall-effect/" title="quantum hall effect: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="quantum hall effect" style="background-color: #F9EBEA;">quantum hall effect
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/integer-quantum-hall-effect/" title="integer quantum hall effect: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="integer quantum hall effect" style="background-color: #D7BDE2;">integer quantum hall effect
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/fractional-quantum-hall-effect/" title="fractional quantum hall effect: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="fractional quantum hall effect" style="background-color: #82E0AA;">fractional quantum hall effect
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/quantum-spin-hall-effect/" title="quantum spin hall effect: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="quantum spin hall effect" style="background-color: #82E0AA;">quantum spin hall effect
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/returning-thouless-pump/" title="returning thouless pump: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="returning thouless pump" style="background-color: #D7BDE2;">returning thouless pump
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Landau-s-symmetry-breaking-theory/" title="Landau's symmetry breaking theory: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Landau's symmetry breaking theory" style="background-color: #E8F8F5;">Landau's symmetry breaking theory
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Phd/" title="Phd: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Phd" style="background-color: #D7BDE2;">Phd
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/apt-get/" title="apt-get: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="apt-get" style="background-color: #82E0AA;">apt-get
                         <span class="tag-length">1</span>
                     </span>
                 </a>

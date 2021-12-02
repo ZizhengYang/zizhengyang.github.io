@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zizhengyang.github.io/publications/index-2.html</loc>
+    
+    <lastmod>2021-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/publications/index-1.html</loc>
+    
+    <lastmod>2021-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/publications/index.html</loc>
+    
+    <lastmod>2021-12-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</loc>
     
     <lastmod>2021-12-02</lastmod>
@@ -137,6 +164,20 @@
 
   
   <url>
+    <loc>https://zizhengyang.github.io/tags/physics/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/wave/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/tags/Coding/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -173,111 +214,6 @@
   
   <url>
     <loc>https://zizhengyang.github.io/tags/command-not-found/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/physics/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/topological-material/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/topological-order/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/quantum-spin-liquid/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/hall-effect/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/quantum-hall-effect/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/integer-quantum-hall-effect/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/fractional-quantum-hall-effect/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/quantum-spin-hall-effect/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/returning-thouless-pump/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/Landau-s-symmetry-breaking-theory/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/Phd/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/quantum-mechanics/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/quantum-computing/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/Rydberg-interaction/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -361,6 +297,27 @@
   </url>
   
   <url>
+    <loc>https://zizhengyang.github.io/tags/quantum-mechanics/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/quantum-computing/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/Rydberg-interaction/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/tags/MacOS-Monterey/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -368,7 +325,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/apt-get/</loc>
+    <loc>https://zizhengyang.github.io/tags/hexo/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -389,27 +346,90 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/hexo/</loc>
+    <loc>https://zizhengyang.github.io/tags/topological-material/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/wave/</loc>
+    <loc>https://zizhengyang.github.io/tags/topological-order/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/quantum-spin-liquid/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/hall-effect/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/quantum-hall-effect/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/integer-quantum-hall-effect/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/fractional-quantum-hall-effect/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/quantum-spin-hall-effect/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/returning-thouless-pump/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/Landau-s-symmetry-breaking-theory/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/Phd/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/apt-get/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Web/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://zizhengyang.github.io/categories/Reviews/</loc>
@@ -419,7 +439,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Physics/</loc>
+    <loc>https://zizhengyang.github.io/categories/Web/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -433,14 +453,35 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Nginx/</loc>
+    <loc>https://zizhengyang.github.io/categories/Gaming/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Gaming/</loc>
+    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Guide/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Physics/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Web/Hexo/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Web/Nginx/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -454,7 +495,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Physics/Quantum-Computing/</loc>
+    <loc>https://zizhengyang.github.io/categories/Web/Unix/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -475,7 +516,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Physics/Quantum-Computing/Cold-Rydberg-Atom-Quantum-Computing/</loc>
+    <loc>https://zizhengyang.github.io/categories/Physics/Quantum-Computing/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -489,21 +530,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Unix/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Hexo/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Guide/</loc>
+    <loc>https://zizhengyang.github.io/categories/Physics/Quantum-Computing/Cold-Rydberg-Atom-Quantum-Computing/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

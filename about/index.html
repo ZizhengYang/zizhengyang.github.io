@@ -85,7 +85,7 @@
       <li>
         <a href="/archives">
           
-          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
+          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>Archives</span>
         </a>
@@ -115,12 +115,35 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/about" class="waves-effect waves-light">
+    <a href="" class="waves-effect waves-light">
+
       
-      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      <i class="fas fa-drafting-compass" style="zoom: 0.6;"></i>
       
-      <span>About</span>
+      <span>Academic</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/publications">
+          
+          <i class="fas fa-graduation-cap" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Publications</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about">
+          
+          <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>About</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -196,7 +219,7 @@
 
                   <a href="/archives " style="margin-left:75px">
 				  
-				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
+				   <i class="fa fas fa-archive" style="position: absolute;left:50px" ></i>
 			      
 		          <span>Archives</span>
                   </a>
@@ -228,12 +251,36 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/about" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-user-circle"></i>
+				<i class="fa-fw fas fa-drafting-compass"></i>
 			
-			About
+			Academic
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/publications " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-graduation-cap" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Publications</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/about " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>About</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -591,7 +638,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Web","value":3},{"name":"Reviews","value":2},{"name":"Physics","value":1},{"name":"Mathematics","value":1},{"name":"Nginx","value":1},{"name":"Gaming","value":1},{"name":"Short Reviews","value":1},{"name":"Quantum Computing","value":1},{"name":"Linear Algebra","value":1},{"name":"Minecraft","value":1},{"name":"Cold Rydberg Atom Quantum Computing","value":1},{"name":"Server","value":1},{"name":"Unix","value":1},{"name":"Hexo","value":1},{"name":"Short Guide","value":1}],
+                data: [{"name":"Reviews","value":2},{"name":"Web","value":3},{"name":"Mathematics","value":1},{"name":"Gaming","value":1},{"name":"Short Guide","value":1},{"name":"Physics","value":1},{"name":"Hexo","value":1},{"name":"Nginx","value":1},{"name":"Short Reviews","value":1},{"name":"Unix","value":1},{"name":"Linear Algebra","value":1},{"name":"Minecraft","value":1},{"name":"Quantum Computing","value":1},{"name":"Server","value":1},{"name":"Cold Rydberg Atom Quantum Computing","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -615,7 +662,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Coding","Debugging","physics","GNU/Linux_Debian_Ubuntu","GNU/Linux_Fedora_CentOS","MacOS_Monterey","sdk_exception","coding_debug","nginx","command_not_found"]
+                data: ["Coding","physics","Debugging","GNU/Linux_Debian_Ubuntu","GNU/Linux_Fedora_CentOS","MacOS_Monterey","sdk_exception","coding_debug","wave","nginx"]
             }
         ],
         yAxis: [
@@ -798,6 +845,18 @@
         <div class="tag-chips center-align">
             
             
+            <a href="/tags/physics/">
+                <span class="chip center-align waves-effect waves-light chip-default">physics</span>
+            </a>
+            
+            
+            
+            <a href="/tags/wave/">
+                <span class="chip center-align waves-effect waves-light chip-default">wave</span>
+            </a>
+            
+            
+            
             <a href="/tags/Coding/">
                 <span class="chip center-align waves-effect waves-light chip-default">Coding</span>
             </a>
@@ -830,96 +889,6 @@
             
             <a href="/tags/command-not-found/">
                 <span class="chip center-align waves-effect waves-light chip-default">command_not_found</span>
-            </a>
-            
-            
-            
-            <a href="/tags/physics/">
-                <span class="chip center-align waves-effect waves-light chip-default">physics</span>
-            </a>
-            
-            
-            
-            <a href="/tags/topological-material/">
-                <span class="chip center-align waves-effect waves-light chip-default">topological material</span>
-            </a>
-            
-            
-            
-            <a href="/tags/topological-order/">
-                <span class="chip center-align waves-effect waves-light chip-default">topological order</span>
-            </a>
-            
-            
-            
-            <a href="/tags/quantum-spin-liquid/">
-                <span class="chip center-align waves-effect waves-light chip-default">quantum spin liquid</span>
-            </a>
-            
-            
-            
-            <a href="/tags/hall-effect/">
-                <span class="chip center-align waves-effect waves-light chip-default">hall effect</span>
-            </a>
-            
-            
-            
-            <a href="/tags/quantum-hall-effect/">
-                <span class="chip center-align waves-effect waves-light chip-default">quantum hall effect</span>
-            </a>
-            
-            
-            
-            <a href="/tags/integer-quantum-hall-effect/">
-                <span class="chip center-align waves-effect waves-light chip-default">integer quantum hall effect</span>
-            </a>
-            
-            
-            
-            <a href="/tags/fractional-quantum-hall-effect/">
-                <span class="chip center-align waves-effect waves-light chip-default">fractional quantum hall effect</span>
-            </a>
-            
-            
-            
-            <a href="/tags/quantum-spin-hall-effect/">
-                <span class="chip center-align waves-effect waves-light chip-default">quantum spin hall effect</span>
-            </a>
-            
-            
-            
-            <a href="/tags/returning-thouless-pump/">
-                <span class="chip center-align waves-effect waves-light chip-default">returning thouless pump</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Landau-s-symmetry-breaking-theory/">
-                <span class="chip center-align waves-effect waves-light chip-default">Landau's symmetry breaking theory</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Phd/">
-                <span class="chip center-align waves-effect waves-light chip-default">Phd</span>
-            </a>
-            
-            
-            
-            <a href="/tags/quantum-mechanics/">
-                <span class="chip center-align waves-effect waves-light chip-default">quantum mechanics</span>
-            </a>
-            
-            
-            
-            <a href="/tags/quantum-computing/">
-                <span class="chip center-align waves-effect waves-light chip-default">quantum computing</span>
-            </a>
-            
-            
-            
-            <a href="/tags/Rydberg-interaction/">
-                <span class="chip center-align waves-effect waves-light chip-default">Rydberg interaction</span>
             </a>
             
             
@@ -990,14 +959,32 @@
             
             
             
+            <a href="/tags/quantum-mechanics/">
+                <span class="chip center-align waves-effect waves-light chip-default">quantum mechanics</span>
+            </a>
+            
+            
+            
+            <a href="/tags/quantum-computing/">
+                <span class="chip center-align waves-effect waves-light chip-default">quantum computing</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Rydberg-interaction/">
+                <span class="chip center-align waves-effect waves-light chip-default">Rydberg interaction</span>
+            </a>
+            
+            
+            
             <a href="/tags/MacOS-Monterey/">
                 <span class="chip center-align waves-effect waves-light chip-default">MacOS_Monterey</span>
             </a>
             
             
             
-            <a href="/tags/apt-get/">
-                <span class="chip center-align waves-effect waves-light chip-default">apt-get</span>
+            <a href="/tags/hexo/">
+                <span class="chip center-align waves-effect waves-light chip-default">hexo</span>
             </a>
             
             
@@ -1014,14 +1001,74 @@
             
             
             
-            <a href="/tags/hexo/">
-                <span class="chip center-align waves-effect waves-light chip-default">hexo</span>
+            <a href="/tags/topological-material/">
+                <span class="chip center-align waves-effect waves-light chip-default">topological material</span>
             </a>
             
             
             
-            <a href="/tags/wave/">
-                <span class="chip center-align waves-effect waves-light chip-default">wave</span>
+            <a href="/tags/topological-order/">
+                <span class="chip center-align waves-effect waves-light chip-default">topological order</span>
+            </a>
+            
+            
+            
+            <a href="/tags/quantum-spin-liquid/">
+                <span class="chip center-align waves-effect waves-light chip-default">quantum spin liquid</span>
+            </a>
+            
+            
+            
+            <a href="/tags/hall-effect/">
+                <span class="chip center-align waves-effect waves-light chip-default">hall effect</span>
+            </a>
+            
+            
+            
+            <a href="/tags/quantum-hall-effect/">
+                <span class="chip center-align waves-effect waves-light chip-default">quantum hall effect</span>
+            </a>
+            
+            
+            
+            <a href="/tags/integer-quantum-hall-effect/">
+                <span class="chip center-align waves-effect waves-light chip-default">integer quantum hall effect</span>
+            </a>
+            
+            
+            
+            <a href="/tags/fractional-quantum-hall-effect/">
+                <span class="chip center-align waves-effect waves-light chip-default">fractional quantum hall effect</span>
+            </a>
+            
+            
+            
+            <a href="/tags/quantum-spin-hall-effect/">
+                <span class="chip center-align waves-effect waves-light chip-default">quantum spin hall effect</span>
+            </a>
+            
+            
+            
+            <a href="/tags/returning-thouless-pump/">
+                <span class="chip center-align waves-effect waves-light chip-default">returning thouless pump</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Landau-s-symmetry-breaking-theory/">
+                <span class="chip center-align waves-effect waves-light chip-default">Landau's symmetry breaking theory</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Phd/">
+                <span class="chip center-align waves-effect waves-light chip-default">Phd</span>
+            </a>
+            
+            
+            
+            <a href="/tags/apt-get/">
+                <span class="chip center-align waves-effect waves-light chip-default">apt-get</span>
             </a>
             
             
