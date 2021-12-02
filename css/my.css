@@ -106,7 +106,8 @@ header .brand-logo .logo-span { background-image: linear-gradient(to right,red,o
 }
 
 .bg-cover .container {
-  font-family: 'Gwendolyn', cursive;
+  /* font-family: 'Gwendolyn', cursive; */
+  font-family: 'Righteous', cursive;
 }
 
 header .brand-logo .logo-span {
@@ -122,7 +123,7 @@ header .brand-logo .logo-span {
   -webkit-background-clip: text;
   -webkit-background-size: 200% 100%;
   -webkit-animation: masked-animation 3.5s linear infinite;
-  font-family: 'Gwendolyn', cursive;
+  font-family: 'Righteous', cursive;
   margin-bottom: 0px;
   font-size: 20px;
 }
