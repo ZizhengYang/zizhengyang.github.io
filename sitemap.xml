@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</loc>
+    <loc>https://zizhengyang.github.io/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/</loc>
     
     <lastmod>2021-12-02</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/</loc>
+    <loc>https://zizhengyang.github.io/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</loc>
     
     <lastmod>2021-12-02</lastmod>
     
@@ -277,28 +277,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/MacOS-Monterey/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/hexo/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/sdk-exception/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/coding-debug/</loc>
+    <loc>https://zizhengyang.github.io/tags/wave/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -389,6 +368,13 @@
   </url>
   
   <url>
+    <loc>https://zizhengyang.github.io/tags/MacOS-Monterey/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/tags/apt-get/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -396,7 +382,21 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/wave/</loc>
+    <loc>https://zizhengyang.github.io/tags/sdk-exception/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/coding-debug/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/hexo/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -420,13 +420,6 @@
   
   <url>
     <loc>https://zizhengyang.github.io/categories/Gaming/</loc>
-    <lastmod>2021-12-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Hexo/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -468,7 +461,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Guide/</loc>
+    <loc>https://zizhengyang.github.io/categories/Web/Hexo/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -476,6 +469,13 @@
   
   <url>
     <loc>https://zizhengyang.github.io/categories/Gaming/Minecraft/</loc>
+    <lastmod>2021-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Guide/</loc>
     <lastmod>2021-12-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
