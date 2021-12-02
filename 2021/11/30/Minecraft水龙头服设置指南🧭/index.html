@@ -251,6 +251,19 @@
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('Please enter the password to access this article')).toString(CryptoJS.enc.Hex)) {
+                alert('If the password is wrong, you will return to the homepage!');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -1109,7 +1122,7 @@ max-world-size<span class="token operator">=</span><span class="token number">29
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">4.3k</span>
+                        class="white-color">4.4k</span>
             
             
             
