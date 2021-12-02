@@ -103,3 +103,7 @@ header .brand-logo .logo-span{ background-image: linear-gradient(to right,red,or
 .title {
   font-family: 'Yellowtail', cursive;
 }
+
+.subtitle {
+  font-family: 'Gwendolyn', cursive;
+}
