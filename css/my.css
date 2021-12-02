@@ -95,3 +95,11 @@ header .brand-logo .logo-span{ background-image: linear-gradient(to right,red,or
         font-size: 1.5rem;
     }
 }
+
+/* ==== */
+/* FONT */
+/* ==== */
+
+.diyFont{
+ font-family: 'myFont';
+}
