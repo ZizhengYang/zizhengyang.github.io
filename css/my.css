@@ -100,6 +100,6 @@ header .brand-logo .logo-span{ background-image: linear-gradient(to right,red,or
 /* FONT */
 /* ==== */
 
-.diyFont{
- font-family: 'myFont';
+.brand .title {
+  font-family: 'Yellowtail', cursive;
 }
