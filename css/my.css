@@ -83,7 +83,9 @@ p.admonition-title {
 /* =========== */
 
 /* Here is your custom css styles. */
-header .brand-logo .logo-span, header .nav-menu .nav-item { background-image: linear-gradient(to right,red,orange,#ff0,green,#ff0,orange,red,orange,#ff0,green,#ff0,orange,red); -webkit-text-fill-color: transparent; -webkit-background-clip: text; -webkit-background-size: 200% 100%; -webkit-animation: masked-animation 3.5s linear infinite; margin-bottom: 0px; font-size: 20px; }
+header .brand-logo .logo-span { background-image: linear-gradient(to right,red,orange,#ff0,green,#ff0,orange,red,orange,#ff0,green,#ff0,orange,red); -webkit-text-fill-color: transparent; -webkit-background-clip: text; -webkit-background-size: 200% 100%; -webkit-animation: masked-animation 3.5s linear infinite; margin-bottom: 0px; font-size: 20px; }
+.nav-menu .nav-item { background-image: linear-gradient(to right,red,orange,#ff0,green,#ff0,orange,red,orange,#ff0,green,#ff0,orange,red); -webkit-text-fill-color: transparent; -webkit-background-clip: text; -webkit-background-size: 200% 100%; -webkit-animation: masked-animation 3.5s linear infinite; margin-bottom: 0px; font-size: 20px; }
+
 
 @keyframes masked-animation{
     0%{background-position:0 0}100%{background-position:-100% 0}
@@ -111,6 +113,6 @@ header .brand-logo .logo-span, header .nav-menu .nav-item { background-image: li
 header .brand-logo .logo-span {
   font-family: 'Righteous', cursive;
 }
-header .nav-menu .nav-item {
+.nav-menu .nav-item {
   font-family: 'Righteous', cursive;
 }
