@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-12T22:11:14.707Z</updated>
+  <updated>2021-12-12T22:12:46.683Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/</id>
     <published>2021-12-12T21:43:44.000Z</published>
-    <updated>2021-12-12T22:11:14.707Z</updated>
+    <updated>2021-12-12T22:12:46.683Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
-&lt;p&gt;在 &lt;code&gt;themes/hexo-theme-matery&lt;/code&gt; 文件夹中，和 &lt;code&gt;tag&lt;/code&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在 &lt;code&gt;themes/hexo-theme-matery&lt;/code&gt; 文件夹中，和 &lt;code&gt;tag&lt;/code&gt;</summary>
         
       
     
@@ -180,10 +179,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;wave-equation&quot;&gt;Wave equation&lt;/h2&gt;
-&lt;h3 id=&quot;construct-wave-equation&quot;&gt;Construct wave equation&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Vertical</summary>
+    <summary type="html">&lt;h2 id=&quot;Wave-equation&quot;&gt;&lt;a href=&quot;#Wave-equation&quot; class=&quot;headerlink&quot; title=&quot;Wave equation&quot;&gt;&lt;/a&gt;Wave equation&lt;/h2&gt;&lt;h3</summary>
         
       
     
@@ -212,9 +208,8 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/1605.05207&quot;&gt;Quantum computing with</summary>
+    <summary type="html">&lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt;</summary>
         
       
     
@@ -249,8 +244,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;from-hall-effect-to-topological-materials&quot;&gt;From Hall Effect to topological materials&lt;/h2&gt;
-&lt;p&gt;The entire field can be traced back to</summary>
+    <summary type="html">&lt;h2 id=&quot;From-Hall-Effect-to-topological-materials&quot;&gt;&lt;a href=&quot;#From-Hall-Effect-to-topological-materials&quot; class=&quot;headerlink&quot; title=&quot;From Hall</summary>
         
       
     
@@ -334,7 +328,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt; modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;&lt;br&gt;modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;&lt;br&gt;article version:</summary>
         
       
     
@@ -376,7 +370,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt; modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;&lt;br&gt;modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;&lt;br&gt;article version:</summary>
         
       
     
@@ -414,7 +408,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt; modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;&lt;br&gt;modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;&lt;br&gt;article version:</summary>
         
       
     
@@ -451,8 +445,7 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;question&quot;&gt;Question&lt;/h3&gt;
-&lt;p&gt;!!! info &quot;Example Question:&quot; Use the Diagonalization Method to determine whether each of the following</summary>
+    <summary type="html">&lt;h3 id=&quot;Question&quot;&gt;&lt;a href=&quot;#Question&quot; class=&quot;headerlink&quot; title=&quot;Question&quot;&gt;&lt;/a&gt;Question&lt;/h3&gt;&lt;p&gt;!!! info “Example Question:”&lt;br&gt;  Use the</summary>
         
       
     

@@ -5,11 +5,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Hexo Matery 自定义教程（一）：如何自定义tag🏷️, Mathematics,Physics,Computer Science,History,Others">
-    <meta name="description" content="简介
-在 themes/hexo-theme-matery 文件夹中，和 tag 页面相关的主要有两个
+    <meta name="description" content="简介在 themes/hexo-theme-matery 文件夹中，和 tag 页面相关的主要有两个
 本文中主要涉及到以下几个文件的修改
 
-tags.ejs: 路径为 themes/hexo-theme-matery/layout/tag">
+tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -38,9 +37,9 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tag">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
-<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Droping" type="application/atom+xml">
-
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="Droping" type="application/atom+xml">
 </head>
 
 
@@ -559,7 +558,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tag">
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    453
+                    448
                 </div>
                 
 
@@ -589,8 +588,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tag">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="简介">简介</h2>
-<p>在 <code>themes/hexo-theme-matery</code> 文件夹中，和 <code>tag</code> 页面相关的主要有两个</p>
+                <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>在 <code>themes/hexo-theme-matery</code> 文件夹中，和 <code>tag</code> 页面相关的主要有两个</p>
 <p>本文中主要涉及到以下几个文件的修改</p>
 <ul>
 <li><code>tags.ejs</code>: 路径为 themes/hexo-theme-matery/layout/tags.ejs</li>
@@ -598,8 +596,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tag">
 <li><code>tag-cloud.ejs</code>: 路径为 themes/hexo-theme-matery/layout/_widget/tag-cloud.ejs</li>
 <li><code>tag-wordcloud.ejs</code>: 路径为 themes/hexo-theme-matery/layout/_widget/tag-wordcloud.ejs</li>
 </ul>
-<h2 id="功能实现的结构">功能实现的结构</h2>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"tag-chips"</span><span class="token operator">&gt;</span>
+<h2 id="功能实现的结构"><a href="#功能实现的结构" class="headerlink" title="功能实现的结构"></a>功能实现的结构</h2><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"tag-chips"</span><span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span><span class="token operator">%</span> site<span class="token punctuation">.</span>tags<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">tag</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token operator">%</span><span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span><span class="token operator">%</span>
         i<span class="token operator">++</span><span class="token punctuation">;</span>
@@ -615,11 +612,9 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tag">
     <span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span><span class="token operator">%</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">%</span><span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="更换-tag-可选的颜色">更换 tag 可选的颜色</h2>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> colorArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'#F9EBEA'</span><span class="token punctuation">,</span> <span class="token string">'#F5EEF8'</span><span class="token punctuation">,</span> <span class="token string">'#D5F5E3'</span><span class="token punctuation">,</span> <span class="token string">'#E8F8F5'</span><span class="token punctuation">,</span> <span class="token string">'#FEF9E7'</span><span class="token punctuation">,</span>
+<h2 id="更换-tag-可选的颜色"><a href="#更换-tag-可选的颜色" class="headerlink" title="更换 tag 可选的颜色"></a>更换 tag 可选的颜色</h2><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> colorArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'#F9EBEA'</span><span class="token punctuation">,</span> <span class="token string">'#F5EEF8'</span><span class="token punctuation">,</span> <span class="token string">'#D5F5E3'</span><span class="token punctuation">,</span> <span class="token string">'#E8F8F5'</span><span class="token punctuation">,</span> <span class="token string">'#FEF9E7'</span><span class="token punctuation">,</span>
     <span class="token string">'#F8F9F9'</span><span class="token punctuation">,</span> <span class="token string">'#82E0AA'</span><span class="token punctuation">,</span> <span class="token string">'#D7BDE2'</span><span class="token punctuation">,</span> <span class="token string">'#A3E4D7'</span><span class="token punctuation">,</span> <span class="token string">'#85C1E9'</span><span class="token punctuation">,</span> <span class="token string">'#F8C471'</span><span class="token punctuation">,</span> <span class="token string">'#F9E79F'</span><span class="token punctuation">,</span> <span class="token string">'#FFF'</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<h2 id="更改渲染-tag-出现次数的下限">更改渲染 tag 出现次数的下限</h2>
-<p>有的时候我们写了很多博文，其中有一些 tag 只在几个博文中出现，如果把如此多的 tag 全部渲染出来，博客的 tag 页面会变得特别乱特别丑。我们可以设置一个下限。将下面这一段代码：</p>
+<h2 id="更改渲染-tag-出现次数的下限"><a href="#更改渲染-tag-出现次数的下限" class="headerlink" title="更改渲染 tag 出现次数的下限"></a>更改渲染 tag 出现次数的下限</h2><p>有的时候我们写了很多博文，其中有一些 tag 只在几个博文中出现，如果把如此多的 tag 全部渲染出来，博客的 tag 页面会变得特别乱特别丑。我们可以设置一个下限。将下面这一段代码：</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span><span class="token operator">%</span>
     <span class="token keyword">var</span> tagArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
     <span class="token keyword">if</span> <span class="token punctuation">(</span>post<span class="token punctuation">.</span>tags <span class="token operator">&amp;&amp;</span> post<span class="token punctuation">.</span>tags<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -641,7 +636,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tag">
     var tags = tagArr.join(', ');
 %>
 ``` -->
-<p>我们不能直接将 <code>post.tags.length &gt; 0</code> 改为 <code>post.tags.length &gt; 1</code> 去设置一个 tag 在所有文章中至少出现一次的要求。因为看 <code>post.tags</code> 这里其实是遍历每一篇文章中的 <code>tag</code>，因为每次只算了一篇文章，它一定是 <code>post.tags.length = 1</code> 的。因此如果这么改会出现如下报错。</p>
+<p>我们不能直接将 <code>post.tags.length &gt; 0</code> 改为 <code>post.tags.length &gt; 1</code> 去设置一个 tag 在所有文章中至少出现一次的要求。因为看 <code>post.tags</code> 这里其实是遍历每一篇文章中的 <code>tag</code>，因为每次只算了一篇文章，如果没有重复使用 tag，它一定是 <code>post.tags.length = 1</code> 的。</p>
 
                 
             </div>
