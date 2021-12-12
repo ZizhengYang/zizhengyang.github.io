@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-12T21:36:05.323Z</updated>
+  <updated>2021-12-12T21:48:08.297Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -17,11 +17,58 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo Matery 自定义教程（一）：如何自定义tag🏷️</title>
+    <link href="https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/"/>
+    <id>https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/</id>
+    <published>2021-12-12T21:43:44.000Z</published>
+    <updated>2021-12-12T21:48:08.297Z</updated>
+    
+    
+    
+    
+    <category term="Web" scheme="https://zizhengyang.github.io/categories/Web/"/>
+    
+    <category term="Hexo" scheme="https://zizhengyang.github.io/categories/Web/Hexo/"/>
+    
+    
+    <category term="coding" scheme="https://zizhengyang.github.io/tags/coding/"/>
+    
+    <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
+    
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
+    
+    <category term="matery theme" scheme="https://zizhengyang.github.io/tags/matery-theme/"/>
+    
+    <category term="configuration" scheme="https://zizhengyang.github.io/tags/configuration/"/>
+    
+    <category term="customize" scheme="https://zizhengyang.github.io/tags/customize/"/>
+    
+    <category term="blog" scheme="https://zizhengyang.github.io/tags/blog/"/>
+    
+    <category term="computer science" scheme="https://zizhengyang.github.io/tags/computer-science/"/>
+    
+    <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
+    
+    <category term="pages" scheme="https://zizhengyang.github.io/tags/pages/"/>
+    
+    <category term="html" scheme="https://zizhengyang.github.io/tags/html/"/>
+    
+    <category term="css" scheme="https://zizhengyang.github.io/tags/css/"/>
+    
+    <category term="javascript" scheme="https://zizhengyang.github.io/tags/javascript/"/>
+    
+    <category term="ejs" scheme="https://zizhengyang.github.io/tags/ejs/"/>
+    
+    <category term="json" scheme="https://zizhengyang.github.io/tags/json/"/>
+    
+  </entry>
+  
+  <entry>
     <title>[Problem Set] McIntyre Practice C8 P1</title>
     <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8%20P1/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8%20P1/</id>
     <published>2021-12-12T21:30:23.167Z</published>
-    <updated>2021-12-12T21:36:05.323Z</updated>
+    <updated>2021-12-12T21:37:24.696Z</updated>
     
     
     
@@ -32,6 +79,8 @@
     
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
+    
+    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
@@ -94,9 +143,9 @@
     <category term="Short Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Reviews/"/>
     
     
-    <category term="assignment" scheme="https://zizhengyang.github.io/tags/assignment/"/>
-    
     <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
+    
+    <category term="assignment" scheme="https://zizhengyang.github.io/tags/assignment/"/>
     
     <category term="history" scheme="https://zizhengyang.github.io/tags/history/"/>
     
@@ -122,7 +171,10 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Wave-equation&quot;&gt;&lt;a href=&quot;#Wave-equation&quot; class=&quot;headerlink&quot; title=&quot;Wave equation&quot;&gt;&lt;/a&gt;Wave equation&lt;/h2&gt;&lt;h3</summary>
+    <summary type="html">&lt;h2 id=&quot;wave-equation&quot;&gt;Wave equation&lt;/h2&gt;
+&lt;h3 id=&quot;construct-wave-equation&quot;&gt;Construct wave equation&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vertical</summary>
         
       
     
@@ -151,8 +203,9 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt; </summary>
+    <summary type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/1605.05207&quot;&gt;Quantum computing with</summary>
         
       
     
@@ -187,7 +240,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;From-Hall-Effect-to-topological-materials&quot;&gt;&lt;a href=&quot;#From-Hall-Effect-to-topological-materials&quot; class=&quot;headerlink&quot; title=&quot;From Hall</summary>
+    <summary type="html">&lt;h2 id=&quot;from-hall-effect-to-topological-materials&quot;&gt;From Hall Effect to topological materials&lt;/h2&gt;
+&lt;p&gt;The entire field can be traced back to</summary>
         
       
     
@@ -263,7 +317,7 @@
     <link href="https://zizhengyang.github.io/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
     <id>https://zizhengyang.github.io/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
     <published>2021-11-15T19:23:03.765Z</published>
-    <updated>2021-12-02T00:54:37.394Z</updated>
+    <updated>2021-12-12T21:44:50.223Z</updated>
     
     
       
@@ -271,9 +325,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;
-modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;
-article version:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt; modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
         
       
     
@@ -284,21 +336,21 @@ article version:</summary>
     <category term="Unix" scheme="https://zizhengyang.github.io/categories/Web/Unix/"/>
     
     
-    <category term="Coding" scheme="https://zizhengyang.github.io/tags/Coding/"/>
-    
-    <category term="Debugging" scheme="https://zizhengyang.github.io/tags/Debugging/"/>
-    
     <category term="GNU/Linux_Debian_Ubuntu" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Debian-Ubuntu/"/>
     
     <category term="GNU/Linux_Fedora_CentOS" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Fedora-CentOS/"/>
     
-    <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
+    <category term="coding" scheme="https://zizhengyang.github.io/tags/coding/"/>
     
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
+    <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
+    
+    <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
@@ -315,9 +367,7 @@ article version:</summary>
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;
-modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;
-article version:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt; modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
         
       
     
@@ -347,7 +397,7 @@ article version:</summary>
     <link href="https://zizhengyang.github.io/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/"/>
     <id>https://zizhengyang.github.io/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</id>
     <published>2021-11-09T18:10:56.332Z</published>
-    <updated>2021-12-02T00:54:37.393Z</updated>
+    <updated>2021-12-12T21:44:55.385Z</updated>
     
     
       
@@ -355,9 +405,7 @@ article version:</summary>
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;
-modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;
-article version:</summary>
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt; modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
         
       
     
@@ -368,17 +416,17 @@ article version:</summary>
     <category term="Hexo" scheme="https://zizhengyang.github.io/categories/Web/Hexo/"/>
     
     
-    <category term="Coding" scheme="https://zizhengyang.github.io/tags/Coding/"/>
+    <category term="coding" scheme="https://zizhengyang.github.io/tags/coding/"/>
     
-    <category term="Debugging" scheme="https://zizhengyang.github.io/tags/Debugging/"/>
+    <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
+    
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
-    
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -394,8 +442,8 @@ article version:</summary>
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Question&quot;&gt;&lt;a href=&quot;#Question&quot; class=&quot;headerlink&quot; title=&quot;Question&quot;&gt;&lt;/a&gt;Question&lt;/h3&gt;&lt;p&gt;!!! info “Example Question:”
-  Use the</summary>
+    <summary type="html">&lt;h3 id=&quot;question&quot;&gt;Question&lt;/h3&gt;
+&lt;p&gt;!!! info &quot;Example Question:&quot; Use the Diagonalization Method to determine whether each of the following</summary>
         
       
     
