@@ -296,11 +296,11 @@
       
         <tags>
             
+            <tag> Coding </tag>
+            
             <tag> Minecraft </tag>
             
             <tag> Spigot </tag>
-            
-            <tag> Coding </tag>
             
         </tags>
       
@@ -327,6 +327,10 @@
       
         <tags>
             
+            <tag> GNU/Linux_Debian_Ubuntu </tag>
+            
+            <tag> GNU/Linux_Fedora_CentOS </tag>
+            
             <tag> coding </tag>
             
             <tag> debugging </tag>
@@ -336,10 +340,6 @@
             <tag> sdk_exception </tag>
             
             <tag> coding_debug </tag>
-            
-            <tag> GNU/Linux_Debian_Ubuntu </tag>
-            
-            <tag> GNU/Linux_Fedora_CentOS </tag>
             
             <tag> apt-get </tag>
             
@@ -370,11 +370,11 @@
             
             <tag> Coding </tag>
             
+            <tag> Debugging </tag>
+            
             <tag> GNU/Linux_Debian_Ubuntu </tag>
             
             <tag> GNU/Linux_Fedora_CentOS </tag>
-            
-            <tag> Debugging </tag>
             
             <tag> nginx </tag>
             
@@ -409,9 +409,9 @@
             
             <tag> debugging </tag>
             
-            <tag> MacOS_Monterey </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> MacOS_Monterey </tag>
             
             <tag> sdk_exception </tag>
             
