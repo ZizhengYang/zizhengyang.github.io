@@ -109,6 +109,8 @@
     <category term="Hexo" scheme="https://zizhengyang.github.io/categories/Web/Hexo/"/>
     
     
+    <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
+    
     <category term="coding" scheme="https://zizhengyang.github.io/tags/coding/"/>
     
     <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
@@ -124,8 +126,6 @@
     <category term="blog" scheme="https://zizhengyang.github.io/tags/blog/"/>
     
     <category term="computer science" scheme="https://zizhengyang.github.io/tags/computer-science/"/>
-    
-    <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
     
     <category term="pages" scheme="https://zizhengyang.github.io/tags/pages/"/>
     
@@ -146,7 +146,7 @@
     <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/</id>
     <published>2021-12-12T21:30:23.167Z</published>
-    <updated>2021-12-12T23:04:41.312Z</updated>
+    <updated>2021-12-12T23:15:18.580Z</updated>
     
     
       
@@ -155,8 +155,8 @@
         
     <summary type="html">&lt;h2 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h2&gt;
 &lt;h3 id=&quot;brief-in-question&quot;&gt;Brief in Question&lt;/h3&gt;
-&lt;p&gt;Normalize&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;math</summary>
+&lt;ul&gt;
+&lt;li&gt;Normalize &lt;span class=&quot;math</summary>
         
       
     
@@ -232,9 +232,9 @@
     <category term="Short Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Reviews/"/>
     
     
-    <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
-    
     <category term="assignment" scheme="https://zizhengyang.github.io/tags/assignment/"/>
+    
+    <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
     
     <category term="history" scheme="https://zizhengyang.github.io/tags/history/"/>
     
@@ -435,11 +435,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
-    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
