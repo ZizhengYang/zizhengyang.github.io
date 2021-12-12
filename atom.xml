@@ -141,7 +141,7 @@
     <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/</id>
     <published>2021-12-12T21:30:23.167Z</published>
-    <updated>2021-12-12T23:16:44.600Z</updated>
+    <updated>2021-12-12T23:24:55.024Z</updated>
     
     
       
@@ -282,7 +282,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt;</summary>
+&lt;li&gt; </summary>
         
       
     
@@ -401,7 +401,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;&lt;br&gt;modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;&lt;br&gt;article version:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;
+modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;
+article version:</summary>
         
       
     
@@ -422,11 +424,11 @@
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
-    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
@@ -443,7 +445,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;&lt;br&gt;modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;&lt;br&gt;article version:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;
+modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;
+article version:</summary>
         
       
     
@@ -481,7 +485,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;&lt;br&gt;modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;&lt;br&gt;article version:</summary>
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;
+modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;
+article version:</summary>
         
       
     
@@ -496,9 +502,9 @@
     
     <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
     
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
-    
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
+    
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
@@ -518,7 +524,8 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Question&quot;&gt;&lt;a href=&quot;#Question&quot; class=&quot;headerlink&quot; title=&quot;Question&quot;&gt;&lt;/a&gt;Question&lt;/h3&gt;&lt;p&gt;!!! info “Example Question:”&lt;br&gt;  Use the</summary>
+    <summary type="html">&lt;h3 id=&quot;Question&quot;&gt;&lt;a href=&quot;#Question&quot; class=&quot;headerlink&quot; title=&quot;Question&quot;&gt;&lt;/a&gt;Question&lt;/h3&gt;&lt;p&gt;!!! info “Example Question:”
+  Use the</summary>
         
       
     
