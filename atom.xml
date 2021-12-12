@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-11T00:19:10.581Z</updated>
+  <updated>2021-12-12T21:36:05.323Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[Problem Set] McIntyre Practice C8 P1</title>
+    <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8%20P1/"/>
+    <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8%20P1/</id>
+    <published>2021-12-12T21:30:23.167Z</published>
+    <updated>2021-12-12T21:36:05.323Z</updated>
+    
+    
+    
+    
+    <category term="Physics" scheme="https://zizhengyang.github.io/categories/Physics/"/>
+    
+    <category term="Quantum Physics" scheme="https://zizhengyang.github.io/categories/Physics/Quantum-Physics/"/>
+    
+    
+    <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
+    
+    <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
+    <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
+    
+    <category term="radial wavefunction" scheme="https://zizhengyang.github.io/tags/radial-wavefunction/"/>
+    
+    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
+    
+    <category term="radial probability distribution" scheme="https://zizhengyang.github.io/tags/radial-probability-distribution/"/>
+    
+    <category term="hydrogen atom" scheme="https://zizhengyang.github.io/tags/hydrogen-atom/"/>
+    
+    <category term="hydrogen energy eigenstate" scheme="https://zizhengyang.github.io/tags/hydrogen-energy-eigenstate/"/>
+    
+    <category term="shell number" scheme="https://zizhengyang.github.io/tags/shell-number/"/>
+    
+    <category term="ionization limit" scheme="https://zizhengyang.github.io/tags/ionization-limit/"/>
+    
+    <category term="Bohr energies" scheme="https://zizhengyang.github.io/tags/Bohr-energies/"/>
+    
+    <category term="Lyman series" scheme="https://zizhengyang.github.io/tags/Lyman-series/"/>
+    
+    <category term="Balmer series" scheme="https://zizhengyang.github.io/tags/Balmer-series/"/>
+    
+    <category term="Paschen series" scheme="https://zizhengyang.github.io/tags/Paschen-series/"/>
+    
+    <category term="Rydberg constant" scheme="https://zizhengyang.github.io/tags/Rydberg-constant/"/>
+    
+    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
+    
+    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
+    
+  </entry>
   
   <entry>
     <title>Classical Empires Assignment: a review of Emperor Hadrian</title>
@@ -195,11 +250,11 @@
     <category term="Server" scheme="https://zizhengyang.github.io/categories/Gaming/Minecraft/Server/"/>
     
     
+    <category term="Coding" scheme="https://zizhengyang.github.io/tags/Coding/"/>
+    
     <category term="Minecraft" scheme="https://zizhengyang.github.io/tags/Minecraft/"/>
     
     <category term="Spigot" scheme="https://zizhengyang.github.io/tags/Spigot/"/>
-    
-    <category term="Coding" scheme="https://zizhengyang.github.io/tags/Coding/"/>
     
   </entry>
   
@@ -239,11 +294,11 @@ article version:</summary>
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
+    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
-    
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
@@ -319,11 +374,11 @@ article version:</summary>
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
-    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
   </entry>
   
