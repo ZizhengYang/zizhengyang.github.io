@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-12T22:35:19.647Z</updated>
+  <updated>2021-12-12T22:40:22.688Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -15,6 +15,75 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>[Problem Set] McIntyre Practice C7</title>
+    <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C7/"/>
+    <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C7/</id>
+    <published>2021-12-12T22:40:06.189Z</published>
+    <updated>2021-12-12T22:40:22.688Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h2&gt;
+&lt;h2 id=&quot;problem-2&quot;&gt;Problem 2&lt;/h2&gt;
+&lt;h2 id=&quot;problem-3&quot;&gt;Problem 3&lt;/h2&gt;
+&lt;h2 id=&quot;problem-4&quot;&gt;Problem 4&lt;/h2&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://zizhengyang.github.io/categories/Physics/"/>
+    
+    <category term="Quantum Physics" scheme="https://zizhengyang.github.io/categories/Physics/Quantum-Physics/"/>
+    
+    
+    <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
+    
+    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
+    
+    <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
+    <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
+    
+    <category term="radial wavefunction" scheme="https://zizhengyang.github.io/tags/radial-wavefunction/"/>
+    
+    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
+    
+    <category term="radial probability distribution" scheme="https://zizhengyang.github.io/tags/radial-probability-distribution/"/>
+    
+    <category term="hydrogen atom" scheme="https://zizhengyang.github.io/tags/hydrogen-atom/"/>
+    
+    <category term="hydrogen energy eigenstate" scheme="https://zizhengyang.github.io/tags/hydrogen-energy-eigenstate/"/>
+    
+    <category term="shell number" scheme="https://zizhengyang.github.io/tags/shell-number/"/>
+    
+    <category term="ionization limit" scheme="https://zizhengyang.github.io/tags/ionization-limit/"/>
+    
+    <category term="Bohr energies" scheme="https://zizhengyang.github.io/tags/Bohr-energies/"/>
+    
+    <category term="Lyman series" scheme="https://zizhengyang.github.io/tags/Lyman-series/"/>
+    
+    <category term="Balmer series" scheme="https://zizhengyang.github.io/tags/Balmer-series/"/>
+    
+    <category term="Paschen series" scheme="https://zizhengyang.github.io/tags/Paschen-series/"/>
+    
+    <category term="Rydberg constant" scheme="https://zizhengyang.github.io/tags/Rydberg-constant/"/>
+    
+    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
+    
+    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo Matery 自定义教程（一）：如何自定义tag🏷️</title>
@@ -73,12 +142,24 @@
   </entry>
   
   <entry>
-    <title>[Problem Set] McIntyre Practice C8 P1</title>
-    <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8%20P1/"/>
-    <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8%20P1/</id>
+    <title>[Problem Set] McIntyre Practice C8</title>
+    <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/"/>
+    <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/</id>
     <published>2021-12-12T21:30:23.167Z</published>
-    <updated>2021-12-12T22:03:36.692Z</updated>
+    <updated>2021-12-12T22:39:54.219Z</updated>
     
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h2&gt;
+&lt;h2 id=&quot;problem-2&quot;&gt;Problem 2&lt;/h2&gt;
+&lt;h2 id=&quot;problem-3&quot;&gt;Problem 3&lt;/h2&gt;
+&lt;h2 id=&quot;problem-4&quot;&gt;Problem 4&lt;/h2&gt;
+&lt;h2</summary>
+        
+      
     
     
     
@@ -345,21 +426,21 @@
     <category term="Unix" scheme="https://zizhengyang.github.io/categories/Web/Unix/"/>
     
     
-    <category term="coding" scheme="https://zizhengyang.github.io/tags/coding/"/>
-    
-    <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
-    
     <category term="GNU/Linux_Debian_Ubuntu" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Debian-Ubuntu/"/>
     
     <category term="GNU/Linux_Fedora_CentOS" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Fedora-CentOS/"/>
     
-    <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
+    <category term="coding" scheme="https://zizhengyang.github.io/tags/coding/"/>
     
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
+    <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
+    
+    <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/</loc>
+    <loc>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C7/</loc>
     
     <lastmod>2021-12-12</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8%20P1/</loc>
+    <loc>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/</loc>
+    
+    <lastmod>2021-12-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/</loc>
     
     <lastmod>2021-12-12</lastmod>
     
@@ -187,49 +196,42 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/assignment/</loc>
+    <loc>https://zizhengyang.github.io/tags/Coding/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/article/</loc>
+    <loc>https://zizhengyang.github.io/tags/Debugging/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/history/</loc>
+    <loc>https://zizhengyang.github.io/tags/GNU-Linux-Debian-Ubuntu/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/empires/</loc>
+    <loc>https://zizhengyang.github.io/tags/GNU-Linux-Fedora-CentOS/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/rome/</loc>
+    <loc>https://zizhengyang.github.io/tags/nginx/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/Hadrian/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/politics/</loc>
+    <loc>https://zizhengyang.github.io/tags/command-not-found/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -307,6 +309,55 @@
   
   <url>
     <loc>https://zizhengyang.github.io/tags/Phd/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/assignment/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/article/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/history/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/empires/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/rome/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/Hadrian/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/politics/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -411,48 +462,6 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/Coding/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/Debugging/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/GNU-Linux-Debian-Ubuntu/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/GNU-Linux-Fedora-CentOS/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/nginx/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/command-not-found/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zizhengyang.github.io/tags/Minecraft/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -461,6 +470,34 @@
   
   <url>
     <loc>https://zizhengyang.github.io/tags/Spigot/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/MacOS-Monterey/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/sdk-exception/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/coding-debug/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/apt-get/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -655,34 +692,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://zizhengyang.github.io/tags/MacOS-Monterey/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/apt-get/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/sdk-exception/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/coding-debug/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -694,6 +703,13 @@
   
   <url>
     <loc>https://zizhengyang.github.io/categories/Web/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Reviews/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -714,7 +730,21 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Reviews/Short-Reviews/</loc>
+    <loc>https://zizhengyang.github.io/categories/Web/Nginx/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Web/Hexo/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Web/Unix/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -729,27 +759,6 @@
   
   <url>
     <loc>https://zizhengyang.github.io/categories/Mathematics/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Unix/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Hexo/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Nginx/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
