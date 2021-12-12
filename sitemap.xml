@@ -182,6 +182,20 @@
 
   
   <url>
+    <loc>https://zizhengyang.github.io/tags/physics/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/wave/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/tags/Coding/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -218,62 +232,6 @@
   
   <url>
     <loc>https://zizhengyang.github.io/tags/command-not-found/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/assignment/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/article/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/history/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/empires/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/rome/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/Hadrian/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/politics/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/physics/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -357,14 +315,49 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/Minecraft/</loc>
+    <loc>https://zizhengyang.github.io/tags/assignment/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/tags/Spigot/</loc>
+    <loc>https://zizhengyang.github.io/tags/article/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/history/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/empires/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/rome/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/Hadrian/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/politics/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -490,7 +483,28 @@
   </url>
   
   <url>
+    <loc>https://zizhengyang.github.io/tags/Minecraft/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/Spigot/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/tags/MacOS-Monterey/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/tags/apt-get/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -505,20 +519,6 @@
   
   <url>
     <loc>https://zizhengyang.github.io/tags/coding-debug/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/wave/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/tags/apt-get/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -695,13 +695,6 @@
 
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Web/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zizhengyang.github.io/categories/Reviews/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -709,28 +702,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Gaming/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Nginx/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Web/Hexo/</loc>
-    <lastmod>2021-12-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://zizhengyang.github.io/categories/Physics/</loc>
+    <loc>https://zizhengyang.github.io/categories/Web/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -751,6 +723,27 @@
   </url>
   
   <url>
+    <loc>https://zizhengyang.github.io/categories/Physics/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Web/Nginx/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Gaming/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zizhengyang.github.io/categories/Web/Unix/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -765,7 +758,7 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Gaming/Minecraft/</loc>
+    <loc>https://zizhengyang.github.io/categories/Web/Hexo/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -779,14 +772,14 @@
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Mathematics/Linear-Algebra/</loc>
+    <loc>https://zizhengyang.github.io/categories/Gaming/Minecraft/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zizhengyang.github.io/categories/Gaming/Minecraft/Server/</loc>
+    <loc>https://zizhengyang.github.io/categories/Mathematics/Linear-Algebra/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -801,6 +794,13 @@
   
   <url>
     <loc>https://zizhengyang.github.io/categories/Physics/Quantum-Computing/Cold-Rydberg-Atom-Quantum-Computing/</loc>
+    <lastmod>2021-12-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zizhengyang.github.io/categories/Gaming/Minecraft/Server/</loc>
     <lastmod>2021-12-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
