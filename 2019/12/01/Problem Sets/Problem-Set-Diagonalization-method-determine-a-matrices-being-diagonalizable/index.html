@@ -532,7 +532,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    243
+                    199
                 </div>
                 
 
@@ -572,18 +572,19 @@
   \end{array}\right]
   \end{equation}$$</p>
 <h3 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h3><p>First of all, take the characteristic polynomial of $\mathbf{A}$ and solve for eigenvalues.</p>
-<p>$$
-\begin{equation}
-  p_A(x)=|x \mathbf{I}_{n}-\mathbf{A}|\
-  <!-- &=\Bigg|\left[\begin{array}{ccc}{x} & {0} & {0} \\ {0} & {x} & {0} \\ {0} & {0} & {x}\end{array}\rig  \left[\begin{array}{ccc}{2} & {0} & {0} \\ {-3} & {4} & {1} \\ {3} & {-2} & {1}\end{array}\right]\Bigg|\\ -->
-  <!-- &=\left|\begin{array}{ccc}{x-2} & {0} & {0} \\ {3} & {x-4} & {-1} \\ {-3} & {2} & {x-1}\end{array}\right|\\ -->
-  <!-- &=(x-2)\left|\begin{array}{ccc}{x-4} & {-1} \\ {2} & {x-1}\end{array}\right|\\ -->
-  &amp;=(x-2)((x-4)(x-1)-(-2))\
-  &amp;=(x-2)(x^{2}-5x+4+2)\
-  &amp;=(x-2)(x^{2}-5x+6)\
-  &amp;=(x-2)(x-3)(x-2)=0
-\end{equation}
-$$</p>
+<!-- $$
+\begin{align*}
+  p_A(x)=|x \mathbf{I}_{n}-\mathbf{A}|\\
+  &=\Bigg|\left[\begin{array}{ccc}{x} & {0} & {0} \\ {0} & {x} & {0} \\ {0} & {0} & {x}\end{array}\rig  \left[\begin{array}{ccc}{2} & {0} & {0} \\ {-3} & {4} & {1} \\ {3} & {-2} & {1}\end{array}\right]\Bigg|\\
+  &=\left|\begin{array}{ccc}{x-2} & {0} & {0} \\ {3} & {x-4} & {-1} \\ {-3} & {2} & {x-1}\end{array}\right|\\
+  &=(x-2)\left|\begin{array}{ccc}{x-4} & {-1} \\ {2} & {x-1}\end{array}\right|\\
+  &=(x-2)((x-4)(x-1)-(-2))\\
+  &=(x-2)(x^{2}-5x+4+2)\\
+  &=(x-2)(x^{2}-5x+6)\\
+  &=(x-2)(x-3)(x-2)=0
+\end{align*}
+$$ -->
+
 <p>So, we have that the eigenvalues of $\mathbf{A}$ are $x_1=2$ and $x_2=3$. For eigenvalue $x_1=2$, have linear system:</p>
 <p>$$
 \left[\begin{array}{ccc|c}{2-2} &amp; {0} &amp; {0} &amp; {0} \ {3} &amp; {2-4} &amp; {-1} &amp; {0} \ {-3} &amp; {2} &amp; {2-1} &amp; {0}\end{array}\right] \Longrightarrow \left[\begin{array}{ccc|c}{1} &amp; {-\frac{2}{3}} &amp; {-\frac{1}{3}} &amp; {0} \ {0} &amp; {0} &amp; {0} &amp; {0} \ {0} &amp; {0} &amp; {0} &amp; {0}\end{array}\right]
