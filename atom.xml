@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-12T22:06:08.080Z</updated>
+  <updated>2021-12-12T22:11:14.707Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/</id>
     <published>2021-12-12T21:43:44.000Z</published>
-    <updated>2021-12-12T22:06:08.080Z</updated>
+    <updated>2021-12-12T22:11:14.707Z</updated>
     
     
       
@@ -345,13 +345,13 @@
     <category term="Unix" scheme="https://zizhengyang.github.io/categories/Web/Unix/"/>
     
     
-    <category term="coding" scheme="https://zizhengyang.github.io/tags/coding/"/>
-    
-    <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
-    
     <category term="GNU/Linux_Debian_Ubuntu" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Debian-Ubuntu/"/>
     
     <category term="GNU/Linux_Fedora_CentOS" scheme="https://zizhengyang.github.io/tags/GNU-Linux-Fedora-CentOS/"/>
+    
+    <category term="coding" scheme="https://zizhengyang.github.io/tags/coding/"/>
+    
+    <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
