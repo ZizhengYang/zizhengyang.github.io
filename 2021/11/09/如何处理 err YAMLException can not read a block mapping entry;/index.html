@@ -6,7 +6,10 @@
     <meta charset="utf-8">
     <meta name="keywords" content="如何处理 err YAMLException can not read a block mapping entry;, Mathematics,Physics,Computer Science,History,Others">
     <meta name="description" content="
-creation date: 星期二 9日 十一月-2021-12:10:56modification date: 星期日 21日 十一月-2021-23:00:45article version: 1.0.0tags: #Coding ">
+creation date: 星期二 9日 十一月-2021-12:10:56
+modification date: 星期日 21日 十一月-2021-23:00:45
+article version: 1.0.0
+tags: #Codi">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -520,7 +523,7 @@ creation date: 星期二 9日 十一月-2021-12:10:56modification date: 星期�
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    308
+                    315
                 </div>
                 
 
@@ -551,7 +554,14 @@ creation date: 星期二 9日 十一月-2021-12:10:56modification date: 星期�
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <blockquote>
-<p>creation date: 星期二 9日 十一月-2021-12:10:56<br><br>modification date: 星期日 21日 十一月-2021-23:00:45<br><br>article version: 1.0.0<br><br>tags: #Coding #Debugging<br><br>system: #MacOS_Monterey<br><br>program: #hexo<br><br>bug type: #sdk_exception<br><br>template version: #coding_debug  1.0.0<br></p>
+<p>creation date: 星期二 9日 十一月-2021-12:10:56<br>
+modification date: 星期日 21日 十一月-2021-23:00:45<br>
+article version: 1.0.0<br>
+tags: #Coding #Debugging<br>
+system: #MacOS_Monterey<br>
+program: #hexo<br>
+bug type: #sdk_exception<br>
+template version: #coding_debug  1.0.0<br></p>
 </blockquote>
 <h2 id="README"><a href="#README" class="headerlink" title="README"></a>README</h2><blockquote>
 <p>Cover image comes from: <a target="_blank" rel="noopener" href="https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/">https://cyto.top/2018/12/23/solution-hexo-can-not-read-a-block-mapping-entry/</a></p>
@@ -560,6 +570,7 @@ creation date: 星期二 9日 十一月-2021-12:10:56modification date: 星期�
 <p>我的报错信息是这样的：</p>
 <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">err: YAMLException: can not <span class="token builtin class-name">read</span> a block mapping entry<span class="token punctuation">;</span> a multiline key may not be an implicit key at line <span class="token number">2</span>, <span class="token function">column</span> <span class="token number">5</span>:
       date:<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
 <p>我找到了 <code>date</code> 所在的位置，是 <code>markdown</code> 文件的开头，定义基本信息 <code>Front-matter</code> 的地方</p>
 <pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span>
 <span class="token font-matter yaml language-yaml">title: [Note of Phys 480] Lecture 5.2 corresponding to McIntyre Chapter 3
@@ -580,6 +591,7 @@ photos:
 link:
 mathjax: true</span>
 <span class="token punctuation">---</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <p>原来是 <code>hexo</code> 不支持 <code>[]</code> 括号在文件头，<code>Front-matter</code> 修改成：</p>
 <pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token front-matter-block"><span class="token punctuation">---</span>
 <span class="token font-matter yaml language-yaml">title: &lt;Note of Phys 480&gt; Lecture 5.2 corresponding to McIntyre Chapter 3
@@ -600,9 +612,11 @@ photos:
 link:
 mathjax: true</span>
 <span class="token punctuation">---</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <p>之后就问题解决了✌️</p>
 <h2 id="Daily-Quotes"><a href="#Daily-Quotes" class="headerlink" title="Daily Quotes"></a>Daily Quotes</h2><blockquote>
-<p>From now on we live in a world where man has walked on the Moon. It’s not a miracle; we just decided to go.<br>— <cite>Tom Hanks</cite></p>
+<p>From now on we live in a world where man has walked on the Moon. It’s not a miracle; we just decided to go.
+— <cite>Tom Hanks</cite></p>
 </blockquote>
 
                 

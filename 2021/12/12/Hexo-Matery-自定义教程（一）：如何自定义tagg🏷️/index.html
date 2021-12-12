@@ -612,8 +612,10 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
     <span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span><span class="token operator">%</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">%</span><span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <h2 id="更换-tag-可选的颜色"><a href="#更换-tag-可选的颜色" class="headerlink" title="更换 tag 可选的颜色"></a>更换 tag 可选的颜色</h2><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> colorArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'#F9EBEA'</span><span class="token punctuation">,</span> <span class="token string">'#F5EEF8'</span><span class="token punctuation">,</span> <span class="token string">'#D5F5E3'</span><span class="token punctuation">,</span> <span class="token string">'#E8F8F5'</span><span class="token punctuation">,</span> <span class="token string">'#FEF9E7'</span><span class="token punctuation">,</span>
     <span class="token string">'#F8F9F9'</span><span class="token punctuation">,</span> <span class="token string">'#82E0AA'</span><span class="token punctuation">,</span> <span class="token string">'#D7BDE2'</span><span class="token punctuation">,</span> <span class="token string">'#A3E4D7'</span><span class="token punctuation">,</span> <span class="token string">'#85C1E9'</span><span class="token punctuation">,</span> <span class="token string">'#F8C471'</span><span class="token punctuation">,</span> <span class="token string">'#F9E79F'</span><span class="token punctuation">,</span> <span class="token string">'#FFF'</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
 <h2 id="更改渲染-tag-出现次数的下限"><a href="#更改渲染-tag-出现次数的下限" class="headerlink" title="更改渲染 tag 出现次数的下限"></a>更改渲染 tag 出现次数的下限</h2><p>有的时候我们写了很多博文，其中有一些 tag 只在几个博文中出现，如果把如此多的 tag 全部渲染出来，博客的 tag 页面会变得特别乱特别丑。我们可以设置一个下限。将下面这一段代码：</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span><span class="token operator">%</span>
     <span class="token keyword">var</span> tagArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
@@ -624,6 +626,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
     <span class="token punctuation">}</span>
     <span class="token keyword">var</span> tags <span class="token operator">=</span> tagArr<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span><span class="token string">', '</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token operator">%</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <p>修改成：</p>
 <!-- ```javascript
 <%
@@ -636,6 +639,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
     var tags = tagArr.join(', ');
 %>
 ``` -->
+
 <p>我们不能直接将 <code>post.tags.length &gt; 0</code> 改为 <code>post.tags.length &gt; 1</code> 去设置一个 tag 在所有文章中至少出现一次的要求。因为看 <code>post.tags</code> 这里其实是遍历每一篇文章中的 <code>tag</code>，因为每次只算了一篇文章，如果没有重复使用 tag，它一定是 <code>post.tags.length = 1</code> 的。</p>
 
                 
