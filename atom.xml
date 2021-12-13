@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-13T02:23:29.381Z</updated>
+  <updated>2021-12-13T02:51:16.135Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set-Extra]%20McIntyre%20Practice%20C7/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set-Extra]%20McIntyre%20Practice%20C7/</id>
     <published>2021-12-13T02:08:21.340Z</published>
-    <updated>2021-12-13T02:23:29.381Z</updated>
+    <updated>2021-12-13T02:51:16.135Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Problem-1&quot;&gt;&lt;a href=&quot;#Problem-1&quot; class=&quot;headerlink&quot; title=&quot;Problem 1&quot;&gt;&lt;/a&gt;Problem 1&lt;/h2&gt;&lt;h3 id=&quot;Brief-in-Question&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;Problem-1&quot;&gt;&lt;a href=&quot;#Problem-1&quot; class=&quot;headerlink&quot; title=&quot;Problem 1&quot;&gt;&lt;/a&gt;Problem 1&lt;/h2&gt;&lt;h3 id=&quot;Brief-on-Question&quot;&gt;&lt;a</summary>
         
       
     
@@ -44,6 +44,10 @@
     <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
     <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
     
@@ -90,10 +94,6 @@
     <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
     
     <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
-    
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
   </entry>
   
@@ -126,6 +126,10 @@
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
     <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
     
     <category term="quantum" scheme="https://zizhengyang.github.io/tags/quantum/"/>
@@ -171,10 +175,6 @@
     <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
     
     <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
-    
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
   </entry>
   
@@ -238,14 +238,14 @@
     <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/</id>
     <published>2021-12-12T21:30:23.167Z</published>
-    <updated>2021-12-13T02:10:23.045Z</updated>
+    <updated>2021-12-13T02:37:49.874Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Problem-1&quot;&gt;&lt;a href=&quot;#Problem-1&quot; class=&quot;headerlink&quot; title=&quot;Problem 1&quot;&gt;&lt;/a&gt;Problem 1&lt;/h2&gt;&lt;h3 id=&quot;Brief-in-Question&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;Problem-1&quot;&gt;&lt;a href=&quot;#Problem-1&quot; class=&quot;headerlink&quot; title=&quot;Problem 1&quot;&gt;&lt;/a&gt;Problem 1&lt;/h2&gt;&lt;h3 id=&quot;Brief-on-Question&quot;&gt;&lt;a</summary>
         
       
     
@@ -262,6 +262,10 @@
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
     <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
     
     <category term="quantum" scheme="https://zizhengyang.github.io/tags/quantum/"/>
@@ -273,10 +277,6 @@
     <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
     
     <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
-    
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
     <category term="radial wavefunction" scheme="https://zizhengyang.github.io/tags/radial-wavefunction/"/>
     
@@ -674,10 +674,6 @@ article version:</summary>
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
-    
     <category term="diagonalizable" scheme="https://zizhengyang.github.io/tags/diagonalizable/"/>
     
     <category term="matrix" scheme="https://zizhengyang.github.io/tags/matrix/"/>
@@ -689,6 +685,10 @@ article version:</summary>
     <category term="linear transformation" scheme="https://zizhengyang.github.io/tags/linear-transformation/"/>
     
     <category term="non-defective" scheme="https://zizhengyang.github.io/tags/non-defective/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
   </entry>
   
