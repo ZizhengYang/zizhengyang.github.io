@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-12T22:40:37.081Z</updated>
+  <updated>2021-12-13T02:23:29.381Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -17,11 +17,92 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>[Problem Set-Extra] McIntyre Practice C7</title>
+    <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set-Extra]%20McIntyre%20Practice%20C7/"/>
+    <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set-Extra]%20McIntyre%20Practice%20C7/</id>
+    <published>2021-12-13T02:08:21.340Z</published>
+    <updated>2021-12-13T02:23:29.381Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Problem-1&quot;&gt;&lt;a href=&quot;#Problem-1&quot; class=&quot;headerlink&quot; title=&quot;Problem 1&quot;&gt;&lt;/a&gt;Problem 1&lt;/h2&gt;&lt;h3 id=&quot;Brief-in-Question&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Physics" scheme="https://zizhengyang.github.io/categories/Physics/"/>
+    
+    <category term="Quantum Physics" scheme="https://zizhengyang.github.io/categories/Physics/Quantum-Physics/"/>
+    
+    
+    <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
+    
+    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
+    
+    <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
+    
+    <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
+    
+    <category term="quantum" scheme="https://zizhengyang.github.io/tags/quantum/"/>
+    
+    <category term="quantum physics" scheme="https://zizhengyang.github.io/tags/quantum-physics/"/>
+    
+    <category term="angular momentum" scheme="https://zizhengyang.github.io/tags/angular-momentum/"/>
+    
+    <category term="quantum angular momentum" scheme="https://zizhengyang.github.io/tags/quantum-angular-momentum/"/>
+    
+    <category term="central potential" scheme="https://zizhengyang.github.io/tags/central-potential/"/>
+    
+    <category term="spherical Schrödinger equation" scheme="https://zizhengyang.github.io/tags/spherical-Schrodinger-equation/"/>
+    
+    <category term="spherical energy eigenstates" scheme="https://zizhengyang.github.io/tags/spherical-energy-eigenstates/"/>
+    
+    <category term="angular momentum quantum number" scheme="https://zizhengyang.github.io/tags/angular-momentum-quantum-number/"/>
+    
+    <category term="magnetic quantum number" scheme="https://zizhengyang.github.io/tags/magnetic-quantum-number/"/>
+    
+    <category term="orbital angular momentum quantum number" scheme="https://zizhengyang.github.io/tags/orbital-angular-momentum-quantum-number/"/>
+    
+    <category term="orbital magnetic quantum number" scheme="https://zizhengyang.github.io/tags/orbital-magnetic-quantum-number/"/>
+    
+    <category term="motion on sphere" scheme="https://zizhengyang.github.io/tags/motion-on-sphere/"/>
+    
+    <category term="motion on ring" scheme="https://zizhengyang.github.io/tags/motion-on-ring/"/>
+    
+    <category term="Legendre polynomial" scheme="https://zizhengyang.github.io/tags/Legendre-polynomial/"/>
+    
+    <category term="Legendre function" scheme="https://zizhengyang.github.io/tags/Legendre-function/"/>
+    
+    <category term="spherical harmonics" scheme="https://zizhengyang.github.io/tags/spherical-harmonics/"/>
+    
+    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
+    
+    <category term="hydrogen visualization" scheme="https://zizhengyang.github.io/tags/hydrogen-visualization/"/>
+    
+    <category term="particle on shpere" scheme="https://zizhengyang.github.io/tags/particle-on-shpere/"/>
+    
+    <category term="particle on ring" scheme="https://zizhengyang.github.io/tags/particle-on-ring/"/>
+    
+    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
+    
+    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
+  </entry>
+  
+  <entry>
     <title>[Problem Set] McIntyre Practice C7</title>
     <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C7/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C7/</id>
     <published>2021-12-12T22:40:06.189Z</published>
-    <updated>2021-12-12T22:40:37.081Z</updated>
+    <updated>2021-12-13T02:18:11.235Z</updated>
     
     
       
@@ -45,39 +126,55 @@
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
-    
     <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
     
-    <category term="radial wavefunction" scheme="https://zizhengyang.github.io/tags/radial-wavefunction/"/>
+    <category term="quantum" scheme="https://zizhengyang.github.io/tags/quantum/"/>
+    
+    <category term="quantum physics" scheme="https://zizhengyang.github.io/tags/quantum-physics/"/>
+    
+    <category term="angular momentum" scheme="https://zizhengyang.github.io/tags/angular-momentum/"/>
+    
+    <category term="quantum angular momentum" scheme="https://zizhengyang.github.io/tags/quantum-angular-momentum/"/>
+    
+    <category term="central potential" scheme="https://zizhengyang.github.io/tags/central-potential/"/>
+    
+    <category term="spherical Schrödinger equation" scheme="https://zizhengyang.github.io/tags/spherical-Schrodinger-equation/"/>
+    
+    <category term="spherical energy eigenstates" scheme="https://zizhengyang.github.io/tags/spherical-energy-eigenstates/"/>
+    
+    <category term="angular momentum quantum number" scheme="https://zizhengyang.github.io/tags/angular-momentum-quantum-number/"/>
+    
+    <category term="magnetic quantum number" scheme="https://zizhengyang.github.io/tags/magnetic-quantum-number/"/>
+    
+    <category term="orbital angular momentum quantum number" scheme="https://zizhengyang.github.io/tags/orbital-angular-momentum-quantum-number/"/>
+    
+    <category term="orbital magnetic quantum number" scheme="https://zizhengyang.github.io/tags/orbital-magnetic-quantum-number/"/>
+    
+    <category term="motion on sphere" scheme="https://zizhengyang.github.io/tags/motion-on-sphere/"/>
+    
+    <category term="motion on ring" scheme="https://zizhengyang.github.io/tags/motion-on-ring/"/>
+    
+    <category term="Legendre polynomial" scheme="https://zizhengyang.github.io/tags/Legendre-polynomial/"/>
+    
+    <category term="Legendre function" scheme="https://zizhengyang.github.io/tags/Legendre-function/"/>
+    
+    <category term="spherical harmonics" scheme="https://zizhengyang.github.io/tags/spherical-harmonics/"/>
     
     <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
     
-    <category term="radial probability distribution" scheme="https://zizhengyang.github.io/tags/radial-probability-distribution/"/>
+    <category term="hydrogen visualization" scheme="https://zizhengyang.github.io/tags/hydrogen-visualization/"/>
     
-    <category term="hydrogen atom" scheme="https://zizhengyang.github.io/tags/hydrogen-atom/"/>
+    <category term="particle on shpere" scheme="https://zizhengyang.github.io/tags/particle-on-shpere/"/>
     
-    <category term="hydrogen energy eigenstate" scheme="https://zizhengyang.github.io/tags/hydrogen-energy-eigenstate/"/>
-    
-    <category term="shell number" scheme="https://zizhengyang.github.io/tags/shell-number/"/>
-    
-    <category term="ionization limit" scheme="https://zizhengyang.github.io/tags/ionization-limit/"/>
-    
-    <category term="Bohr energies" scheme="https://zizhengyang.github.io/tags/Bohr-energies/"/>
-    
-    <category term="Lyman series" scheme="https://zizhengyang.github.io/tags/Lyman-series/"/>
-    
-    <category term="Balmer series" scheme="https://zizhengyang.github.io/tags/Balmer-series/"/>
-    
-    <category term="Paschen series" scheme="https://zizhengyang.github.io/tags/Paschen-series/"/>
-    
-    <category term="Rydberg constant" scheme="https://zizhengyang.github.io/tags/Rydberg-constant/"/>
+    <category term="particle on ring" scheme="https://zizhengyang.github.io/tags/particle-on-ring/"/>
     
     <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
     
     <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
   </entry>
   
@@ -141,7 +238,7 @@
     <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/[Problem%20Set]%20McIntyre%20Practice%20C8/</id>
     <published>2021-12-12T21:30:23.167Z</published>
-    <updated>2021-12-13T01:43:30.280Z</updated>
+    <updated>2021-12-13T02:10:23.045Z</updated>
     
     
       
@@ -165,15 +262,23 @@
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
+    <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
+    
+    <category term="quantum" scheme="https://zizhengyang.github.io/tags/quantum/"/>
+    
+    <category term="quantum physics" scheme="https://zizhengyang.github.io/tags/quantum-physics/"/>
+    
+    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
+    
+    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
+    
+    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
+    
     <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
     
     <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
-    <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
-    
     <category term="radial wavefunction" scheme="https://zizhengyang.github.io/tags/radial-wavefunction/"/>
-    
-    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
     
     <category term="radial probability distribution" scheme="https://zizhengyang.github.io/tags/radial-probability-distribution/"/>
     
@@ -194,10 +299,6 @@
     <category term="Paschen series" scheme="https://zizhengyang.github.io/tags/Paschen-series/"/>
     
     <category term="Rydberg constant" scheme="https://zizhengyang.github.io/tags/Rydberg-constant/"/>
-    
-    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
-    
-    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
     
   </entry>
   
@@ -317,7 +418,7 @@
         
         
     <summary type="html">&lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt;</summary>
+&lt;li&gt; </summary>
         
       
     
@@ -436,7 +537,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;&lt;br&gt;modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;&lt;br&gt;article version:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;
+modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;
+article version:</summary>
         
       
     
@@ -478,7 +581,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;&lt;br&gt;modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;&lt;br&gt;article version:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;
+modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;
+article version:</summary>
         
       
     
@@ -516,7 +621,9 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;&lt;br&gt;modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;&lt;br&gt;article version:</summary>
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;
+modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;
+article version:</summary>
         
       
     
@@ -553,7 +660,8 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Question&quot;&gt;&lt;a href=&quot;#Question&quot; class=&quot;headerlink&quot; title=&quot;Question&quot;&gt;&lt;/a&gt;Question&lt;/h3&gt;&lt;p&gt;!!! info “Example Question:”&lt;br&gt;  Use the</summary>
+    <summary type="html">&lt;h3 id=&quot;Question&quot;&gt;&lt;a href=&quot;#Question&quot; class=&quot;headerlink&quot; title=&quot;Question&quot;&gt;&lt;/a&gt;Question&lt;/h3&gt;&lt;p&gt;!!! info “Example Question:”
+  Use the</summary>
         
       
     
@@ -566,6 +674,10 @@
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
     <category term="diagonalizable" scheme="https://zizhengyang.github.io/tags/diagonalizable/"/>
     
     <category term="matrix" scheme="https://zizhengyang.github.io/tags/matrix/"/>
@@ -577,10 +689,6 @@
     <category term="linear transformation" scheme="https://zizhengyang.github.io/tags/linear-transformation/"/>
     
     <category term="non-defective" scheme="https://zizhengyang.github.io/tags/non-defective/"/>
-    
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
   </entry>
   

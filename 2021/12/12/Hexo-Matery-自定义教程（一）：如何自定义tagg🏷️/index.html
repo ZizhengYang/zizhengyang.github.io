@@ -612,8 +612,10 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
     <span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">&gt;</span>
     <span class="token operator">&lt;</span><span class="token operator">%</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">%</span><span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <h2 id="更换-tag-可选的颜色"><a href="#更换-tag-可选的颜色" class="headerlink" title="更换 tag 可选的颜色"></a>更换 tag 可选的颜色</h2><pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token keyword">var</span> colorArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'#F9EBEA'</span><span class="token punctuation">,</span> <span class="token string">'#F5EEF8'</span><span class="token punctuation">,</span> <span class="token string">'#D5F5E3'</span><span class="token punctuation">,</span> <span class="token string">'#E8F8F5'</span><span class="token punctuation">,</span> <span class="token string">'#FEF9E7'</span><span class="token punctuation">,</span>
     <span class="token string">'#F8F9F9'</span><span class="token punctuation">,</span> <span class="token string">'#82E0AA'</span><span class="token punctuation">,</span> <span class="token string">'#D7BDE2'</span><span class="token punctuation">,</span> <span class="token string">'#A3E4D7'</span><span class="token punctuation">,</span> <span class="token string">'#85C1E9'</span><span class="token punctuation">,</span> <span class="token string">'#F8C471'</span><span class="token punctuation">,</span> <span class="token string">'#F9E79F'</span><span class="token punctuation">,</span> <span class="token string">'#FFF'</span><span class="token punctuation">]</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+
 <h2 id="更改渲染-tag-出现次数的下限"><a href="#更改渲染-tag-出现次数的下限" class="headerlink" title="更改渲染 tag 出现次数的下限"></a>更改渲染 tag 出现次数的下限</h2><p>有的时候我们写了很多博文，其中有一些 tag 只在几个博文中出现，如果把如此多的 tag 全部渲染出来，博客的 tag 页面会变得特别乱特别丑。我们可以设置一个下限。将下面这一段代码：</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span><span class="token operator">%</span> site<span class="token punctuation">.</span>tags<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">tag</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token operator">%</span><span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">%</span>
@@ -629,6 +631,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
     <span class="token operator">&lt;</span><span class="token operator">/</span>span<span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">%</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">%</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <p>修改成：</p>
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span><span class="token operator">%</span> site<span class="token punctuation">.</span>tags<span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">tag</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token operator">%</span><span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">%</span>
@@ -646,6 +649,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
 <span class="token operator">&lt;</span><span class="token operator">/</span>a<span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">%</span> <span class="token punctuation">}</span> <span class="token operator">%</span><span class="token operator">&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">%</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token operator">%</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token operator">&lt;</span><span class="token operator">%</span> <span class="token keyword">if</span> <span class="token punctuation">(</span>tag<span class="token punctuation">.</span>length <span class="token operator">&gt;</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token operator">%</span><span class="token operator">&gt;</span>
 <span class="token comment">// &lt;a href="&lt;%- url_for(tag.path) %&gt;" title="&lt;%- tag.name %&gt;: &lt;%- tag.length %&gt;"&gt;</span>
 <span class="token comment">//     &lt;span class="chip center-align waves-effect waves-light</span>
@@ -655,6 +659,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
 <span class="token comment">//     &lt;/span&gt;</span>
 <span class="token comment">// &lt;/a&gt;</span>
 <span class="token operator">&lt;</span><span class="token operator">%</span> <span class="token punctuation">}</span> <span class="token operator">%</span><span class="token operator">&gt;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <!-- ```javascript
 <%
     var tagArr = [];
@@ -666,6 +671,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
     var tags = tagArr.join(', ');
 %>
 ``` -->
+
 <!-- 我们不能直接将 `post.tags.length > 0` 改为 `post.tags.length > 1` 去设置一个 tag 在所有文章中至少出现一次的要求。因为看 `post.tags` 这里其实是遍历每一篇文章中的 `tag`，因为每次只算了一篇文章，如果没有重复使用 tag，它一定是 `post.tags.length = 1` 的。 -->
 
                 
@@ -1013,64 +1019,88 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
                         <span class="chip bg-color">mathematics</span>
                     </a>
                     
-                    <a href="/tags/example/">
-                        <span class="chip bg-color">example</span>
-                    </a>
-                    
-                    <a href="/tags/problem-set/">
-                        <span class="chip bg-color">problem set</span>
-                    </a>
-                    
                     <a href="/tags/wavefunction/">
                         <span class="chip bg-color">wavefunction</span>
                     </a>
                     
-                    <a href="/tags/radial-wavefunction/">
-                        <span class="chip bg-color">radial wavefunction</span>
+                    <a href="/tags/quantum/">
+                        <span class="chip bg-color">quantum</span>
+                    </a>
+                    
+                    <a href="/tags/quantum-physics/">
+                        <span class="chip bg-color">quantum physics</span>
+                    </a>
+                    
+                    <a href="/tags/angular-momentum/">
+                        <span class="chip bg-color">angular momentum</span>
+                    </a>
+                    
+                    <a href="/tags/quantum-angular-momentum/">
+                        <span class="chip bg-color">quantum angular momentum</span>
+                    </a>
+                    
+                    <a href="/tags/central-potential/">
+                        <span class="chip bg-color">central potential</span>
+                    </a>
+                    
+                    <a href="/tags/spherical-Schrodinger-equation/">
+                        <span class="chip bg-color">spherical Schrödinger equation</span>
+                    </a>
+                    
+                    <a href="/tags/spherical-energy-eigenstates/">
+                        <span class="chip bg-color">spherical energy eigenstates</span>
+                    </a>
+                    
+                    <a href="/tags/angular-momentum-quantum-number/">
+                        <span class="chip bg-color">angular momentum quantum number</span>
+                    </a>
+                    
+                    <a href="/tags/magnetic-quantum-number/">
+                        <span class="chip bg-color">magnetic quantum number</span>
+                    </a>
+                    
+                    <a href="/tags/orbital-angular-momentum-quantum-number/">
+                        <span class="chip bg-color">orbital angular momentum quantum number</span>
+                    </a>
+                    
+                    <a href="/tags/orbital-magnetic-quantum-number/">
+                        <span class="chip bg-color">orbital magnetic quantum number</span>
+                    </a>
+                    
+                    <a href="/tags/motion-on-sphere/">
+                        <span class="chip bg-color">motion on sphere</span>
+                    </a>
+                    
+                    <a href="/tags/motion-on-ring/">
+                        <span class="chip bg-color">motion on ring</span>
+                    </a>
+                    
+                    <a href="/tags/Legendre-polynomial/">
+                        <span class="chip bg-color">Legendre polynomial</span>
+                    </a>
+                    
+                    <a href="/tags/Legendre-function/">
+                        <span class="chip bg-color">Legendre function</span>
+                    </a>
+                    
+                    <a href="/tags/spherical-harmonics/">
+                        <span class="chip bg-color">spherical harmonics</span>
                     </a>
                     
                     <a href="/tags/hydrogen/">
                         <span class="chip bg-color">hydrogen</span>
                     </a>
                     
-                    <a href="/tags/radial-probability-distribution/">
-                        <span class="chip bg-color">radial probability distribution</span>
+                    <a href="/tags/hydrogen-visualization/">
+                        <span class="chip bg-color">hydrogen visualization</span>
                     </a>
                     
-                    <a href="/tags/hydrogen-atom/">
-                        <span class="chip bg-color">hydrogen atom</span>
+                    <a href="/tags/particle-on-shpere/">
+                        <span class="chip bg-color">particle on shpere</span>
                     </a>
                     
-                    <a href="/tags/hydrogen-energy-eigenstate/">
-                        <span class="chip bg-color">hydrogen energy eigenstate</span>
-                    </a>
-                    
-                    <a href="/tags/shell-number/">
-                        <span class="chip bg-color">shell number</span>
-                    </a>
-                    
-                    <a href="/tags/ionization-limit/">
-                        <span class="chip bg-color">ionization limit</span>
-                    </a>
-                    
-                    <a href="/tags/Bohr-energies/">
-                        <span class="chip bg-color">Bohr energies</span>
-                    </a>
-                    
-                    <a href="/tags/Lyman-series/">
-                        <span class="chip bg-color">Lyman series</span>
-                    </a>
-                    
-                    <a href="/tags/Balmer-series/">
-                        <span class="chip bg-color">Balmer series</span>
-                    </a>
-                    
-                    <a href="/tags/Paschen-series/">
-                        <span class="chip bg-color">Paschen series</span>
-                    </a>
-                    
-                    <a href="/tags/Rydberg-constant/">
-                        <span class="chip bg-color">Rydberg constant</span>
+                    <a href="/tags/particle-on-ring/">
+                        <span class="chip bg-color">particle on ring</span>
                     </a>
                     
                     <a href="/tags/course/">
@@ -1079,6 +1109,14 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
                     
                     <a href="/tags/ISU/">
                         <span class="chip bg-color">ISU</span>
+                    </a>
+                    
+                    <a href="/tags/example/">
+                        <span class="chip bg-color">example</span>
+                    </a>
+                    
+                    <a href="/tags/problem-set/">
+                        <span class="chip bg-color">problem set</span>
                     </a>
                     
                 </div>
@@ -1141,6 +1179,30 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
                         <span class="chip bg-color">mathematics</span>
                     </a>
                     
+                    <a href="/tags/wavefunction/">
+                        <span class="chip bg-color">wavefunction</span>
+                    </a>
+                    
+                    <a href="/tags/quantum/">
+                        <span class="chip bg-color">quantum</span>
+                    </a>
+                    
+                    <a href="/tags/quantum-physics/">
+                        <span class="chip bg-color">quantum physics</span>
+                    </a>
+                    
+                    <a href="/tags/hydrogen/">
+                        <span class="chip bg-color">hydrogen</span>
+                    </a>
+                    
+                    <a href="/tags/course/">
+                        <span class="chip bg-color">course</span>
+                    </a>
+                    
+                    <a href="/tags/ISU/">
+                        <span class="chip bg-color">ISU</span>
+                    </a>
+                    
                     <a href="/tags/example/">
                         <span class="chip bg-color">example</span>
                     </a>
@@ -1149,16 +1211,8 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
                         <span class="chip bg-color">problem set</span>
                     </a>
                     
-                    <a href="/tags/wavefunction/">
-                        <span class="chip bg-color">wavefunction</span>
-                    </a>
-                    
                     <a href="/tags/radial-wavefunction/">
                         <span class="chip bg-color">radial wavefunction</span>
-                    </a>
-                    
-                    <a href="/tags/hydrogen/">
-                        <span class="chip bg-color">hydrogen</span>
                     </a>
                     
                     <a href="/tags/radial-probability-distribution/">
@@ -1199,14 +1253,6 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
                     
                     <a href="/tags/Rydberg-constant/">
                         <span class="chip bg-color">Rydberg constant</span>
-                    </a>
-                    
-                    <a href="/tags/course/">
-                        <span class="chip bg-color">course</span>
-                    </a>
-                    
-                    <a href="/tags/ISU/">
-                        <span class="chip bg-color">ISU</span>
                     </a>
                     
                 </div>
@@ -1393,7 +1439,7 @@ tags.ejs: 路径为 themes/hexo-theme-matery/layout/tags">
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total Words:&nbsp;<span
-                        class="white-color">8.5k</span>
+                        class="white-color">8.6k</span>
             
             
             
