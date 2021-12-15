@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-13T03:43:07.971Z</updated>
+  <updated>2021-12-15T05:18:57.366Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -17,11 +17,60 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Advantages and disadvantages of the Mapping Segregation DC project</title>
+    <link href="https://zizhengyang.github.io/2021/12/14/Homeworks/ISU-ARCH321-01/"/>
+    <id>https://zizhengyang.github.io/2021/12/14/Homeworks/ISU-ARCH321-01/</id>
+    <published>2021-12-15T05:18:27.000Z</published>
+    <updated>2021-12-15T05:18:57.366Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Mapping Segregation DC is a project that records the history of housing segregation in Washington, DC. Housing segregation is a</summary>
+        
+      
+    
+    
+    
+    <category term="Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/"/>
+    
+    <category term="Short Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Reviews/"/>
+    
+    
+    <category term="assignment" scheme="https://zizhengyang.github.io/tags/assignment/"/>
+    
+    <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
+    
+    <category term="history" scheme="https://zizhengyang.github.io/tags/history/"/>
+    
+    <category term="architecture" scheme="https://zizhengyang.github.io/tags/architecture/"/>
+    
+    <category term="Washington DC" scheme="https://zizhengyang.github.io/tags/Washington-DC/"/>
+    
+    <category term="redlining" scheme="https://zizhengyang.github.io/tags/redlining/"/>
+    
+    <category term="house segregation" scheme="https://zizhengyang.github.io/tags/house-segregation/"/>
+    
+    <category term="mapping segregation" scheme="https://zizhengyang.github.io/tags/mapping-segregation/"/>
+    
+    <category term="minority" scheme="https://zizhengyang.github.io/tags/minority/"/>
+    
+    <category term="arcgis" scheme="https://zizhengyang.github.io/tags/arcgis/"/>
+    
+    <category term="review" scheme="https://zizhengyang.github.io/tags/review/"/>
+    
+    <category term="politics" scheme="https://zizhengyang.github.io/tags/politics/"/>
+    
+  </entry>
+  
+  <entry>
     <title></title>
     <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/What%20you%20need%20to%20learn%20from%20McIntyre%20C7/"/>
     <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/What%20you%20need%20to%20learn%20from%20McIntyre%20C7/</id>
     <published>2021-12-13T03:43:07.971Z</published>
-    <updated>2021-12-13T03:43:07.971Z</updated>
+    <updated>2021-12-15T05:17:56.067Z</updated>
     
     
     
@@ -41,7 +90,10 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Problem-1&quot;&gt;&lt;a href=&quot;#Problem-1&quot; class=&quot;headerlink&quot; title=&quot;Problem 1&quot;&gt;&lt;/a&gt;Problem 1&lt;/h2&gt;&lt;h3 id=&quot;Brief-on-Question&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h2&gt;
+&lt;h3 id=&quot;brief-on-question&quot;&gt;Brief on Question&lt;/h3&gt;
+&lt;h4 id=&quot;what-is-known&quot;&gt;What is known?&lt;/h4&gt;
+&lt;p&gt;&lt;span</summary>
         
       
     
@@ -122,7 +174,11 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Problem-1&quot;&gt;&lt;a href=&quot;#Problem-1&quot; class=&quot;headerlink&quot; title=&quot;Problem 1&quot;&gt;&lt;/a&gt;Problem 1&lt;/h2&gt;&lt;h2 id=&quot;Problem-2&quot;&gt;&lt;a href=&quot;#Problem-2&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h2&gt;
+&lt;h2 id=&quot;problem-2&quot;&gt;Problem 2&lt;/h2&gt;
+&lt;h2 id=&quot;problem-3&quot;&gt;Problem 3&lt;/h2&gt;
+&lt;h2 id=&quot;problem-4&quot;&gt;Problem 4&lt;/h2&gt;
+&lt;h2</summary>
         
       
     
@@ -203,7 +259,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h2&gt;&lt;p&gt;在 &lt;code&gt;themes/hexo-theme-matery&lt;/code&gt; 文件夹中，和 &lt;code&gt;tag&lt;/code&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;简介&quot;&gt;简介&lt;/h2&gt;
+&lt;p&gt;在 &lt;code&gt;themes/hexo-theme-matery&lt;/code&gt; 文件夹中，和 &lt;code&gt;tag&lt;/code&gt;</summary>
         
       
     
@@ -258,7 +315,10 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Problem-1&quot;&gt;&lt;a href=&quot;#Problem-1&quot; class=&quot;headerlink&quot; title=&quot;Problem 1&quot;&gt;&lt;/a&gt;Problem 1&lt;/h2&gt;&lt;h3 id=&quot;Brief-on-Question&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;problem-1&quot;&gt;Problem 1&lt;/h2&gt;
+&lt;h3 id=&quot;brief-on-question&quot;&gt;Brief on Question&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Normalize &lt;span class=&quot;math</summary>
         
       
     
@@ -327,7 +387,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Physics-Background&quot;&gt;&lt;a href=&quot;#Physics-Background&quot; class=&quot;headerlink&quot; title=&quot;Physics Background&quot;&gt;&lt;/a&gt;Physics Background&lt;/h2&gt;&lt;h3</summary>
+    <summary type="html">&lt;h2 id=&quot;physics-background&quot;&gt;Physics Background&lt;/h2&gt;
+&lt;h3 id=&quot;general-background-on-quantum-computing&quot;&gt;General Background on Quantum</summary>
         
       
     
@@ -340,62 +401,13 @@
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
     
-    <category term="Rydberg atom" scheme="https://zizhengyang.github.io/tags/Rydberg-atom/"/>
-    
-    <category term="Rydeerg series" scheme="https://zizhengyang.github.io/tags/Rydeerg-series/"/>
-    
     <category term="quantum spin liquid" scheme="https://zizhengyang.github.io/tags/quantum-spin-liquid/"/>
     
     <category term="Phd" scheme="https://zizhengyang.github.io/tags/Phd/"/>
     
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://zizhengyang.github.io/2021/12/10/Homeworks/ISU-ARCH321-01/"/>
-    <id>https://zizhengyang.github.io/2021/12/10/Homeworks/ISU-ARCH321-01/</id>
-    <published>2021-12-11T00:16:27.000Z</published>
-    <updated>2021-12-15T05:16:00.781Z</updated>
+    <category term="Rydberg atom" scheme="https://zizhengyang.github.io/tags/Rydberg-atom/"/>
     
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Mapping Segregation DC is a project that records the history of housing segregation in Washington, DC. Housing segregation is a</summary>
-        
-      
-    
-    
-    
-    <category term="Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/"/>
-    
-    <category term="Short Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Reviews/"/>
-    
-    
-    <category term="assignment" scheme="https://zizhengyang.github.io/tags/assignment/"/>
-    
-    <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
-    
-    <category term="history" scheme="https://zizhengyang.github.io/tags/history/"/>
-    
-    <category term="architecture" scheme="https://zizhengyang.github.io/tags/architecture/"/>
-    
-    <category term="Washington DC" scheme="https://zizhengyang.github.io/tags/Washington-DC/"/>
-    
-    <category term="redlining" scheme="https://zizhengyang.github.io/tags/redlining/"/>
-    
-    <category term="house segregation" scheme="https://zizhengyang.github.io/tags/house-segregation/"/>
-    
-    <category term="mapping segregation" scheme="https://zizhengyang.github.io/tags/mapping-segregation/"/>
-    
-    <category term="minority" scheme="https://zizhengyang.github.io/tags/minority/"/>
-    
-    <category term="arcgis" scheme="https://zizhengyang.github.io/tags/arcgis/"/>
-    
-    <category term="review" scheme="https://zizhengyang.github.io/tags/review/"/>
-    
-    <category term="politics" scheme="https://zizhengyang.github.io/tags/politics/"/>
+    <category term="Rydeerg series" scheme="https://zizhengyang.github.io/tags/Rydeerg-series/"/>
     
   </entry>
   
@@ -450,7 +462,10 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Wave-equation&quot;&gt;&lt;a href=&quot;#Wave-equation&quot; class=&quot;headerlink&quot; title=&quot;Wave equation&quot;&gt;&lt;/a&gt;Wave equation&lt;/h2&gt;&lt;h3</summary>
+    <summary type="html">&lt;h2 id=&quot;wave-equation&quot;&gt;Wave equation&lt;/h2&gt;
+&lt;h3 id=&quot;construct-wave-equation&quot;&gt;Construct wave equation&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Vertical</summary>
         
       
     
@@ -479,8 +494,9 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Introduction&quot;&gt;&lt;a href=&quot;#Introduction&quot; class=&quot;headerlink&quot; title=&quot;Introduction&quot;&gt;&lt;/a&gt;Introduction&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt; </summary>
+    <summary type="html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paper:&lt;/strong&gt; &lt;a href=&quot;https://arxiv.org/abs/1605.05207&quot;&gt;Quantum computing with</summary>
         
       
     
@@ -488,9 +504,9 @@
     
     <category term="Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/"/>
     
-    <category term="Short Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Reviews/"/>
-    
     <category term="Physics" scheme="https://zizhengyang.github.io/categories/Physics/"/>
+    
+    <category term="Short Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Reviews/"/>
     
     <category term="Quantum Computing" scheme="https://zizhengyang.github.io/categories/Physics/Quantum-Computing/"/>
     
@@ -521,7 +537,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;From-Hall-Effect-to-topological-materials&quot;&gt;&lt;a href=&quot;#From-Hall-Effect-to-topological-materials&quot; class=&quot;headerlink&quot; title=&quot;From Hall</summary>
+    <summary type="html">&lt;h2 id=&quot;from-hall-effect-to-topological-materials&quot;&gt;From Hall Effect to topological materials&lt;/h2&gt;
+&lt;p&gt;The entire field can be traced back to</summary>
         
       
     
@@ -534,13 +551,11 @@
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
     
-    <category term="quantum spin liquid" scheme="https://zizhengyang.github.io/tags/quantum-spin-liquid/"/>
-    
-    <category term="Phd" scheme="https://zizhengyang.github.io/tags/Phd/"/>
-    
     <category term="topological material" scheme="https://zizhengyang.github.io/tags/topological-material/"/>
     
     <category term="topological order" scheme="https://zizhengyang.github.io/tags/topological-order/"/>
+    
+    <category term="quantum spin liquid" scheme="https://zizhengyang.github.io/tags/quantum-spin-liquid/"/>
     
     <category term="hall effect" scheme="https://zizhengyang.github.io/tags/hall-effect/"/>
     
@@ -555,6 +570,8 @@
     <category term="returning thouless pump" scheme="https://zizhengyang.github.io/tags/returning-thouless-pump/"/>
     
     <category term="Landau&#39;s symmetry breaking theory" scheme="https://zizhengyang.github.io/tags/Landau-s-symmetry-breaking-theory/"/>
+    
+    <category term="Phd" scheme="https://zizhengyang.github.io/tags/Phd/"/>
     
   </entry>
   
@@ -605,9 +622,7 @@
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt;
-modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt;
-article version:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:23:03&lt;br&gt; modification date: 星期一 22日 十一月-2021-13:06:35&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
         
       
     
@@ -649,9 +664,7 @@ article version:</summary>
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt;
-modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt;
-article version:</summary>
+&lt;p&gt;creation date: 星期一 15日 十一月-2021-13:16:41&lt;br&gt; modification date: 星期一 15日 十一月-2021-13:27:47&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
         
       
     
@@ -689,9 +702,7 @@ article version:</summary>
         
         
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt;
-modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt;
-article version:</summary>
+&lt;p&gt;creation date: 星期二 9日 十一月-2021-12:10:56&lt;br&gt; modification date: 星期日 21日 十一月-2021-23:00:45&lt;br&gt; article version: 1.0.0&lt;br&gt;</summary>
         
       
     
@@ -706,9 +717,9 @@ article version:</summary>
     
     <category term="debugging" scheme="https://zizhengyang.github.io/tags/debugging/"/>
     
-    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
-    
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
+    
+    <category term="hexo" scheme="https://zizhengyang.github.io/tags/hexo/"/>
     
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
@@ -728,8 +739,8 @@ article version:</summary>
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Question&quot;&gt;&lt;a href=&quot;#Question&quot; class=&quot;headerlink&quot; title=&quot;Question&quot;&gt;&lt;/a&gt;Question&lt;/h3&gt;&lt;p&gt;!!! info “Example Question:”
-  Use the</summary>
+    <summary type="html">&lt;h3 id=&quot;question&quot;&gt;Question&lt;/h3&gt;
+&lt;p&gt;!!! info &quot;Example Question:&quot; Use the Diagonalization Method to determine whether each of the following</summary>
         
       
     
