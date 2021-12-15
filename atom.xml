@@ -6,7 +6,7 @@
   <link href="https://zizhengyang.github.io/atom.xml" rel="self"/>
   
   <link href="https://zizhengyang.github.io/"/>
-  <updated>2021-12-13T03:19:01.040Z</updated>
+  <updated>2021-12-13T03:43:07.971Z</updated>
   <id>https://zizhengyang.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/What%20you%20need%20to%20learn%20from%20McIntyre%20C7/"/>
+    <id>https://zizhengyang.github.io/2021/12/12/Problem%20Sets/McIntyre%20Quantum%20Mechanics/What%20you%20need%20to%20learn%20from%20McIntyre%20C7/</id>
+    <published>2021-12-13T03:43:07.971Z</published>
+    <updated>2021-12-13T03:43:07.971Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>[Problem Set-Extra] McIntyre Practice C7</title>
@@ -41,25 +54,15 @@
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
     
-    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
-    
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
-    
     <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
+    
+    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
     
     <category term="quantum" scheme="https://zizhengyang.github.io/tags/quantum/"/>
     
     <category term="quantum physics" scheme="https://zizhengyang.github.io/tags/quantum-physics/"/>
-    
-    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
-    
-    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
-    
-    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
     
     <category term="angular momentum" scheme="https://zizhengyang.github.io/tags/angular-momentum/"/>
     
@@ -89,11 +92,21 @@
     
     <category term="spherical harmonics" scheme="https://zizhengyang.github.io/tags/spherical-harmonics/"/>
     
+    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
+    
     <category term="hydrogen visualization" scheme="https://zizhengyang.github.io/tags/hydrogen-visualization/"/>
     
     <category term="particle on shpere" scheme="https://zizhengyang.github.io/tags/particle-on-shpere/"/>
     
     <category term="particle on ring" scheme="https://zizhengyang.github.io/tags/particle-on-ring/"/>
+    
+    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
+    
+    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
   </entry>
   
@@ -122,25 +135,15 @@
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
     
-    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
-    
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
-    
     <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
+    
+    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
     
     <category term="quantum" scheme="https://zizhengyang.github.io/tags/quantum/"/>
     
     <category term="quantum physics" scheme="https://zizhengyang.github.io/tags/quantum-physics/"/>
-    
-    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
-    
-    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
-    
-    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
     
     <category term="angular momentum" scheme="https://zizhengyang.github.io/tags/angular-momentum/"/>
     
@@ -170,18 +173,28 @@
     
     <category term="spherical harmonics" scheme="https://zizhengyang.github.io/tags/spherical-harmonics/"/>
     
+    <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
+    
     <category term="hydrogen visualization" scheme="https://zizhengyang.github.io/tags/hydrogen-visualization/"/>
     
     <category term="particle on shpere" scheme="https://zizhengyang.github.io/tags/particle-on-shpere/"/>
     
     <category term="particle on ring" scheme="https://zizhengyang.github.io/tags/particle-on-ring/"/>
     
+    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
+    
+    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
   </entry>
   
   <entry>
     <title>Hexo Matery 自定义教程（一）：如何自定义tag🏷️</title>
-    <link href="https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/"/>
-    <id>https://zizhengyang.github.io/2021/12/12/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/</id>
+    <link href="https://zizhengyang.github.io/2021/12/12/Others/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/"/>
+    <id>https://zizhengyang.github.io/2021/12/12/Others/Hexo-Matery-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%99%E7%A8%8B%EF%BC%88%E4%B8%80%EF%BC%89%EF%BC%9A%E5%A6%82%E4%BD%95%E8%87%AA%E5%AE%9A%E4%B9%89tagg%F0%9F%8F%B7%EF%B8%8F/</id>
     <published>2021-12-12T21:43:44.000Z</published>
     <updated>2021-12-12T22:35:19.647Z</updated>
     
@@ -258,23 +271,27 @@
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
     
-    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
-    
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
-    
     <category term="wavefunction" scheme="https://zizhengyang.github.io/tags/wavefunction/"/>
+    
+    <category term="wave" scheme="https://zizhengyang.github.io/tags/wave/"/>
     
     <category term="quantum" scheme="https://zizhengyang.github.io/tags/quantum/"/>
     
     <category term="quantum physics" scheme="https://zizhengyang.github.io/tags/quantum-physics/"/>
     
-    <category term="radial wavefunction" scheme="https://zizhengyang.github.io/tags/radial-wavefunction/"/>
-    
     <category term="hydrogen" scheme="https://zizhengyang.github.io/tags/hydrogen/"/>
+    
+    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
+    
+    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
+    
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
+    <category term="radial wavefunction" scheme="https://zizhengyang.github.io/tags/radial-wavefunction/"/>
     
     <category term="radial probability distribution" scheme="https://zizhengyang.github.io/tags/radial-probability-distribution/"/>
     
@@ -296,16 +313,12 @@
     
     <category term="Rydberg constant" scheme="https://zizhengyang.github.io/tags/Rydberg-constant/"/>
     
-    <category term="course" scheme="https://zizhengyang.github.io/tags/course/"/>
-    
-    <category term="ISU" scheme="https://zizhengyang.github.io/tags/ISU/"/>
-    
   </entry>
   
   <entry>
     <title>A Short Review: About the Rydberg atom based Quantum Computing</title>
-    <link href="https://zizhengyang.github.io/2021/12/10/A-short-review-about-the-Rydberg-based-quantum-computing/"/>
-    <id>https://zizhengyang.github.io/2021/12/10/A-short-review-about-the-Rydberg-based-quantum-computing/</id>
+    <link href="https://zizhengyang.github.io/2021/12/10/Review%20of%20Proposal/A-short-review-about-the-Rydberg-based-quantum-computing/"/>
+    <id>https://zizhengyang.github.io/2021/12/10/Review%20of%20Proposal/A-short-review-about-the-Rydberg-based-quantum-computing/</id>
     <published>2021-12-11T01:45:01.000Z</published>
     <updated>2021-12-13T01:59:26.872Z</updated>
     
@@ -327,20 +340,69 @@
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
     
+    <category term="Rydberg atom" scheme="https://zizhengyang.github.io/tags/Rydberg-atom/"/>
+    
+    <category term="Rydeerg series" scheme="https://zizhengyang.github.io/tags/Rydeerg-series/"/>
+    
     <category term="quantum spin liquid" scheme="https://zizhengyang.github.io/tags/quantum-spin-liquid/"/>
     
     <category term="Phd" scheme="https://zizhengyang.github.io/tags/Phd/"/>
     
-    <category term="Rydberg atom" scheme="https://zizhengyang.github.io/tags/Rydberg-atom/"/>
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://zizhengyang.github.io/2021/12/10/Homeworks/ISU-ARCH321-01/"/>
+    <id>https://zizhengyang.github.io/2021/12/10/Homeworks/ISU-ARCH321-01/</id>
+    <published>2021-12-11T00:16:27.000Z</published>
+    <updated>2021-12-15T05:16:00.781Z</updated>
     
-    <category term="Rydeerg series" scheme="https://zizhengyang.github.io/tags/Rydeerg-series/"/>
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Mapping Segregation DC is a project that records the history of housing segregation in Washington, DC. Housing segregation is a</summary>
+        
+      
+    
+    
+    
+    <category term="Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/"/>
+    
+    <category term="Short Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Reviews/"/>
+    
+    
+    <category term="assignment" scheme="https://zizhengyang.github.io/tags/assignment/"/>
+    
+    <category term="article" scheme="https://zizhengyang.github.io/tags/article/"/>
+    
+    <category term="history" scheme="https://zizhengyang.github.io/tags/history/"/>
+    
+    <category term="architecture" scheme="https://zizhengyang.github.io/tags/architecture/"/>
+    
+    <category term="Washington DC" scheme="https://zizhengyang.github.io/tags/Washington-DC/"/>
+    
+    <category term="redlining" scheme="https://zizhengyang.github.io/tags/redlining/"/>
+    
+    <category term="house segregation" scheme="https://zizhengyang.github.io/tags/house-segregation/"/>
+    
+    <category term="mapping segregation" scheme="https://zizhengyang.github.io/tags/mapping-segregation/"/>
+    
+    <category term="minority" scheme="https://zizhengyang.github.io/tags/minority/"/>
+    
+    <category term="arcgis" scheme="https://zizhengyang.github.io/tags/arcgis/"/>
+    
+    <category term="review" scheme="https://zizhengyang.github.io/tags/review/"/>
+    
+    <category term="politics" scheme="https://zizhengyang.github.io/tags/politics/"/>
     
   </entry>
   
   <entry>
     <title>Classical Empires Assignment: a review of Emperor Hadrian</title>
-    <link href="https://zizhengyang.github.io/2021/12/10/Classical-Empires-Assignment-a-review-of-Emperor-Hadrian/"/>
-    <id>https://zizhengyang.github.io/2021/12/10/Classical-Empires-Assignment-a-review-of-Emperor-Hadrian/</id>
+    <link href="https://zizhengyang.github.io/2021/12/10/Homeworks/ISU-HIST211-01/"/>
+    <id>https://zizhengyang.github.io/2021/12/10/Homeworks/ISU-HIST211-01/</id>
     <published>2021-12-11T00:16:27.000Z</published>
     <updated>2021-12-11T00:19:10.581Z</updated>
     
@@ -366,20 +428,20 @@
     
     <category term="history" scheme="https://zizhengyang.github.io/tags/history/"/>
     
+    <category term="politics" scheme="https://zizhengyang.github.io/tags/politics/"/>
+    
     <category term="empires" scheme="https://zizhengyang.github.io/tags/empires/"/>
     
     <category term="rome" scheme="https://zizhengyang.github.io/tags/rome/"/>
     
     <category term="Hadrian" scheme="https://zizhengyang.github.io/tags/Hadrian/"/>
     
-    <category term="politics" scheme="https://zizhengyang.github.io/tags/politics/"/>
-    
   </entry>
   
   <entry>
     <title>A Short Guide: Construct wave equation🚀</title>
-    <link href="https://zizhengyang.github.io/2021/12/01/A-Short-guide-Construct-wave-equation%F0%9F%9A%80/"/>
-    <id>https://zizhengyang.github.io/2021/12/01/A-Short-guide-Construct-wave-equation%F0%9F%9A%80/</id>
+    <link href="https://zizhengyang.github.io/2021/12/01/Problem%20Sets/Others/A-Short-guide-Construct-wave-equation%F0%9F%9A%80/"/>
+    <id>https://zizhengyang.github.io/2021/12/01/Problem%20Sets/Others/A-Short-guide-Construct-wave-equation%F0%9F%9A%80/</id>
     <published>2021-12-01T22:55:48.000Z</published>
     <updated>2021-12-02T00:54:37.390Z</updated>
     
@@ -407,10 +469,10 @@
   
   <entry>
     <title>Paper Note; (Review) Quantum computing with atomic qubits and Rydberg interactions Progress and challenges</title>
-    <link href="https://zizhengyang.github.io/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/"/>
-    <id>https://zizhengyang.github.io/2021/11/30/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/</id>
+    <link href="https://zizhengyang.github.io/2021/11/30/Others/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/"/>
+    <id>https://zizhengyang.github.io/2021/11/30/Others/Paper-Note-Review-Quantum-computing-with-atomic-qubits-and-Rydberg-interactions-Progress-and-challenges/</id>
     <published>2021-12-01T05:10:50.000Z</published>
-    <updated>2021-12-02T04:33:26.962Z</updated>
+    <updated>2021-12-15T05:17:31.921Z</updated>
     
     
       
@@ -424,12 +486,18 @@
     
     
     
+    <category term="Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/"/>
+    
+    <category term="Short Reviews" scheme="https://zizhengyang.github.io/categories/Reviews/Short-Reviews/"/>
+    
     <category term="Physics" scheme="https://zizhengyang.github.io/categories/Physics/"/>
     
     <category term="Quantum Computing" scheme="https://zizhengyang.github.io/categories/Physics/Quantum-Computing/"/>
     
-    <category term="Cold Rydberg Atom Quantum Computing" scheme="https://zizhengyang.github.io/categories/Physics/Quantum-Computing/Cold-Rydberg-Atom-Quantum-Computing/"/>
+    <category term="Rydberg Atom Quantum Computing" scheme="https://zizhengyang.github.io/categories/Physics/Quantum-Computing/Rydberg-Atom-Quantum-Computing/"/>
     
+    
+    <category term="review" scheme="https://zizhengyang.github.io/tags/review/"/>
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
     
@@ -443,8 +511,8 @@
   
   <entry>
     <title>A Short Review: The topological materials and the topological order</title>
-    <link href="https://zizhengyang.github.io/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/"/>
-    <id>https://zizhengyang.github.io/2021/11/30/A-short-review-on-the-topological-materials-and-the-topological-order/</id>
+    <link href="https://zizhengyang.github.io/2021/11/30/Review%20of%20Proposal/A-short-review-on-the-topological-materials-and-the-topological-order/"/>
+    <id>https://zizhengyang.github.io/2021/11/30/Review%20of%20Proposal/A-short-review-on-the-topological-materials-and-the-topological-order/</id>
     <published>2021-12-01T00:29:53.000Z</published>
     <updated>2021-12-02T04:33:39.164Z</updated>
     
@@ -466,11 +534,13 @@
     
     <category term="physics" scheme="https://zizhengyang.github.io/tags/physics/"/>
     
+    <category term="quantum spin liquid" scheme="https://zizhengyang.github.io/tags/quantum-spin-liquid/"/>
+    
+    <category term="Phd" scheme="https://zizhengyang.github.io/tags/Phd/"/>
+    
     <category term="topological material" scheme="https://zizhengyang.github.io/tags/topological-material/"/>
     
     <category term="topological order" scheme="https://zizhengyang.github.io/tags/topological-order/"/>
-    
-    <category term="quantum spin liquid" scheme="https://zizhengyang.github.io/tags/quantum-spin-liquid/"/>
     
     <category term="hall effect" scheme="https://zizhengyang.github.io/tags/hall-effect/"/>
     
@@ -486,14 +556,12 @@
     
     <category term="Landau&#39;s symmetry breaking theory" scheme="https://zizhengyang.github.io/tags/Landau-s-symmetry-breaking-theory/"/>
     
-    <category term="Phd" scheme="https://zizhengyang.github.io/tags/Phd/"/>
-    
   </entry>
   
   <entry>
     <title>Minecraft水龙头服设置指南🧭</title>
-    <link href="https://zizhengyang.github.io/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/"/>
-    <id>https://zizhengyang.github.io/2021/11/30/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/</id>
+    <link href="https://zizhengyang.github.io/2021/11/30/Others/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/"/>
+    <id>https://zizhengyang.github.io/2021/11/30/Others/Minecraft%E6%B0%B4%E9%BE%99%E5%A4%B4%E6%9C%8D%E8%AE%BE%E7%BD%AE%E6%8C%87%E5%8D%97%F0%9F%A7%AD/</id>
     <published>2021-12-01T00:28:41.000Z</published>
     <updated>2021-12-02T00:54:37.392Z</updated>
     
@@ -526,8 +594,8 @@
   
   <entry>
     <title>强行退出 apt-get update 导致 Unable to acquire the dpkg frontend lock 的解决办法</title>
-    <link href="https://zizhengyang.github.io/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    <id>https://zizhengyang.github.io/2021/11/15/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <link href="https://zizhengyang.github.io/2021/11/15/Others/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://zizhengyang.github.io/2021/11/15/Others/%E5%BC%BA%E8%A1%8C%E9%80%80%E5%87%BA%20apt-get%20update%20%E5%AF%BC%E8%87%B4%20Unable%20to%20acquire%20the%20dpkg%20frontend%20lock%20%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
     <published>2021-11-15T19:23:03.765Z</published>
     <updated>2021-12-12T21:44:50.223Z</updated>
     
@@ -560,18 +628,18 @@ article version:</summary>
     
     <category term="MacOS_Monterey" scheme="https://zizhengyang.github.io/tags/MacOS-Monterey/"/>
     
-    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
-    
     <category term="sdk_exception" scheme="https://zizhengyang.github.io/tags/sdk-exception/"/>
     
     <category term="coding_debug" scheme="https://zizhengyang.github.io/tags/coding-debug/"/>
+    
+    <category term="apt-get" scheme="https://zizhengyang.github.io/tags/apt-get/"/>
     
   </entry>
   
   <entry>
     <title>-bash nginx (command not found) 解决办法</title>
-    <link href="https://zizhengyang.github.io/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    <id>https://zizhengyang.github.io/2021/11/15/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <link href="https://zizhengyang.github.io/2021/11/15/Others/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://zizhengyang.github.io/2021/11/15/Others/-bash%20nginx%20(command%20not%20found)%20%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
     <published>2021-11-15T19:16:41.259Z</published>
     <updated>2021-12-02T00:54:37.388Z</updated>
     
@@ -610,8 +678,8 @@ article version:</summary>
   
   <entry>
     <title>如何处理 err YAMLException can not read a block mapping entry;</title>
-    <link href="https://zizhengyang.github.io/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/"/>
-    <id>https://zizhengyang.github.io/2021/11/09/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</id>
+    <link href="https://zizhengyang.github.io/2021/11/09/Others/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/"/>
+    <id>https://zizhengyang.github.io/2021/11/09/Others/%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%20err%20YAMLException%20can%20not%20read%20a%20block%20mapping%20entry;/</id>
     <published>2021-11-09T18:10:56.332Z</published>
     <updated>2021-12-12T21:44:55.385Z</updated>
     
@@ -650,8 +718,8 @@ article version:</summary>
   
   <entry>
     <title>[Problem Set] Diagonalization method: determine a matrices being diagonalizable</title>
-    <link href="https://zizhengyang.github.io/2019/12/01/Problem%20Sets/Problem-Set-Diagonalization-method-determine-a-matrices-being-diagonalizable/"/>
-    <id>https://zizhengyang.github.io/2019/12/01/Problem%20Sets/Problem-Set-Diagonalization-method-determine-a-matrices-being-diagonalizable/</id>
+    <link href="https://zizhengyang.github.io/2019/12/01/Problem%20Sets/Others/Problem-Set-Diagonalization-method-determine-a-matrices-being-diagonalizable/"/>
+    <id>https://zizhengyang.github.io/2019/12/01/Problem%20Sets/Others/Problem-Set-Diagonalization-method-determine-a-matrices-being-diagonalizable/</id>
     <published>2019-12-01T23:25:39.000Z</published>
     <updated>2021-12-12T21:26:42.442Z</updated>
     
@@ -674,6 +742,10 @@ article version:</summary>
     
     <category term="mathematics" scheme="https://zizhengyang.github.io/tags/mathematics/"/>
     
+    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
+    
+    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
+    
     <category term="diagonalizable" scheme="https://zizhengyang.github.io/tags/diagonalizable/"/>
     
     <category term="matrix" scheme="https://zizhengyang.github.io/tags/matrix/"/>
@@ -685,10 +757,6 @@ article version:</summary>
     <category term="linear transformation" scheme="https://zizhengyang.github.io/tags/linear-transformation/"/>
     
     <category term="non-defective" scheme="https://zizhengyang.github.io/tags/non-defective/"/>
-    
-    <category term="example" scheme="https://zizhengyang.github.io/tags/example/"/>
-    
-    <category term="problem set" scheme="https://zizhengyang.github.io/tags/problem-set/"/>
     
   </entry>
   
